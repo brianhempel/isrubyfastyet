@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+source "$HOME/.rvm/scripts/rvm"
+
+cd "$1"
+
+rvm get latest
+rvm reload
+
+rvm "$2@benchmark" --create || rvm install "$2" && rvm "$2@benchmark" --create
+
+which bundle || gem install bundler
+
+if [ -e "Gemfile.lock" ]
+then
+    rm Gemfile.lock
+fi
+
+if [ -e "Gemfile_$2.lock" ]
+then
+    cp "Gemfile_$2.lock" "Gemfile.lock"
+fi
+
+bundle install
+
+if [ -e "Gemfile_$2.lock" ]
+then
+    rm "Gemfile_$2.lock"
+fi
+
+cp Gemfile.lock "Gemfile_$2.lock"
+
+if [ -e results.txt ]
+then
+    rm results.txt
+fi
+
+# warmup
+eval "$3 benchmark.rb > /dev/null"
+
+for n in 1 2 3 4
+do
+    eval "$3 benchmark.rb >> results.txt"
+done

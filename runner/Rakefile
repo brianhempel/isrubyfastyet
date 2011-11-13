@@ -1,0 +1,50 @@
+# turn the config file into an array of hashes
+def rubies
+  rows = File.read(File.join(File.dirname(__FILE__), 'rubies')).lines.map(&:chomp).map { |line| line.split(/\s\s+/) }
+
+  headers = rows.shift
+
+  rows.map do |row|
+    {}.tap do |hash|
+      row.each_with_index do |cell, i|
+        hash.merge!(headers[i] => cell)
+      end
+    end
+  end
+end
+
+def run_with_output(command)
+  puts "Running: #{command}"
+  
+  Process.wait( fork { exec command } )
+end
+
+task :default => :bench
+
+task :bench do
+  benchmark_file_paths = Dir.glob(File.join(File.dirname(__FILE__), 'benchmarks', '*', 'benchmark.rb'))
+    
+  rubies.each do |ruby|
+    benchmark_file_paths.each do |benchmark_file_path|
+      benchmark_name = benchmark_file_path[/benchmarks\/([^\/]+)\/benchmark\.rb/, 1]
+      results_path = File.join(File.dirname(benchmark_file_path), 'results.txt')
+
+      run_with_output "rm #{results_path}"
+      run_with_output "#{File.join(File.dirname(__FILE__), 'scripts', 'run_benchmark')} #{File.dirname(benchmark_file_path)} #{ruby['RVM Name']} #{ruby['Command']}"
+
+      results = File.exists?(results_path) ? File.read(results_path).lines.map(&:chomp) : []
+      
+      if results.size == 4
+        units = results.first[/\D*$/].strip
+        numbers = results.map(&:to_f)
+        mean = numbers.inject(0) { |sum, x| sum + x } / numbers.size
+        
+        full_version_string = `#{File.join(File.dirname(__FILE__), 'scripts', 'ruby_version_in_rvm')} #{ruby['RVM Name']} #{ruby['Command']}`.strip
+        
+        File.open(File.join(File.dirname(__FILE__), "#{benchmark_name}_results.txt"), 'a') do |results_file|
+          results_file.puts "#{Time.now.strftime("%F %T")} #{ruby['Nice Name']}, #{full_version_string}: #{mean} #{units}"
+        end
+      end
+    end
+  end
+end

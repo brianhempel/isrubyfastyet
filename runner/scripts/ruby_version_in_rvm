@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+source "$HOME/.rvm/scripts/rvm"
+
+rvm "$1"
+eval "$2 -v"

@@ -1,0 +1,14 @@
+Nice Name                  RVM Name         Command
+MRI 1.8.7 Latest Release   1.8.7            ruby
+MRI 1.8.7 Latest Head      1.8.7-head       ruby
+MRI 1.9.2 Latest Release   1.9.2            ruby
+MRI 1.9.2 Latest Head      1.9.2-head       ruby
+MRI 1.9.3 Latest Release   1.9.3            ruby
+MRI 1.9.3 Latest Head      1.9.3-head       ruby
+JRuby Latest Release       jruby            jruby
+JRuby Latest Head          jruby-head       jruby
+Rubinius Latest Head       rbx-head         rbx
+MagLev Latest Release      maglev           maglev-ruby
+MagLev Latest Head         maglev-head      maglev-ruby
+MacRuby Latest Release     macruby          macruby
+MacRuby Latest Nightly     macruby-nightly  macruby

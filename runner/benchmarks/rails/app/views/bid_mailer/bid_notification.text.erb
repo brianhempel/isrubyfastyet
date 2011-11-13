@@ -1,0 +1,8 @@
+Dear <%= @bid.listing.user.email %>,
+
+<%= @bid.user.email %> just placed a bid of 
+	<%= number_to_currency @bid.amount %> on <%= @bid.listing.title %>!
+	
+Yay!
+
+-- Your Friendly eHarbor Robot

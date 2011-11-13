@@ -1,0 +1,31 @@
+<%= form_for @listing, :html => {:multipart => true} do |form| %>
+ 	<% if @listing.errors.any? %>
+    <div id="errorExplanation">
+      <h2>The following errors prohibited this form from being saved:</h2>
+      <ul>
+        <% @listing.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+	
+	<p>
+		<%= form.label :title %>
+		<%= form.text_field :title %>
+	</p>
+	
+	<p>
+		<%= form.label :description %>
+		<%= form.text_area :description %>
+	</p>
+	
+	<p>
+		<%= form.label :image %>
+		<%= form.file_field :image %>
+	</p>
+	
+	<p>
+		<%= form.submit %>
+	</p>
+<% end %>

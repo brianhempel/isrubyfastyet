@@ -1,0 +1,17 @@
+<%= form_for [@listing, @bid || Bid.new] do |form| %>
+	
+	<% if form.object.errors.any? %>
+    <div id="errorExplanation">
+      <h4>The following errors prohibited this form from being saved:</h4>
+      <ul>
+        <% form.object.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+	<%= form.label :amount %>
+	<%= form.text_field :amount, :size => 6 %>
+	<%= form.submit "Bid" %>
+<% end %>

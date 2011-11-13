@@ -1,0 +1,9 @@
+<h1><%= pluralize @listings.size, 'listing' %></h1>
+
+<%= link_to 'New Listing', new_listing_path %>
+
+<ul>
+	<% @listings.each do |listing| %>
+		<li><%= link_to listing.title, listing %></li>
+	<% end %>
+</ul>

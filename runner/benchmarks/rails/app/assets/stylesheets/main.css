@@ -1,0 +1,277 @@
+/* -------------------------------------------------------------- 
+  
+   Boilerplate reset.css
+   * Resets default browser CSS.
+   
+-------------------------------------------------------------- */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; }
+body { line-height: 1.5; background: #fff; margin: 18px 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td { text-align: left; font-weight:400; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+a img { border: none; }
+
+/* Removes Firefox imposed outline */
+a { outline: none; }
+
+/* Clearing floats without extra markup  */
+.wrapper { display: inline-block; }
+.wrapper:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .wrapper { height: 1%; }
+.wrapper { display: block; }
+/* -------------------------------------------------------------- 
+   
+   Boilerplate typography.css
+   * Sets up some sensible default typography.
+  
+-------------------------------------------------------------- */
+
+/* This is where you set your desired font size. The line-heights 
+   and vertical margins are automatically calculated from this. 
+   The percentage is of 16px (0.75 * 16px = 12px). */
+body { font-size: 12px; }
+
+
+/* Default fonts and colors. */
+body { font-family: Helvetica, Arial, sans-serif; }
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 { font-weight: bold; margin-bottom: 18px; }
+
+h1 { font-size: 36px; line-height: 1; }
+h2 { font-size: 24px; line-height: 1.2; }
+h3 { font-size: 18px; line-height: 1; }
+h4 { font-size: 15px; line-height: 1.2; }
+h5 { font-size: 12px; line-height: 1.5; }
+h6 { font-size: 11px; }
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+p { margin: 0 0 18px; }
+
+ul, ol { margin: 0 18px 18px 18px; }
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+
+dl { margin: 0 0 18px 0; }
+dl dt { font-weight: bold; }
+dl dd { margin-left: 18px; }
+
+abbr, acronym { border-bottom: 1px dotted #000; }
+address { margin-top: 18px; font-style: italic; }
+del { color: #000; }
+
+a { color: #009; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+blockquote { margin: 18px; }
+strong { font-weight: bold; }
+em, dfn { font-style: italic; }
+dfn { font-weight: bold; }
+pre, code { margin: 18px 0; white-space: pre; }
+pre, code, tt { font: 12px monospace; line-height: 1.5; } 
+tt { display: block; margin: 18px 0; line-height: 1.5; }
+
+
+/* Tables
+-------------------------------------------------------------- */
+
+table { margin-bottom: 18px; }
+th { border-bottom: 2px solid #ddd; font-weight: bold; }
+td { border-bottom: 1px solid #ddd; }
+th,td { padding: 4px 10px 4px 0; }
+tfoot { font-style: italic; }
+caption { background: #ffc; }
+
+
+/* Some default classes
+-------------------------------------------------------------- */
+
+.small { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.quiet { color: #999; }
+
+.hide { display: none; }
+.highlight { background: #ffc; }
+
+.top { margin-top: 0; padding-top: 0; }
+.bottom { margin-bottom: 0; padding-bottom: 0; }
+
+
+/* -------------------------------------------------------------- 
+   
+   Boilerplate forms.css
+   * Sets up some default styling for forms
+   
+-------------------------------------------------------------- */
+
+label { font-weight: bold; }
+
+/* Fieldsets */
+fieldset { padding: 1.4em; margin: 0 0 18px 0; border: 1px solid #ddd; }
+legend { padding: 0 .4em; font-weight: bold; font-size: 1.2em; }
+
+/* Textareas */
+textarea { margin: 9px 9px 0 0; }
+textarea { padding: 9px; }
+
+
+/* hForm
+-------------------------------------------------------------- */
+form.hform p { margin: 0 0 .5em; }
+form.hform p label { float: left; width: 100px; }
+
+form.hform p input { width: 200px; }
+form.hform p select { width: 200px; }
+
+form.hform p input.button { width: auto; }
+form.hform p input.checkbox { width: auto; }
+form.hform p input.radio { width: auto; }
+
+form.hform p.checkbox { margin-left: 100px; }
+form.hform p.checkbox label { float: none; }
+form.hform p.checkbox input { width: auto; }
+
+
+/* vForm
+-------------------------------------------------------------- */
+form.vform p { margin: 0 0 .5em; }
+form.vform p label { display: block; }
+
+form.vform p.checkbox label { display: inline; }
+
+
+/* -------------------------------------------------------------- 
+  
+   eHarbor's CSS
+   
+-------------------------------------------------------------- */
+
+body {
+  padding: 1.5em;
+}
+
+#main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.5em;
+}
+
+  header h1 {
+    margin: 0;
+    float: left;
+    margin: 0 18px 0 0;
+  }
+  header h1 a {
+    text-decoration: none;
+  }
+  
+  header .e1, header .b5 { color: #F00; }
+  header .h2, header .o6 { color: #009; }
+  header .a3, header .r7 { color: #FC0; }
+  header .r4             { color: #9C0; }
+
+#toolbar {
+  text-align: right;
+  margin: 0 6px 6px 0;
+}
+
+nav {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background-color: #222;
+  margin: 0;
+  padding: 0 1em;
+}
+
+  nav li {
+    float: left;
+  }
+
+  nav li a {
+    display: block;
+    line-height: 2em;
+    color: #FFF;
+    text-decoration: none;
+    padding: 0 1em;
+    font-size: 18px;
+  }
+
+  nav li a:hover {
+    background-color: #333339;
+  }
+
+dl.info {
+  background-color: #FFE;
+  border: 1px solid #EED;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  padding: 12px;
+}
+
+dl.info dt {
+  float: left;
+  clear: left;
+  width: 100px;
+  text-align: right;
+  padding-right: 9px;
+}
+
+dl.info dd {
+  margin: 0 0 0 109px;
+}
+
+/** Forms *********************/
+input.text {
+  font-size: 18px;
+}
+
+textarea {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #666;
+  font-weight: bold;
+}
+
+table.listings {
+  width: 100%;
+}
+
+  table.listings td {
+    line-height: 3em;
+    padding: 0.5em;
+  }
+
+#bid {
+  border: 1px solid #cddbf4;
+  background-color: #e1e9f8;
+  padding: 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}

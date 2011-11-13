@@ -1,0 +1,24 @@
+<h1><%= @listing.title %></h1>
+
+<%= render 'listings/info' %>
+
+<p>Posted: <%= time_ago_in_words @listing.created_at %> ago</p>
+
+<div>
+	<%= image_tag @listing.image_url if @listing.image.present? %>
+	
+	<%= simple_format auto_link(@listing.description)  %>
+</div>
+
+<div id="bid">
+	<h3>Place a bid</h3>
+	<%= render 'bids/form' %>
+</div>
+
+<%= link_to 'Back', listings_path %>
+<%= link_to 'JSON', listing_path(@listing, :format => :json) %>
+
+<% if @listing.user == current_user %>
+	<%= link_to 'Edit', edit_listing_path(@listing) %>
+	<%= link_to 'Delete', @listing, :method => :delete %>
+<% end %>

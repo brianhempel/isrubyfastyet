@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>eHarbor</title>
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <%= csrf_meta_tag %>
+  <%= stylesheet_link_tag 'application' %>
+  <%= javascript_include_tag 'application' %>
+</head>
+<body>
+  <div id="main">
+    <header>
+      <div id="toolbar">
+				<% if user_signed_in? %>
+					Signed in as <%= link_to current_user.email, edit_user_registration_path %> |
+					<%= link_to "Sign Out", destroy_user_session_path, :method => :delete %>
+				<% else %>
+					<%= link_to "Sign In", new_user_session_path %> |
+					<%= link_to "Register", new_user_registration_path %>
+				<% end %>
+      </div>
+      <h1>
+        <%= link_to '<span class="e1">e</span><span class="h2">H</span><span class="a3">a</span><span class="r4">r</span><span class="b5">b</span><span class="o6">o</span><span class="r7">r</span>'.html_safe, root_path %>
+      </h1>
+      <nav>
+        <ul>
+          <li><%= link_to "Buy", listings_path %></li>
+          <li><%= link_to "Sell", new_listing_path %></li>
+        </ul>
+      </nav>
+    </header>
+    <% if notice %><p class="notice"><%= notice %></p><% end %>
+    <% if alert %><p class="alert"><%= alert %></p><% end %>
+
+    <%= yield %>
+  </div>
+</body>
+</html>

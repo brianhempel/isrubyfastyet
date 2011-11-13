@@ -1,0 +1,9 @@
+<dl id="info" class="info">
+	<dt>History:</dt>
+	<dd><%= pluralize @listing.bids.count, 'bid' %></dd>
+	
+	<% if @listing.highest_bid %>
+		<dt>Highest Bid:</dt>
+		<dd><%= number_to_currency @listing.highest_bid.amount %></dd>
+	<% end %>
+</dl>

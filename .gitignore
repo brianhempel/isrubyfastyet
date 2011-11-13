@@ -1,2 +1,3 @@
 *.lock
 .rbx
+.DS_Store

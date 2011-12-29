@@ -5,6 +5,8 @@ RailsBenchmarks::Application.routes.draw do
     resources :bids
   end
 
+  resource :pid, :only => :show
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

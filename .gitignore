@@ -1,3 +1,5 @@
 *.lock
 .rbx
 .DS_Store
+latest_*_results.txt
+runner/benchmarks/rails/public/assets

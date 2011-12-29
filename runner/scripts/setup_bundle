@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+# setup_bundle <directory_with_gemfile> <rvm_ruby_name>
+
+source "$HOME/.rvm/scripts/rvm"
+
+cd "$1"
+pwd
+
+rvm "$2@benchmark"
+
+which bundle || gem install bundler
+
+if [ -e "Gemfile.lock" ]
+then
+    rm Gemfile.lock
+fi
+
+if [ -e "Gemfile_$2.lock" ]
+then
+    cp "Gemfile_$2.lock" "Gemfile.lock"
+fi
+
+bundle install
+
+if [ -e "Gemfile_$2.lock" ]
+then
+    rm "Gemfile_$2.lock"
+fi
+
+cp Gemfile.lock "Gemfile_$2.lock"

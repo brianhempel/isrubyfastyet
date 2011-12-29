@@ -1,6 +1,14 @@
+require 'tempfile'
+require 'rubygems'
+
+begin
+  require 'artii'
+rescue LoadError
+end
+
 # turn the config file into an array of hashes
 def rubies
-  rows = File.read(File.join(File.dirname(__FILE__), 'rubies')).lines.map(&:chomp).map { |line| line.split(/\s\s+/) }
+  rows = File.read(File.join(File.dirname(__FILE__), 'rubies')).lines.map(&:chomp).select { |line| line !~ /^\s*#/ }.map { |line| line.split(/\s\s+/) }
 
   headers = rows.shift
 
@@ -14,37 +22,71 @@ def rubies
 end
 
 def run_with_output(command)
-  puts "Running: #{command}"
-  
+  note = "Running: #{command}"
+  puts "=" * note.size
+  puts note
+  puts "=" * note.size
+
   Process.wait( fork { exec command } )
 end
+
+def relative_path(path)
+  File.join(File.dirname(__FILE__), path)
+end
+
+def script_path(script)
+  relative_path("scripts/#{script}")
+end
+
 
 task :default => :bench
 
 task :bench do
-  benchmark_file_paths = Dir.glob(File.join(File.dirname(__FILE__), 'benchmarks', '*', 'benchmark.rb'))
-    
+  p rubies
+
+  benchmark_file_paths = Dir.glob(relative_path('benchmarks/*/*benchmark.rb'))
+  benchmark_folder_paths = benchmark_file_paths.map { |path| File.dirname(path) }.uniq
+  result_tempfile = Tempfile.new("benchmark_result")
+
   rubies.each do |ruby|
+
+    if defined?(Artii)
+      # pretty ascii art
+      puts Artii::Base.new(ruby['Nice Name']).output
+    else
+      puts
+      puts ruby['Nice Name'].chars.to_a.join(" ")
+      puts
+    end
+
+    # update the Ruby
+    run_with_output "#{script_path 'setup_ruby'} #{ruby['RVM Name']}"
+
+    # set up Gemfile.lock's
+    benchmark_folder_paths.each do |benchmark_folder_path|
+      run_with_output "#{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
+    end
+
+    # run benchmarks
     benchmark_file_paths.each do |benchmark_file_path|
-      benchmark_name = benchmark_file_path[/benchmarks\/([^\/]+)\/benchmark\.rb/, 1]
-      results_path = File.join(File.dirname(benchmark_file_path), 'results.txt')
 
-      run_with_output "rm #{results_path}"
-      run_with_output "#{File.join(File.dirname(__FILE__), 'scripts', 'run_benchmark')} #{File.dirname(benchmark_file_path)} #{ruby['RVM Name']} #{ruby['Command']}"
+      benchmark_file_path =~ /benchmarks\/([^\/]+)\/([^\/]*)benchmark\.rb/
+      benchmark_suite_name = $1
+      benchmark_script_name = ($2 == '' ? nil : $2.chop)
+      benchmark_full_name = [benchmark_suite_name, benchmark_script_name].compact.join('_')
 
-      results = File.exists?(results_path) ? File.read(results_path).lines.map(&:chomp) : []
-      
-      if results.size == 4
-        units = results.first[/\D*$/].strip
-        numbers = results.map(&:to_f)
-        mean = numbers.inject(0) { |sum, x| sum + x } / numbers.size
-        
-        full_version_string = `#{File.join(File.dirname(__FILE__), 'scripts', 'ruby_version_in_rvm')} #{ruby['RVM Name']} #{ruby['Command']}`.strip
-        
-        File.open(File.join(File.dirname(__FILE__), "#{benchmark_name}_results.txt"), 'a') do |results_file|
-          results_file.puts "#{Time.now.strftime("%F %T")} #{ruby['Nice Name']}, #{full_version_string}: #{mean} #{units}"
-        end
+      run_with_output "#{script_path 'run_benchmark'} #{File.dirname(benchmark_file_path)} #{ruby['RVM Name']} '#{ruby['Command']}' #{benchmark_file_path} #{result_tempfile.path}"
+
+      result_tempfile.rewind
+      result = result_tempfile.read.chomp
+
+      full_version_string = `#{script_path 'ruby_version_in_rvm'} #{ruby['RVM Name']} #{ruby['Command']}`.strip
+
+      File.open(relative_path("#{benchmark_full_name}_results.tsv"), 'a') do |results_file|
+        results_file.puts [Time.now.utc.strftime("%F %T UTC"), ruby['RVM Name'], result, full_version_string].join("\t")
       end
+      
+      puts result
     end
   end
 end

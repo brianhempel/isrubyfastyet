@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# ruby_version_in_rvm <rvm_ruby_name> <ruby_command>
+
 source "$HOME/.rvm/scripts/rvm"
 
 rvm "$1"

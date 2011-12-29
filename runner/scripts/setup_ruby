@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# setup_ruby <rvm_ruby_name>
+
+source "$HOME/.rvm/scripts/rvm"
+
+rvm get latest
+rvm reload
+
+if rvm "$1" && (rvm current | grep '-head')
+then
+  # the ruby is installed and it's head
+  rvm reinstall "$1"
+fi
+
+rvm "$1@benchmark" --create || rvm install "$1" && rvm "$1@benchmark" --create

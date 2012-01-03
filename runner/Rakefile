@@ -82,7 +82,7 @@ task :bench do
 
       full_version_string = `#{script_path 'ruby_version_in_rvm'} #{ruby['RVM Name']} #{ruby['Command']}`.strip
 
-      File.open(relative_path("#{benchmark_full_name}_results.tsv"), 'a') do |results_file|
+      File.open(relative_path("../results/#{benchmark_full_name}_results.tsv"), 'a') do |results_file|
         results_file.puts [Time.now.utc.strftime("%F %T UTC"), ruby['RVM Name'], result, full_version_string].join("\t")
       end
       

@@ -39,9 +39,9 @@ def script_path(script)
 end
 
 
-task :default => :bench
+task :default => :benchmark_suite
 
-task :bench do
+task :benchmark_suite do
   p rubies
 
   benchmark_file_paths = Dir.glob(relative_path('benchmarks/*/*benchmark.rb'))

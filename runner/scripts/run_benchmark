@@ -9,6 +9,9 @@ pwd
 
 rvm "$2@benchmark"
 
+echo 'Sleeping 30 seconds to let the system cool off...'
+sleep 30
+
 export RUBY_COMMAND="$3"
 
 echo "benchmarking..."

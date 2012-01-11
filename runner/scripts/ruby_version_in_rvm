@@ -4,5 +4,10 @@
 
 source "$HOME/.rvm/scripts/rvm"
 
-rvm "$1"
-eval "$2 -v"
+if rvm "$1"
+then
+	eval "$2 -v"
+else
+	echo "rvm failed to switch to $1"
+	exit 1
+fi

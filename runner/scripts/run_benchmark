@@ -7,14 +7,18 @@ source "$HOME/.rvm/scripts/rvm"
 cd "$1"
 pwd
 
-rvm "$2@benchmark"
+if rvm "$2@benchmark"
+then
+	echo 'Sleeping 30 seconds to let the system cool off...'
+	sleep 30
 
-echo 'Sleeping 30 seconds to let the system cool off...'
-sleep 30
+	export RUBY_COMMAND="$3"
 
-export RUBY_COMMAND="$3"
+	echo "benchmarking..."
+	echo "$RUBY_COMMAND ($2)"
 
-echo "benchmarking..."
-echo "$RUBY_COMMAND ($2)"
-
-eval "($3 $4 || echo 'failed') | tail -1 > $5"
+	eval "($3 $4 || echo 'failed') | tail -1 > $5"
+else
+	echo "rvm failed to switch to $2" > $5
+	exit 1
+fi

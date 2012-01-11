@@ -59,6 +59,7 @@ end
 desc "Is the benchmark producing consistent ouput? Show how different the last result vs. the median of the 5 previous results for stable rubies"
 task :variability do
   offset = (ENV['OFFSET'] ? ENV['OFFSET'].to_i : 0)
+  previous_count = (ENV['PREVIOUS'] ? ENV['PREVIOUS'].to_i : 5)
 
   benchmark_variabilites = RubyBenchmark.all.map do |benchmark|
 
@@ -69,10 +70,10 @@ task :variability do
       ruby_results = benchmark.results_by_ruby(ruby.rvm_name).map(&:to_f)
 
       last_result   = ruby_results[offset-1]
-      five_previous = ruby_results[0..(offset-2)].last(5)
-      five_previous_median = five_previous.median
+      previous_results = ruby_results[0..(offset-2)].last(previous_count)
+      previous_results = previous_results.median
 
-      variability = (last_result - five_previous_median) / five_previous_median
+      variability = (last_result - previous_results) / previous_results
       puts "%s: %.2f%%" % [ruby.rvm_name, variability * 100.0]
 
       variability

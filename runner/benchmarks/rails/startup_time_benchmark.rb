@@ -15,7 +15,7 @@ end
 STDERR.puts "warmup..."
 STDERR.puts "#{benchmark_rails_console} seconds"
 
-runs = 3
+runs = 8
 
 durations = (1..runs).map do
   benchmark_rails_console

@@ -48,4 +48,36 @@ module BenchmarkHelper
       kill_server
     end
   end
+
+  def benchmark_with_server_in_bash(options, &block)
+    runs = options[:runs]
+    success = true
+
+    results = (1..runs).map do
+      next unless success
+      result = nil
+
+      IO.popen("bash", "w") do |bash|
+        # jruby doesn't have fork...
+        start_production_server(bash)
+
+        if server_working?
+          result = yield(bash)
+        else
+          success = false
+        end
+
+        kill_server
+      end
+
+      result
+    end
+
+    if success
+      # take the mean of the runs
+      results.inject(0.0) { |sum, r| sum + r } / runs
+    else
+      exit(1)
+    end
+  end
 end

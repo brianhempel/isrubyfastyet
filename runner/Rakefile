@@ -80,7 +80,7 @@ task :benchmark_suite do
       result_tempfile.rewind
       result = result_tempfile.read.chomp
 
-      full_version_string = `#{script_path 'ruby_version_in_rvm'} #{ruby['RVM Name']} #{ruby['Command']}`.strip
+      full_version_string = `#{script_path 'ruby_version_in_rvm'} #{ruby['RVM Name']} #{ruby['Command']}`.lines.to_a.last.strip
 
       File.open(relative_path("../results/#{benchmark_full_name}_results.tsv"), 'a') do |results_file|
         results_file.puts [Time.now.utc.strftime("%F %T UTC"), ruby['RVM Name'], result, full_version_string].join("\t")

@@ -5,6 +5,8 @@ ensure_database
 ensure_server_not_running
 
 final_requests_per_second_result = benchmark_with_server_in_bash(:runs => 4) do |bash|
+  STDERR.puts "cooling off..."
+  sleep 20
 
   STDERR.puts "warmup..."
   apache_bench = `ab -t 3 localhost:3009/`

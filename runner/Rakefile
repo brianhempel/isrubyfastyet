@@ -1,5 +1,6 @@
 require 'tempfile'
 require 'rubygems'
+require 'fan'
 
 begin
   require 'artii'
@@ -43,6 +44,10 @@ task :default => :benchmark_suite
 
 task :benchmark_suite do
   p rubies
+
+  # get the fans going
+  Fan.maximize_all!
+  at_exit { Fan.return_all_to_normal! }
 
   benchmark_file_paths = Dir.glob(relative_path('benchmarks/*/*benchmark.rb'))
   benchmark_folder_paths = benchmark_file_paths.map { |path| File.dirname(path) }.uniq

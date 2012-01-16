@@ -51,6 +51,20 @@ def puts_title(str)
   end
 end
 
+def ruby_install_succeeded?(rvm_name)
+  failed_install_rubies = File.read(relative_path("failed_install_rubies")).lines.to_a.map(&:chomp)
+  !failed_install_rubies.include?(rvm_name)
+end
+
+def benchmark_file_paths
+  Dir.glob(relative_path('benchmarks/*/*benchmark.rb'))
+end
+
+def benchmark_folder_paths
+  benchmark_file_paths.map { |path| File.dirname(path) }.uniq
+end
+
+
 task :default => :benchmark_suite
 
 desc "Install or update each of the ruby implimentations in the runner/rubies file. Head rubies are always re-installed. Others are re-installed if their RVM definition has changed."
@@ -71,6 +85,18 @@ task :update_rubies do
 
   failed_install_rubies.close
 end
+
+desc "Ensure a Gemfile.lock for each ruby implimentation and benchmark folder."
+task :setup_gemfile_locks do
+  rubies.each do |ruby|
+    if ruby_install_succeeded?(ruby['RVM Name'])
+      benchmark_folder_paths.each do |benchmark_folder_path|
+        run_with_output "#{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
+      end
+    end
+  end
+end
+
 task :benchmark_suite do
   p rubies
 
@@ -78,8 +104,6 @@ task :benchmark_suite do
   Fan.maximize_all!
   at_exit { Fan.return_all_to_normal! }
 
-  benchmark_file_paths = Dir.glob(relative_path('benchmarks/*/*benchmark.rb'))
-  benchmark_folder_paths = benchmark_file_paths.map { |path| File.dirname(path) }.uniq
   result_tempfile = Tempfile.new("benchmark_result")
 
   rubies.each do |ruby|

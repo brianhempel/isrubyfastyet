@@ -4,6 +4,9 @@
 
 source "$HOME/.rvm/scripts/rvm"
 
+# thank you to http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
+SCRIPTS_DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 cd "$1"
 pwd
 
@@ -17,7 +20,8 @@ then
 	echo "benchmarking..."
 	echo "$RUBY_COMMAND ($2)"
 
-	eval "($3 $4 || echo 'failed') | tail -1 > $5"
+	# timeout the benchmark after 20 minutes or so
+	eval "($SCRIPTS_DIR/timeout3 -t 1200 -i 300 -d 15 $3 $4 || echo 'failed') | tail -1 > $5"
 else
 	echo "rvm failed to switch to $2" > $5
 	exit 1

@@ -29,6 +29,7 @@ def run_with_output(command)
   puts "=" * note.size
 
   Process.wait( fork { exec command } )
+  $?.success? # return whether command succeeded or not
 end
 
 def relative_path(path)
@@ -65,11 +66,14 @@ task :benchmark_suite do
     end
 
     # update the Ruby
-    run_with_output "#{script_path 'setup_ruby'} #{ruby['RVM Name']}"
+    # fail if install takes longer than 45 minutes
+    ruby_install_succeeded = run_with_output "#{script_path 'timeout3'} -t #{45*60} -i 30 -d 30 #{script_path 'setup_ruby'} #{ruby['RVM Name']}"
 
     # set up Gemfile.lock's
-    benchmark_folder_paths.each do |benchmark_folder_path|
-      run_with_output "#{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
+    if ruby_install_succeeded
+      benchmark_folder_paths.each do |benchmark_folder_path|
+        run_with_output "#{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
+      end
     end
 
     # run benchmarks
@@ -80,12 +84,17 @@ task :benchmark_suite do
       benchmark_script_name = ($2 == '' ? nil : $2.chop)
       benchmark_full_name = [benchmark_suite_name, benchmark_script_name].compact.join('_')
 
-      run_with_output "#{script_path 'run_benchmark'} #{File.dirname(benchmark_file_path)} #{ruby['RVM Name']} '#{ruby['Command']}' #{benchmark_file_path} #{result_tempfile.path}"
+      if ruby_install_succeeded
+        run_with_output "#{script_path 'run_benchmark'} #{File.dirname(benchmark_file_path)} #{ruby['RVM Name']} '#{ruby['Command']}' #{benchmark_file_path} #{result_tempfile.path}"
 
-      result_tempfile.rewind
-      result = result_tempfile.read.chomp
+        result_tempfile.rewind
+        result = result_tempfile.read.chomp
 
-      full_version_string = `#{script_path 'ruby_version_in_rvm'} #{ruby['RVM Name']} #{ruby['Command']}`.lines.to_a.last.strip
+        full_version_string = `#{script_path 'ruby_version_in_rvm'} #{ruby['RVM Name']} #{ruby['Command']}`.lines.to_a.last.strip
+      else
+        result = "failed to install #{ruby['RVM Name']}"
+        full_version_string = result
+      end
 
       File.open(relative_path("../results/#{benchmark_full_name}_results.tsv"), 'a') do |results_file|
         results_file.puts [Time.now.utc.strftime("%F %T UTC"), ruby['RVM Name'], result, full_version_string].join("\t")

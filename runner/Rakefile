@@ -40,9 +40,37 @@ def script_path(script)
   relative_path("scripts/#{script}")
 end
 
+def puts_title(str)
+  if defined?(Artii)
+    # pretty ascii art
+    puts Artii::Base.new(str).output
+  else
+    puts
+    puts str.chars.to_a.join(" ")
+    puts
+  end
+end
 
 task :default => :benchmark_suite
 
+desc "Install or update each of the ruby implimentations in the runner/rubies file. Head rubies are always re-installed. Others are re-installed if their RVM definition has changed."
+task :update_rubies do
+
+  failed_install_rubies = File.open(relative_path("failed_install_rubies"), "w")
+
+  rubies.each do |ruby|
+
+    puts_title(ruby['Nice Name'])
+
+    # update the Ruby
+    # fail if install takes longer than 45 minutes
+    ruby_install_succeeded = run_with_output "#{script_path 'timeout3'} -t #{45*60} -i 30 -d 30 #{script_path 'setup_ruby'} #{ruby['RVM Name']}"
+
+    failed_install_rubies.puts(ruby['RVM Name']) if !ruby_install_succeeded
+  end
+
+  failed_install_rubies.close
+end
 task :benchmark_suite do
   p rubies
 
@@ -56,14 +84,7 @@ task :benchmark_suite do
 
   rubies.each do |ruby|
 
-    if defined?(Artii)
-      # pretty ascii art
-      puts Artii::Base.new(ruby['Nice Name']).output
-    else
-      puts
-      puts ruby['Nice Name'].chars.to_a.join(" ")
-      puts
-    end
+    puts_title(ruby['Nice Name'])
 
     # update the Ruby
     # fail if install takes longer than 45 minutes

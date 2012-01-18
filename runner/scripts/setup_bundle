@@ -9,7 +9,8 @@ pwd
 
 rvm "$2@benchmark"
 
-which bundle || gem install bundler
+# which bundle isn't robust enough under RVM
+(bundle help >& /dev/null) || gem install bundler
 
 if [ -e "Gemfile.lock" ]
 then

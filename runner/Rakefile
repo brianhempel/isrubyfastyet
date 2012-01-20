@@ -113,9 +113,15 @@ task :benchmark_suite do
 
       puts_title(ruby['Nice Name'])
 
-      # update the Ruby
-      # fail if install takes longer than 45 minutes
-      ruby_install_succeeded = run_with_output "#{script_path 'timeout3'} -t #{45*60} -i 30 -d 30 #{script_path 'setup_ruby'} #{ruby['RVM Name']}"
+      ruby_install_succeeded = false
+
+      ruby_install_duration = Benchmark.realtime do
+        # update the Ruby
+        # fail if install takes longer than 45 minutes
+        ruby_install_succeeded = run_with_output "#{script_path 'timeout3'} -t #{45*60} -i 30 -d 30 #{script_path 'setup_ruby'} #{ruby['RVM Name']}"
+      end
+
+      puts "Done installing #{ruby['RVM Name']}. Took %.1f minutes" % [ruby_install_duration / 60]
 
       # set up Gemfile.lock's
       if ruby_install_succeeded

@@ -1,4 +1,4 @@
-require File.expand_path('../isrubyfastyet', __FILE__)
+require File.expand_path('../../isrubyfastyet', __FILE__)
 
 class BenchmarkResultSet < Struct.new(:results_file_path)
   class Result < Struct.new(:rvm_name, :value_with_units)

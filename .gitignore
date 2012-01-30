@@ -1,4 +1,4 @@
-*.lock
+runner/benchmarks/**/*.lock
 .rbx
 .DS_Store
 latest_*_results.txt

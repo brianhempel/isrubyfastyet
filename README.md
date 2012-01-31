@@ -6,7 +6,8 @@ Pivotal Tracker project: [https://www.pivotaltracker.com/projects/439755](https:
 - "ruby speed" is 1/5 as popular as "ruby language"
 - "ruby speed" is 1/2 as popular as "python speed"
 
-== Tests
+### Tests
+
 ```
 # to test the shared models
 gem install rspec

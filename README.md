@@ -6,6 +6,18 @@ Pivotal Tracker project: [https://www.pivotaltracker.com/projects/439755](https:
 - "ruby speed" is 1/5 as popular as "ruby language"
 - "ruby speed" is 1/2 as popular as "python speed"
 
+### Usage
+
+```
+# run the benchmark (~3.5 hours on my box, more for the first run)
+cd runner
+rake
+
+# see how the latest results compare to the median of the 5 previous
+# (cd to project root...not runner)
+rake variability
+```
+
 ### Tests
 
 ```

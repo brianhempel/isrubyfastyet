@@ -5,3 +5,15 @@ Pivotal Tracker project: [https://www.pivotaltracker.com/projects/439755](https:
 - "ruby speed" is 1/8 as popular as "ruby tutorial"
 - "ruby speed" is 1/5 as popular as "ruby language"
 - "ruby speed" is 1/2 as popular as "python speed"
+
+== Tests
+```
+# to test the shared models
+gem install rspec
+rspec spec /
+
+# to test the front-end app
+cd isrubyfastyet.com
+bundle install
+rspec spec/
+```

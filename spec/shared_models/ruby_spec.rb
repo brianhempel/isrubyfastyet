@@ -15,7 +15,7 @@ describe Ruby do
     end
   end
 
-  describe ".all" do
+  context "class methods" do
     before do
       @rubies_file = Tempfile.new('rubies')
       @rubies_file.write(<<-RUBIES)
@@ -28,23 +28,36 @@ JRuby Head        jruby-head       jruby -S
       Ruby.rubies_file_path = @rubies_file.path
     end
 
-    it "returns the right number of rubies" do
-      Ruby.all.count == 2
+    describe ".all" do
+      it "returns the right number of rubies" do
+        Ruby.all.count == 2
+      end
+
+      it "initializes the names correctly" do
+        ruby_names = Ruby.all.map(&:name)
+        ruby_names.should include("MRI 1.8.7 Stable", "JRuby Head")
+      end
+
+      it "initializes the rvm names correctly" do
+        rvm_names = Ruby.all.map(&:rvm_name)
+        rvm_names.should include("1.8.7", "jruby-head")
+      end
+
+      it "returns the rubies in order" do
+        ruby_names = Ruby.all.map(&:name)
+        ruby_names.should == ["MRI 1.8.7 Stable", "JRuby Head"]
+      end
     end
 
-    it "initializes the names correctly" do
-      ruby_names = Ruby.all.map(&:name)
-      ruby_names.should include("MRI 1.8.7 Stable", "JRuby Head")
-    end
+    describe ".all_stable" do
+      it "returns the right number of rubies" do
+        Ruby.all_stable.count == 1
+      end
 
-    it "initializes the rvm names correctly" do
-      rvm_names = Ruby.all.map(&:rvm_name)
-      rvm_names.should include("1.8.7", "jruby-head")
-    end
-
-    it "returns the rubies in order" do
-      ruby_names = Ruby.all.map(&:name)
-      ruby_names.should == ["MRI 1.8.7 Stable", "JRuby Head"]
+      it "returns non-head rubies" do
+        ruby_names = Ruby.all_stable.map(&:name)
+        ruby_names.should == ["MRI 1.8.7 Stable"]
+      end
     end
   end
 end

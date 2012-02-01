@@ -1,8 +1,6 @@
 require File.expand_path('../isrubyfastyet', __FILE__)
 
 require 'easystats'
-require 'ruby'
-require 'benchmark_result_set'
 
 
 desc "Is the benchmark producing consistent ouput? Show how different the last result vs. the median of the 5 previous results for stable rubies"
@@ -16,7 +14,7 @@ task :variability do
     puts benchmark.name
 
     variabilities = Ruby.all_stable.map do |ruby|
-      ruby_results = benchmark.results_by_ruby(ruby.rvm_name).map(&:to_f)
+      ruby_results = benchmark.results_by_rvm_name(ruby.rvm_name).map(&:to_f).compact
 
       last_result   = ruby_results[offset-1]
       previous_results = ruby_results[0..(offset-2)].last(previous_count)

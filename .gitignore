@@ -2,3 +2,4 @@ runner/benchmarks/**/*.lock
 .rbx
 .DS_Store
 runner/benchmarks/rails/public/assets
+spec/tmp

@@ -34,14 +34,12 @@ JRuby Head        jruby-head       jruby -S
 
     it "initializes the names correctly" do
       ruby_names = Ruby.all.map(&:name)
-      ruby_names.should include("MRI 1.8.7 Stable")
-      ruby_names.should include("JRuby Head")
+      ruby_names.should include("MRI 1.8.7 Stable", "JRuby Head")
     end
 
     it "initializes the rvm names correctly" do
       rvm_names = Ruby.all.map(&:rvm_name)
-      rvm_names.should include("1.8.7")
-      rvm_names.should include("jruby-head")
+      rvm_names.should include("1.8.7", "jruby-head")
     end
 
     it "returns the rubies in order" do

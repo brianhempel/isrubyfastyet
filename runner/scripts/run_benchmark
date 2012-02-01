@@ -20,8 +20,8 @@ then
 	echo "benchmarking..."
 	echo "$RUBY_COMMAND ($2)"
 
-	# timeout the benchmark after 20 minutes or so
-	eval "($SCRIPTS_DIR/timeout3 -t 1200 -i 300 -d 15 $3 $4 || echo 'failed') | tail -1 > $5"
+	# timeout the benchmark after 15 minutes or so
+	eval "($SCRIPTS_DIR/timeout3 -t 900 -i 60 -d 15 $3 $4 || echo 'failed') | tail -1 > $5"
 else
 	echo "rvm failed to switch to $2" > $5
 	exit 1

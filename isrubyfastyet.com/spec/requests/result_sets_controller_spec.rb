@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe ResultSetsController do
+describe "/result_sets" do
   let :result_sets do
     [
       BenchmarkResultSet.new,
@@ -8,15 +8,13 @@ describe ResultSetsController do
     ].each_with_index { |rs, i| rs.stub(:name => "Benchmark #{i+1}") }
   end
 
-  render_views
-
-  describe "GET index.json" do
+  describe ".json" do
     it "returns a list of all benchmarks" do
       BenchmarkResultSet.stub(:all) { result_sets }
 
-      get :index, :format => :json
+      visit "/result_sets.json"
 
-      response.body.should be_json_like(<<-JSON)
+      page.source.should be_json_like(<<-JSON)
         {
           "result_sets": [
             { "name": "Benchmark 1" },

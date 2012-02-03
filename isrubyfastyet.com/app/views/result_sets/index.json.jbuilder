@@ -1,0 +1,1 @@
+json.result_sets @result_sets, :name

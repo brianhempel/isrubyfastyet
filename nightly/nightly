@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+
+echo
+echo "`date -u` ~ ~ ~ nightly benchmark suite start ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"
+echo
+
+# thank you to http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
+BASE_DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/.."
+
+cd "$BASE_DIR/runner"
+echo `pwd`
+
+source "$HOME/.bash_profile"
+source "$HOME/.rvm/scripts/rvm"
+rvm "1.8.7@benchmark"
+echo "Starting benchmark with `rvm current`"
+
+ruby kill_extraneous_apps.rb
+
+# run the suite!!
+rake benchmark_suite
+
+echo
+echo "`date -u` ~ ~ ~ nightly benchmark suite finish ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"
+echo
+
+# restart the computer without sudo
+# applescript FTW
+# http://www.dssw.co.uk/blog/2010/09/09/how-to-shut-down-your-mac-using-applescript/
+osascript -e 'tell application "Finder"
+  restart
+end tell'

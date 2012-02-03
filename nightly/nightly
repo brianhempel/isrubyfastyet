@@ -15,7 +15,7 @@ source "$HOME/.rvm/scripts/rvm"
 rvm "1.8.7@benchmark"
 echo "Starting benchmark with `rvm current`"
 
-ruby kill_extraneous_apps.rb
+ruby scripts/kill_extraneous_apps.rb
 
 # run the suite!!
 rake benchmark_suite

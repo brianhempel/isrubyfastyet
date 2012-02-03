@@ -81,19 +81,7 @@ describe BenchmarkResultSet do
       end
     end
   end
-  # 
-  # def name
-  #   results_file_path[%r{/([^/]+)_results.tsv}, 1]
-  # end
-  # 
-  # def results_by_ruby(rvm_name)
-  #   all_results.select { |r| r.rvm_name == rvm_name }
-  # end
-  # 
-  # def all_results
-  #   File.read(results_file_path).lines.map { |line| Result.from_tsv_line(line) }
-  # end
-  #
+
   context "instance methods" do
     before do
       result_set_path = create_result_file('benchmark_1_results.tsv', <<-BM)

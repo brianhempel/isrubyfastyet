@@ -3,6 +3,5 @@ class BenchmarksController < ApplicationController
 
   def index
     @benchmarks = BenchmarkResultSet.all
-    respond_with @benchmarks
   end
 end

@@ -3,3 +3,4 @@ runner/benchmarks/**/*.lock
 .DS_Store
 runner/benchmarks/rails/public/assets
 tmp/
+*.log

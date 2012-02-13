@@ -1,8 +1,8 @@
 class BenchmarkResultSet < Struct.new(:results_file_path)
-  class Result < Struct.new(:rvm_name, :value_with_units)
+  class Result < Struct.new(:time_str, :rvm_name, :value_with_units, :version_string)
     def self.from_tsv_line(line)
       time_str, rvm_name, value_with_units, version_string = line.chomp.split("\t")
-      new(rvm_name, value_with_units)
+      new(time_str, rvm_name, value_with_units, version_string)
     end
 
     def to_f
@@ -11,6 +11,18 @@ class BenchmarkResultSet < Struct.new(:results_file_path)
 
     def success?
       !!(value_with_units =~ /^\s*[\-+]?\.?\d/)
+    end
+
+    def units
+      value_with_units.sub(/^\s*\S+\s*/, '') if success?
+    end
+
+    def result
+      to_f
+    end
+
+    def full_version
+      version_string
     end
   end
 

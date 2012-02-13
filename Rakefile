@@ -1,6 +1,6 @@
 require File.expand_path('../isrubyfastyet', __FILE__)
 
-require 'easystats'
+require 'simple_stats'
 
 
 desc "Is the benchmark producing consistent ouput? Show how different the last result vs. the median of the 5 previous results for stable rubies"

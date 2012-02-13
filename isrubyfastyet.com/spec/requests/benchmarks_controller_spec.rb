@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe "/result_sets" do
+describe "/benchmarks" do
   let :result_sets do
     [
       BenchmarkResultSet.new,
@@ -12,11 +12,11 @@ describe "/result_sets" do
     it "returns a list of all benchmarks" do
       BenchmarkResultSet.stub(:all) { result_sets }
 
-      visit "/result_sets.json"
+      visit "/benchmarks.json"
 
       page.source.should be_json_like(<<-JSON)
         {
-          "result_sets": [
+          "benchmarks": [
             { "name": "Benchmark 1" },
             { "name": "Benchmark 2" }
           ]

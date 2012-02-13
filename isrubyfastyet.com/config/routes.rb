@@ -1,6 +1,6 @@
 IsrubyfastyetCom::Application.routes.draw do
 
-  resources :result_sets
+  resources :benchmarks
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

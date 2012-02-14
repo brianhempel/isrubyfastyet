@@ -8,6 +8,7 @@ gem 'awesome_print'
 
 group :development, :test do
   gem 'rspec-rails'
+  gem 'jasminerice'
 end
 
 group :test do

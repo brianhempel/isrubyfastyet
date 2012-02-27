@@ -4,7 +4,7 @@
 
 source "$HOME/.rvm/scripts/rvm"
 
-rvm get latest
+rvm get stable
 rvm reload
 
 if rvm "$1" && (rvm current | grep '-head')

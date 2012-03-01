@@ -5,6 +5,7 @@ MRI 1.9.2 Stable  1.9.2            ruby
 MRI 1.9.2 Head    1.9.2-head       ruby
 MRI 1.9.3 Stable  1.9.3            ruby
 MRI 1.9.3 Head    1.9.3-head       ruby
+MRI Head          ruby-head        ruby
 JRuby Stable      jruby            jruby -S
 JRuby Head        jruby-head       jruby -S
 Rubinius Head     rbx-head         ruby

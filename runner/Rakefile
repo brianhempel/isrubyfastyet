@@ -118,7 +118,7 @@ task :benchmark_suite do
       ruby_install_duration = Benchmark.realtime do
         # update the Ruby
         # fail if install takes longer than 45 minutes
-        ruby_install_succeeded = run_with_output "#{script_path 'timeout3'} -t #{45*60} -i 30 -d 30 #{script_path 'setup_ruby'} #{ruby['RVM Name']}"
+        ruby_install_succeeded = run_with_output "#{script_path 'timeout3'} -t #{45*60} -i 30 -d 30 #{script_path 'setup_ruby'} #{ruby['RVM Name']} '#{ruby['Before Install']}'"
       end
 
       puts "Done installing #{ruby['RVM Name']}. Took %.1f minutes" % [ruby_install_duration / 60]
@@ -141,7 +141,7 @@ task :benchmark_suite do
         benchmark_duration = Benchmark.realtime do
 
           if ruby_install_succeeded
-            run_with_output "#{script_path 'run_benchmark'} #{File.dirname(benchmark_file_path)} #{ruby['RVM Name']} '#{ruby['Command']}' #{benchmark_file_path} #{result_tempfile.path}"
+            run_with_output "#{script_path 'run_benchmark'} #{File.dirname(benchmark_file_path)} #{ruby['RVM Name']} '#{ruby['Command']}' '#{ruby['Before Run']}' #{benchmark_file_path} #{result_tempfile.path}"
 
             result_tempfile.rewind
             result = result_tempfile.read.chomp

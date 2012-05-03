@@ -1,14 +1,14 @@
-Nice Name         RVM Name         Command
-MRI 1.8.7 Stable  1.8.7            ruby
-MRI 1.8.7 Head    1.8.7-head       ruby
-MRI 1.9.2 Stable  1.9.2            ruby
-MRI 1.9.2 Head    1.9.2-head       ruby
-MRI 1.9.3 Stable  1.9.3            ruby
-MRI 1.9.3 Head    1.9.3-head       ruby
-MRI Head          ruby-head        ruby
-JRuby Stable      jruby            jruby -S
-JRuby Head        jruby-head       jruby -S
-Rubinius Head     rbx-head         ruby
-# MagLev Head       maglev-head      ruby
-# MacRuby Stable    macruby          ruby
-# MacRuby Nightly   macruby-nightly  ruby
+Nice Name         RVM Name         Command     Before Install          Before Run
+MRI 1.8.7 Stable  1.8.7            ruby        brew link libiconv      :
+MRI 1.8.7 Head    1.8.7-head       ruby        brew unlink libiconv    :
+MRI 1.9.2 Stable  1.9.2            ruby        brew link libiconv      :
+MRI 1.9.2 Head    1.9.2-head       ruby        brew unlink libiconv    :
+MRI 1.9.3 Stable  1.9.3            ruby        brew link libiconv      :
+MRI 1.9.3 Head    1.9.3-head       ruby        brew unlink libiconv    :
+MRI Head          ruby-head        ruby        brew unlink libiconv    :
+JRuby Stable      jruby            jruby -S    brew link libiconv      :
+JRuby Head        jruby-head       jruby -S    brew link libiconv      :
+Rubinius Head     rbx-head         ruby        :                       brew unlink libiconv
+# MagLev Head       maglev-head      ruby      :                       :
+# MacRuby Stable    macruby          ruby      :                       :
+# MacRuby Nightly   macruby-nightly  ruby      :                       :

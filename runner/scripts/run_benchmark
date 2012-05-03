@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# run_benchmark <benchmark_folder> <rvm_command> <ruby_command> <benchmark_file> <result_file>
+# run_benchmark <benchmark_folder> <rvm_command> <ruby_command> <before_run_commands> <benchmark_file> <result_file>
 
 source "$HOME/.rvm/scripts/rvm"
 
@@ -20,9 +20,12 @@ then
 	echo "benchmarking..."
 	echo "$RUBY_COMMAND ($2)"
 
+	echo "$4"
+	eval "$4"
+
 	# timeout the benchmark after 15 minutes or so
-	eval "($SCRIPTS_DIR/timeout3 -t 900 -i 60 -d 15 $3 $4 || echo 'failed') | tail -1 > $5"
+	eval "($SCRIPTS_DIR/timeout3 -t 900 -i 60 -d 15 $3 $5 || echo 'failed') | tail -1 > $6"
 else
-	echo "rvm failed to switch to $2" > $5
+	echo "rvm failed to switch to $2" > $6
 	exit 1
 fi

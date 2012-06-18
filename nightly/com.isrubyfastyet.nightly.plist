@@ -2,10 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 
-<!-- launchd plist file to run the benchmark at 12:22am each morning -->
+<!-- launchd plist file to run the benchmark at 11:22pm each night -->
 <!-- copy to ~/Library/LaunchAgents/ and change the paths appropriately -->
 <!-- then install with launchctl load ~/Library/LaunchAgents/com.isrubyfastyet.nightly.plist -->
-<!-- I also went in System Prefs and set my computer to shutdown/startup just after 2am so we have a fresh system -->
+<!-- I also went in System Prefs and set my computer to shutdown/startup just after 11pm so we have a fresh system -->
 
 <dict>
     <key>Label</key>
@@ -17,7 +17,7 @@
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
-        <integer>0</integer>
+        <integer>23</integer>
         <key>Minute</key>
         <integer>22</integer>
     </dict>

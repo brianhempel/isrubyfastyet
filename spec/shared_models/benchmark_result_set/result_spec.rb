@@ -23,12 +23,14 @@ describe BenchmarkResultSet::Result do
       result = BenchmarkResultSet::Result.new(nil, nil, "123.45 MB", nil)
       result.to_f.should be_within(0.01).of(123.45)
       result.result.should be_within(0.01).of(123.45)
+      result.value.should be_within(0.01).of(123.45)
     end
 
     it "returns nil on failed result" do
       result = BenchmarkResultSet::Result.new(nil, nil, "failed", nil)
       result.to_f.should be_nil
       result.result.should be_nil
+      result.value.should be_nil
     end
   end
 

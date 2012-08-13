@@ -21,6 +21,10 @@ class BenchmarkResultSet < Struct.new(:results_file_path)
       to_f
     end
 
+    def value
+      to_f
+    end
+
     def full_version
       version_string
     end

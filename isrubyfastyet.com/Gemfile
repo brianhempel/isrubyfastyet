@@ -9,10 +9,8 @@ gem 'awesome_print'
 group :development, :test do
   gem 'rspec-rails'
   gem 'jasminerice'
-end
-
-group :test do
-  gem 'capybara'
+  gem 'jasminerice-runner'
+  gem 'capybara-webkit'
 end
 
 # Gems used only for assets and not required

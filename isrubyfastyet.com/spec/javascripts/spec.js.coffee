@@ -1,2 +1,3 @@
-#=require application
-#=require_tree ./
+#= require application
+#= require jasminerice_reporter
+#= require_tree ./

@@ -62,4 +62,11 @@ describe BenchmarkResultSet::Result do
       result.units.should be_nil
     end
   end
+
+  describe "#time" do
+    it "returns a time object of the time" do
+      result = BenchmarkResultSet::Result.new("2012-01-30 09:31:21 UTC", nil, nil, nil)
+      result.time.should == Time.new(2012, 1, 30, 9, 31, 21, "+00:00")
+    end
+  end
 end

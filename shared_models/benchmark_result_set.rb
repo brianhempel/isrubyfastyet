@@ -28,6 +28,13 @@ class BenchmarkResultSet < Struct.new(:results_file_path)
     def full_version
       version_string
     end
+
+    def time
+      # "2012-01-30 09:31:21 UTC"
+      match = /(\d+)-(\d+)-(\d+) (\d+):(\d+):(\d+) UTC/.match(time_str)
+      year, month, day, hour, minute, second = match.captures.map(&:to_i)
+      Time.new(year, month, day, hour, minute, second, "+00:00")
+    end
   end
 
   class << self

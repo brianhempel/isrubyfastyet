@@ -35,6 +35,10 @@ class BenchmarkResultSet < Struct.new(:results_file_path)
       year, month, day, hour, minute, second = match.captures.map(&:to_i)
       Time.new(year, month, day, hour, minute, second, "+00:00")
     end
+
+    def time_ms
+      ((time - Time.new(1970, 1, 1, 0, 0, 0, "+00:00")) * 1000).round
+    end
   end
 
   class << self

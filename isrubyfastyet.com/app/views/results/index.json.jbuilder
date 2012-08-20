@@ -1,5 +1,5 @@
 json.benchmark do |json|
   json.(@benchmark, :name, :param, :units)
 end
-json.results @results, :time_str, :rvm_name, :result, :full_version
+json.results @results, :time_str, :time_ms, :rvm_name, :result, :full_version
 

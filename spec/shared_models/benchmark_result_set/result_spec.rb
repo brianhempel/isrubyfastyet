@@ -69,4 +69,11 @@ describe BenchmarkResultSet::Result do
       result.time.should == Time.new(2012, 1, 30, 9, 31, 21, "+00:00")
     end
   end
+
+  describe "#time_ms" do
+    it "returns ms since the epoch" do
+      result = BenchmarkResultSet::Result.new("2012-01-30 09:31:21 UTC", nil, nil, nil)
+      result.time_ms.should == 1327915881000
+    end
+  end
 end

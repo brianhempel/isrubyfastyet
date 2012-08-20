@@ -5,7 +5,7 @@ class this.BenchmarkFlotter
      for rvm_name, results of this.resultsByRvmName()
        {
          label: rvm_name,
-         data: ([result.time_str, result.result] for result in results)
+         data: ([new Date(result.time_ms), result.result] for result in results)
        }
 
   resultsByRvmName: ->

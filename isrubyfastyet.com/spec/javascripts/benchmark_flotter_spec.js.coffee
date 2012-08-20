@@ -7,18 +7,21 @@ parsed_json = {
   "results": [
     {
       "time_str":     "2012-01-12 07:23:49 UTC",
+      "time_ms":      1326353029000,
       "rvm_name":     "1.8.7",
       "result":       56.6861324310303,
       "full_version": "ruby 1.8.7 (2011-06-30 patchlevel 352) [i686-darwin10.8.0]"
     },
     {
       "time_str":     "2012-01-12 08:55:44 UTC",
+      "time_ms":      1326358544000,
       "rvm_name":     "jruby-head",
       "result":       208.656998634338,
       "full_version": "jruby 1.7.0.dev (ruby-1.8.7-p357) (2012-01-12 0e83d96) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_29) [darwin-x86_64-java]"
     },
     {
       "time_str":     "2012-02-14 07:15:35 UTC",
+      "time_ms":      1329203735000,
       "rvm_name":     "jruby-head",
       "result":       209.65935277938843,
       "full_version": "jruby 1.7.0.dev (ruby-1.9.3-p28) (2012-02-14 c867d1f) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_29) [darwin-x86_64-java]"
@@ -42,10 +45,10 @@ describe "BenchmarkFlotter", ->
     expect(benchmark_flotter.flotData()).toEqual([
       {
         label: "1.8.7",
-        data: [["2012-01-12 07:23:49 UTC", 56.6861324310303]]
+        data: [[new Date(1326353029000), 56.6861324310303]]
       },
       {
         label: "jruby-head",
-        data: [["2012-01-12 08:55:44 UTC", 208.656998634338], ["2012-02-14 07:15:35 UTC", 209.65935277938843]]
+        data: [[new Date(1326358544000), 208.656998634338], [new Date(1329203735000), 209.65935277938843]]
       }
     ])

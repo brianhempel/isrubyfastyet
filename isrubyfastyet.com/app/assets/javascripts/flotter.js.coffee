@@ -20,10 +20,13 @@ class this.BenchmarkFlotter
     filtered_results
 
   resultsByRvmName: ->
-    rubies = {}
-    this.matchResult(rubies, result) for result in @parsed_json['results']
-    rubies
+    results_by_rvm_name = {}
+    this.matchResult(results_by_rvm_name, result) for result in @parsed_json['results']
+    sorted_results_by_rvm_name = {}
+    for rvm_name in Ruby.ruby_names
+      sorted_results_by_rvm_name[rvm_name] = results_by_rvm_name[rvm_name] if results_by_rvm_name[rvm_name]
+    sorted_results_by_rvm_name
 
-  matchResult: (rubies, result) ->
-    rubies[result['rvm_name']] ||= []
-    rubies[result['rvm_name']].push result
+  matchResult: (results_by_rvm_name, result) ->
+    results_by_rvm_name[result['rvm_name']] ||= []
+    results_by_rvm_name[result['rvm_name']].push result

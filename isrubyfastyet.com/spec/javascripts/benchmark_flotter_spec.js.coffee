@@ -52,3 +52,15 @@ describe "BenchmarkFlotter", ->
         data: [[new Date(1326358544000), 208.656998634338], null, [new Date(1329203735000), 209.65935277938843]]
       }
     ])
+
+  it "orders the rubies by the Ruby.rubies hash", ->
+    out_of_order_json = {
+      "results": [
+        {"rvm_name": "jruby-head"},
+        {"rvm_name": "1.9.3-head"},
+        {"rvm_name": "1.8.7"},
+      ]
+    }
+    benchmark_flotter = new BenchmarkFlotter out_of_order_json
+    labels = (series.label for series in benchmark_flotter.flotData())
+    expect(labels).toEqual(["1.8.7", "1.9.3-head", "jruby-head"])

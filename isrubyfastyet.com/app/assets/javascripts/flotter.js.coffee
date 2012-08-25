@@ -8,6 +8,9 @@ class this.BenchmarkFlotter
          data: this.filterFlotPoints(results)
        }
 
+  seriesColors: ->
+    Ruby.rubies[rvm_name].color for rvm_name, results of this.resultsByRvmName()
+
   # add nulls between points > 14 days apart
   filterFlotPoints: (json_results_array) ->
     filtered_results = []

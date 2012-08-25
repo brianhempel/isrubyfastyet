@@ -64,3 +64,26 @@ describe "BenchmarkFlotter", ->
     benchmark_flotter = new BenchmarkFlotter out_of_order_json
     labels = (series.label for series in benchmark_flotter.flotData())
     expect(labels).toEqual(["1.8.7", "1.9.3-head", "jruby-head"])
+
+  describe "#colors", ->
+    original_rubies = {}
+
+    beforeEach ->
+      original_rubies = Ruby.rubies
+      Ruby.rubies =
+          "1.8.7":      new Ruby("1.8.7",      "#f00"),
+          "1.9.3-head": new Ruby("1.9.3-head", "#0f0"),
+          "jruby-head": new Ruby("jruby-head", "#00f")
+
+    afterEach ->
+      Ruby.rubies = original_rubies
+
+    it "returns the appropriate colors for the series", ->
+      minimal_json = {
+          "results": [
+            {"rvm_name": "1.8.7"},
+            {"rvm_name": "jruby-head"},
+          ]
+        }
+      benchmark_flotter = new BenchmarkFlotter minimal_json
+      expect(benchmark_flotter.seriesColors()).toEqual(["#f00", "#00f"])

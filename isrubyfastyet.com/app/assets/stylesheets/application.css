@@ -11,3 +11,31 @@
  *= require_self
  *= require_tree .
 */
+
+@import url(http://fonts.googleapis.com/css?family=Peralta|Source+Sans+Pro:300);
+
+body {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 830px;
+  background: #a00;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body-wrapper {
+  padding: 1em 30px;
+  margin: 0;
+  background: #fee;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Peralta', sans-serif;
+  font-size: 64px;
+  text-shadow: #ff8890 2px 2px 1px;
+}
+
+h2 {
+  text-shadow: rgba(255, 160, 163, 0.5) 1px 1px 2px;
+}

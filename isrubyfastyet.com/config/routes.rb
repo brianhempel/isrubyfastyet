@@ -4,6 +4,8 @@ IsrubyfastyetCom::Application.routes.draw do
     resources :results
   end
 
+  root :to => 'content#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

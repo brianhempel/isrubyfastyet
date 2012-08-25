@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require excanvas.min
+//= require jquery.flot
+//= require jquery.flot.time
 //= require_tree .

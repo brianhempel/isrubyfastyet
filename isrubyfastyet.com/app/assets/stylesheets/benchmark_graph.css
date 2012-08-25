@@ -1,0 +1,27 @@
+.benchmark-graph-wrapper {
+  position: relative;
+  width: 800px;
+}
+
+.benchmark-graph {
+  float: left;
+  width:  600px;
+  height: 350px;
+}
+
+.benchmark-graph-time-range-picker {
+  clear: both;
+  width: 550px;
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+}
+
+.benchmark-graph-time-range-picker li {
+  display: inline-block;
+  margin: 0 1em 0 0;
+}
+
+.benchmark-graph-legend {
+  float: left;
+}

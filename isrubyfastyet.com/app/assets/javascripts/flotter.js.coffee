@@ -11,6 +11,12 @@ class this.BenchmarkFlotter
   seriesColors: ->
     Ruby.rubies[rvm_name].color for rvm_name, results of this.resultsByRvmName()
 
+  units: ->
+    {
+      'requests per second': 'rps',
+      'seconds':             's'
+    }[@parsed_json['benchmark']['units']] || @parsed_json['benchmark']['units']
+
   # add nulls between points > 14 days apart
   filterFlotPoints: (json_results_array) ->
     filtered_results = []

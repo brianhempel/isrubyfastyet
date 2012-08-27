@@ -65,6 +65,22 @@ describe "BenchmarkFlotter", ->
     labels = (series.label for series in benchmark_flotter.flotData())
     expect(labels).toEqual(["1.8.7", "1.9.3-head", "jruby-head"])
 
+  describe "#units", ->
+    it 'returns "MB" for "MB"', ->
+      unit_json = {"benchmark": {"units": "MB"}}
+      benchmark_flotter = new BenchmarkFlotter unit_json
+      expect(benchmark_flotter.units()).toEqual("MB")
+
+    it 'returns "rps" for "requests per second"', ->
+      unit_json = {"benchmark": {"units": "requests per second"}}
+      benchmark_flotter = new BenchmarkFlotter unit_json
+      expect(benchmark_flotter.units()).toEqual("rps")
+
+    it 'returns "s" for "seconds"', ->
+      unit_json = {"benchmark": {"units": "seconds"}}
+      benchmark_flotter = new BenchmarkFlotter unit_json
+      expect(benchmark_flotter.units()).toEqual("s")
+
   describe "#colors", ->
     original_rubies = {}
 

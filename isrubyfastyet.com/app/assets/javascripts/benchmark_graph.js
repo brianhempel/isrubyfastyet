@@ -1,8 +1,3 @@
-unit_abbreviations = {
-  "requests per second": "rps",
-  "seconds":             "s"
-}
-
 function getResultsJSON(benchmark_name, start_time, callback) {
   var query_string = ''
   if (start_time) {
@@ -27,7 +22,7 @@ $.fn.drawBenchmarkGraphFromJSON = function(json) {
     },
     yaxis: {
       min: 0,
-      tickFormatter: function (n) { return "" + n + units; }
+      tickFormatter: function (n) { return "" + n + flotter.units(); }
     },
     legend: {
       position: 'nw',

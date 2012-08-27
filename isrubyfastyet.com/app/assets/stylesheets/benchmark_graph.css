@@ -25,3 +25,28 @@
 .benchmark-graph-legend {
   float: left;
 }
+
+#graph-tooltip {
+  position:     absolute;
+  display:      none;
+  border-width: 1px;
+  border-style: solid;
+  padding:      4px;
+  background:   rgba(255, 255, 255, 0.97);
+  font-size:    12px;
+  min-width:    200px;
+}
+
+#graph-tooltip .rvm-name {
+  font-size: 14px;
+}
+
+#graph-tooltip .result {
+  font-size: 18px;
+  color: #000;
+}
+
+#graph-tooltip .time {
+  opacity: 0.5;
+  font-size: 11px;
+}

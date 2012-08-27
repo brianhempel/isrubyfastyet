@@ -4,8 +4,9 @@ class this.BenchmarkFlotter
   flotData: ->
      for rvm_name, results of this.resultsByRvmName()
        {
-         label: rvm_name,
-         data: this.filterFlotPoints(results)
+         label:    rvm_name,
+         data:     this.filterFlotPoints(results),
+         fullData: results
        }
 
   seriesColors: ->

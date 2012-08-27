@@ -19,7 +19,7 @@ $.fn.drawBenchmarkGraphFromJSON = function(json) {
     colors: flotter.seriesColors(),
     lines:  { show: true, opacity: 0.3 },
     points: { show: true },
-    grid:   { backgroundColor: { colors: ['#fff', 'rgba(255, 255, 255, 0.7)'] } },
+    grid:   { backgroundColor: { colors: ['#fff', 'rgba(255, 255, 255, 0.6)'] } },
     xaxis: {
       mode: "time",
       timeformat: "%y/%m/%d",

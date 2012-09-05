@@ -6,7 +6,7 @@ ensure_database
 
 def benchmark_rails_console
   duration = Benchmark.realtime do
-    success = system("echo 'Listing.all == [] ? exit(0) : exit(1)' | #{ENV['RUBY_COMMAND']} script/rails c")
+    success = system("echo '(Listing.all == [] rescue false) ? exit(0) : exit(1)' | #{ENV['RUBY_COMMAND']} script/rails c")
 
     raise "Rails startup failed!" unless success
   end

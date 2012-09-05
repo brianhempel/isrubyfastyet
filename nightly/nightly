@@ -28,5 +28,5 @@ echo
 # applescript FTW
 # http://www.dssw.co.uk/blog/2010/09/09/how-to-shut-down-your-mac-using-applescript/
 osascript -e 'tell application "Finder"
-  restart
+  shut down
 end tell'

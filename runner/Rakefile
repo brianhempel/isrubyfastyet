@@ -118,7 +118,7 @@ task :benchmark_suite do
       ruby_install_duration = Benchmark.realtime do
         # update the Ruby
         # fail if install takes longer than 45 minutes
-        ruby_install_succeeded = run_with_output "#{script_path 'timeout3'} -t #{45*60} -i 30 -d 30 #{script_path 'setup_ruby'} #{ruby['RVM Name']} '#{ruby['Before Install']}'"
+        ruby_install_succeeded = run_with_output "#{script_path 'timeout3'} -t #{45*60} -i 30 -d 30 #{script_path 'setup_ruby'} #{ruby['RVM Name']} '#{ruby['Install Flags']}' '#{ruby['Before Install']}'"
       end
 
       puts "Done installing #{ruby['RVM Name']}. Took %.1f minutes" % [ruby_install_duration / 60]

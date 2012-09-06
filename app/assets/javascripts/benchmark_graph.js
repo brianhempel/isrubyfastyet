@@ -70,7 +70,7 @@ function showTooltip($graph, item) {
   }).appendTo($graph).fadeIn(200);
 }
 
-$(function () {
+$(window).load(function () {
 
   $('*[data-graph-benchmark]').each(function () {
     var default_start_time = $(this).data('graph-default-start-time');

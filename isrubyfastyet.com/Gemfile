@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'jbuilder'
 
-gem 'pry'
+gem 'debugger'
 gem 'awesome_print'
 
 group :development, :test do

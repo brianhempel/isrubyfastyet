@@ -1,5 +1,0 @@
-== isrubyfastyet.com
-
-Web-accessible pretty graphs of the nightly benchmark runs.
-
-Models are in a sister directory: ../shared_models

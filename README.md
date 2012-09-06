@@ -10,23 +10,23 @@ Pivotal Tracker project: [https://www.pivotaltracker.com/projects/439755](https:
 
 ```
 # run the benchmark (~3.5 hours on my box, more for the first run)
-cd runner
+cd isrubyfastyet/runner
 rake
 
 # see how the latest results compare to the median of the 5 previous
-# (cd to project root...not runner)
+cd isrubyfastyet
 rake variability
 ```
 
 ### Tests
 
 ```
-# to test the shared models
-gem install rspec
-rspec spec /
-
 # to test the front-end app
-cd isrubyfastyet.com
 bundle install
+rspec spec/
+
+# to test the shared models
+cd isrubyfastyet
+gem install rspec
 rspec spec/
 ```

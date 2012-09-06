@@ -5,6 +5,7 @@ gem 'jbuilder'
 
 gem 'debugger'
 gem 'awesome_print'
+gem 'thin'
 
 group :development, :test do
   gem 'rspec-rails'

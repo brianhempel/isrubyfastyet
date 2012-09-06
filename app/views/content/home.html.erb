@@ -1,5 +1,7 @@
 <h1>Is Ruby Fast Yet?</h1>
 
+<p>Practical, comparative benchmarks of Ruby implementations. <%= link_to "Github", "https://github.com/brianhempel/isrubyfastyet" %></p>
+
 <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second', :default_time_range => '1m' %>
 <%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',        :default_time_range => '1m' %>
 <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',        :default_time_range => '1m' %>

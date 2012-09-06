@@ -42,7 +42,7 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin: 0;
   font-family: 'Peralta', sans-serif;
   font-size: 64px;
   text-shadow: #FF9CAB 2px 2px 1px;

@@ -1,6 +1,7 @@
 .benchmark-graph-wrapper {
   position: relative;
   width: 800px;
+  margin-top: 2em;
 }
 
 .benchmark-graph {

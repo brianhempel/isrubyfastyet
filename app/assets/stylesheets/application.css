@@ -12,8 +12,6 @@
  *= require_tree .
 */
 
-@import url(http://fonts.googleapis.com/css?family=Peralta|Source+Sans+Pro:300);
-
 body {
   position: relative;
   margin: 0 auto;

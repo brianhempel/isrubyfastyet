@@ -23,7 +23,18 @@
 
   <ul class="benchmark-graph-time-range-picker">
     <% time_range_to_start_date.each do |time_range, start_date| %>
-      <li><%= link_to time_range, benchmark_results_path(benchmark, :format => :json, :start_date => start_date), :data => { :"on-click-load-graph" => "##{benchmark}-graph", :"graph-start-time" => start_date.strftime('%Y-%m-%d') } %></li>
+      <li><%= link_to time_range, benchmark_results_path(benchmark, :format => :json, :start_time => start_date), :data => { :"on-click-load-graph" => "##{benchmark}-graph", :"graph-start-time" => start_date.strftime('%Y-%m-%d') } %></li>
     <% end %>
   </ul>
+  <script>
+    // inline the default results for faster page loads
+    <% self.lookup_context.formats = [:json] %>
+    <% @benchmark = RubyBenchmark.from_param(benchmark) %>
+    <% @results = @benchmark.passing_results.select { |result| default_start_date.to_time.utc <= result.time } %>
+
+    window.ResultsJSONCache['<%= benchmark_results_path(benchmark, :format => :json, :start_time => default_start_date) %>'] =
+      <%= TemplateRenderer.new(self.lookup_context).render(self, :file => 'results/index').html_safe %>;
+
+    <% self.lookup_context.formats = [:html] %>
+  </script>
 </div>

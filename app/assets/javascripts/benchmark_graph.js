@@ -1,10 +1,20 @@
+window.ResultsJSONCache = {};
+
 function getResultsJSON(benchmark_name, start_time, callback) {
   var query_string = ''
   if (start_time) {
     query_string = '?start_time=' + start_time
   }
-  var url = 'benchmarks/' + benchmark_name +'/results.json' + query_string;
-  $.getJSON(url, callback);
+  var url = '/benchmarks/' + benchmark_name +'/results.json' + query_string;
+
+  if (ResultsJSONCache[url]) {
+    callback(ResultsJSONCache[url]);
+  } else {
+    $.getJSON(url, function (json) {
+      ResultsJSONCache[url] = json;
+      callback(json)
+    });
+  }
 }
 
 $.fn.drawBenchmarkGraphFromJSON = function(json) {

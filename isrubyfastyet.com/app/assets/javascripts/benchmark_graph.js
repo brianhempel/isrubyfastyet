@@ -16,7 +16,8 @@ $.fn.drawBenchmarkGraphFromJSON = function(json) {
     points: { show: true },
     grid:   {
       backgroundColor: { colors: ['#fff', 'rgba(255, 255, 255, 0.6)'] },
-      hoverable: true
+      hoverable: true,
+      mouseActiveRadius: 20
     },
     xaxis: {
       mode: "time",
@@ -53,8 +54,8 @@ function showTooltip($graph, item) {
                    '<div class="time">'         + (new Date(point_data["time_ms"]))                 + '</div>';
 
   $('<div id="graph-tooltip">' + content + '</div>').css({
-    top:            offset.top + 5,
-    left:           offset.left + 5,
+    top:            offset.top  + 4,
+    left:           offset.left + 10,
     "border-color": item.series.color
   }).appendTo($graph).fadeIn(200);
 }

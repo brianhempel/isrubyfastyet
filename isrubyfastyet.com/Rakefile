@@ -10,6 +10,6 @@ end
 
 require File.expand_path('../config/application', __FILE__)
 
-IsrubyfastyetCom::Application.load_tasks
+IsRubyFastYet::Application.load_tasks
 
 task :default => ['spec', 'jasminerice:run']

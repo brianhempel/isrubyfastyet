@@ -1,4 +1,4 @@
-IsrubyfastyetCom::Application.routes.draw do
+IsRubyFastYet::Application.routes.draw do
 
   resources :benchmarks do
     resources :results

@@ -75,7 +75,7 @@ GEM
       haml
     jasminerice-runner (0.0.3)
       capybara
-    jbuilder (0.3.2)
+    jbuilder (0.4.3)
       activesupport (>= 3.0.0)
       blankslate (>= 2.1.2.4)
     journey (1.0.4)

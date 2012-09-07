@@ -18,7 +18,7 @@ echo "Starting benchmark with `rvm current`"
 ruby scripts/kill_extraneous_apps.rb
 
 # run the suite!!
-rake benchmark_suite
+rake benchmark_suite && git add ../results/* && git commit -m 'Autorunner: Results' && git pull --rebase && git push origin master && git push heroku master
 
 echo
 echo "`date -u` ~ ~ ~ nightly benchmark suite finish ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"

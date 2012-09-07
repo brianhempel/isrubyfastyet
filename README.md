@@ -30,3 +30,7 @@ cd isrubyfastyet
 gem install rspec
 rspec spec/
 ```
+
+### Trouble
+
+You can't have rubygems-bundler installed because the ./isrubyfastyet/Rakefile shouldn't run under the ./Gemfile. You may have to uninstall rubygems-bundler by removing it from your ~/.rvm/gems directories manually.

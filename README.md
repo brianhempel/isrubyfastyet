@@ -6,6 +6,14 @@ Pivotal Tracker project: [https://www.pivotaltracker.com/projects/439755](https:
 - "ruby speed" is 1/5 as popular as "ruby language"
 - "ruby speed" is 1/2 as popular as "python speed"
 
+### Dependencies
+
+You need the `gtimeout` command from GNU Coreutils. Easy peasy with Homebrew on OS X.
+
+```
+brew install coreutils
+```
+
 ### Usage
 
 ```

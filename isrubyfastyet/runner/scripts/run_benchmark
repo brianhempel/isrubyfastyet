@@ -24,7 +24,7 @@ then
 	eval "$4"
 
 	# timeout the benchmark after 15 minutes or so
-	eval "($SCRIPTS_DIR/timeout3 -t 900 -i 60 -d 15 $3 $5 || echo 'failed') | tail -1 > $6"
+	eval "(gtimeout --kill-after=5 900 $3 $5 || echo 'failed') | tail -1 > $6"
 else
 	echo "rvm failed to switch to $2" > $6
 	exit 1

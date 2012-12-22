@@ -44,7 +44,7 @@ end
 def puts_title(str)
   if defined?(Artii)
     # pretty ascii art
-    puts Artii::Base.new(str).output
+    puts Artii::Base.new.output(str)
   else
     puts
     puts str.chars.to_a.join(" ")

@@ -92,7 +92,7 @@ task :setup_gemfile_locks do
   rubies.each do |ruby|
     if ruby_install_succeeded?(ruby['RVM Name'])
       benchmark_folder_paths.each do |benchmark_folder_path|
-        run_with_output "#{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
+        run_with_output "gtimeout --kill-after=5 #{20*60} #{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
       end
     end
   end
@@ -115,6 +115,7 @@ task :benchmark_suite do
       puts_title(ruby['Nice Name'])
 
       ruby_install_succeeded = false
+      bundle_succeeded       = false
 
       ruby_install_duration = Benchmark.realtime do
         # update the Ruby
@@ -124,13 +125,6 @@ task :benchmark_suite do
 
       puts "Done installing #{ruby['RVM Name']}. Took %.1f minutes" % [ruby_install_duration / 60]
 
-      # set up Gemfile.lock's
-      if ruby_install_succeeded
-        benchmark_folder_paths.each do |benchmark_folder_path|
-          run_with_output "gtimeout --kill-after=5 #{33*60} #{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
-        end
-      end
-
       # run benchmarks
       benchmark_file_paths.each do |benchmark_file_path|
 
@@ -139,9 +133,15 @@ task :benchmark_suite do
         benchmark_script_name = ($2 == '' ? nil : $2.chop)
         benchmark_full_name = [benchmark_suite_name, benchmark_script_name].compact.join('_')
 
+        # set up Gemfile.lock
+        bundle_succeeded = if ruby_install_succeeded
+	      benchmark_folder_path = File.dirname(benchmark_file_path)
+          run_with_output "gtimeout --kill-after=5 #{20*60} #{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
+        end
+
         benchmark_duration = Benchmark.realtime do
 
-          if ruby_install_succeeded
+          if ruby_install_succeeded && bundle_succeeded
             run_with_output "#{script_path 'run_benchmark'} #{File.dirname(benchmark_file_path)} #{ruby['RVM Name']} '#{ruby['Command']}' '#{ruby['Before Run']}' #{benchmark_file_path} #{result_tempfile.path}"
 
             result_tempfile.rewind
@@ -149,7 +149,7 @@ task :benchmark_suite do
 
             full_version_string = `#{script_path 'ruby_version_in_rvm'} #{ruby['RVM Name']} #{ruby['Command']}`.lines.to_a.last.strip
           else
-            result = "failed to install #{ruby['RVM Name']}"
+            result = ruby_install_succeeded ? "bundle failed" : "failed to install #{ruby['RVM Name']}"
             full_version_string = result
           end
 

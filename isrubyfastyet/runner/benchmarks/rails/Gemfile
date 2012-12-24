@@ -58,6 +58,7 @@ gem 'ffi-ncurses',                        '0.4.0',  :platforms => :jruby
 group :test do
   gem 'rspec-rails',                      '2.7.0'
   gem 'capybara',                         '1.1.2'
+  gem 'selenium-webdriver',               '2.13.0'
   gem 'cucumber-rails-training-wheels',   '1.0.0'
   gem 'factory_girl_rails',               '1.4.0'
   gem 'database_cleaner',                 '0.7.0'

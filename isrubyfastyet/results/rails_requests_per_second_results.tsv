@@ -1318,3 +1318,13 @@
 2012-12-22 08:39:43 UTC	jruby	failed to install jruby	failed to install jruby
 2012-12-22 08:57:18 UTC	jruby-head	49.06 requests per second	jruby 1.7.0.preview2 (1.9.3p203) 2012-09-07 eca1076 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_33-b03-424-10M3720 [darwin-x86_64]
 2012-12-22 09:44:40 UTC	rbx-head	74.30000000000001 requests per second	rubinius 2.0.0rc1 (1.8.7 release 2012-11-02 JI) [x86_64-apple-darwin10.8.0]
+2012-12-24 02:42:57 UTC	1.8.7	74.555 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
+2012-12-24 02:56:28 UTC	1.8.7-head	73.83 requests per second	ruby 1.8.7 (2012-06-29 patchlevel 370) [i686-darwin10.8.0]
+2012-12-24 03:04:56 UTC	1.9.2	106.5675 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2012-12-24 03:19:23 UTC	1.9.2-head	103.96249999999999 requests per second	ruby 1.9.2p323 (2012-05-22 revision 35755) [x86_64-darwin10.8.0]
+2012-12-24 03:27:36 UTC	1.9.3	failed	ruby 1.9.3p327 (2012-11-10 revision 37606) [x86_64-darwin10.8.0]
+2012-12-24 03:40:33 UTC	1.9.3-head	101.2875 requests per second	ruby 1.9.3p265 (2012-08-31 revision 36858) [x86_64-darwin10.8.0]
+2012-12-24 03:56:09 UTC	ruby-head	failed	ruby 2.0.0dev (2012-08-21 trunk 36756) [x86_64-darwin10.8.0]
+2012-12-24 04:14:19 UTC	jruby	47.0 requests per second	jruby 1.7.1 (1.9.3p327) 2012-12-03 30a153b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_33-b03-424-10M3720 [darwin-x86_64]
+2012-12-24 04:42:30 UTC	jruby-head	48.519999999999996 requests per second	jruby 1.7.0.preview2 (1.9.3p203) 2012-09-07 eca1076 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_33-b03-424-10M3720 [darwin-x86_64]
+2012-12-24 05:29:27 UTC	rbx-head	73.84 requests per second	rubinius 2.0.0rc1 (1.8.7 release 2012-11-02 JI) [x86_64-apple-darwin10.8.0]

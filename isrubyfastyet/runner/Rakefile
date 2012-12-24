@@ -92,7 +92,7 @@ task :setup_gemfile_locks do
   rubies.each do |ruby|
     if ruby_install_succeeded?(ruby['RVM Name'])
       benchmark_folder_paths.each do |benchmark_folder_path|
-        run_with_output "gtimeout --kill-after=5 #{20*60} #{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
+        run_with_output "gtimeout --kill-after=5 #{20*60} #{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']} '#{ruby['Before Bundle']}'"
       end
     end
   end
@@ -137,7 +137,7 @@ task :benchmark_suite do
         # set up Gemfile.lock
         bundle_succeeded = if ruby_install_succeeded
 	      benchmark_folder_path = File.dirname(benchmark_file_path)
-          run_with_output "gtimeout --kill-after=5 #{20*60} #{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']}"
+          run_with_output "gtimeout --kill-after=5 #{20*60} #{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']} '#{ruby['Before Bundle']}'"
         end
 
         benchmark_duration = Benchmark.realtime do

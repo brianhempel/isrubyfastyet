@@ -1,14 +1,14 @@
-Nice Name         RVM Name         Command     Install Flags                 Before Install          Before Run
-MRI 1.8.7 Stable  1.8.7            ruby        --with-iconv-dir=/usr/local   brew link libiconv      :
-MRI 1.8.7 Head    1.8.7-head       ruby        none                            brew unlink libiconv    :
-MRI 1.9.2 Stable  1.9.2            ruby        none                            brew link libiconv      :
-MRI 1.9.2 Head    1.9.2-head       ruby        none                            brew unlink libiconv    :
-MRI 1.9.3 Stable  1.9.3            ruby        none                            brew link libiconv      :
-MRI 1.9.3 Head    1.9.3-head       ruby        none                            brew unlink libiconv    :
-MRI Head          ruby-head        ruby        none                            brew unlink libiconv    :
-JRuby Stable      jruby            jruby -S    none                            brew link libiconv      :
-JRuby Head        jruby-head       jruby -S    none                            brew link libiconv      :
-Rubinius Head     rbx-head         ruby        none                            :                       brew unlink libiconv
-# MagLev Head       maglev-head      ruby      none                            :                       :
-# MacRuby Stable    macruby          ruby      none                            :                       :
-# MacRuby Nightly   macruby-nightly  ruby      none                            :                       :
+Nice Name         RVM Name         Command     Install Flags                 Before Install          Before Bundle        Before Run
+MRI 1.8.7 Stable  1.8.7            ruby        --with-iconv-dir=/usr/local   brew link libiconv      brew link libiconv   :
+MRI 1.8.7 Head    1.8.7-head       ruby        none                          brew unlink libiconv    brew link libiconv   :
+MRI 1.9.2 Stable  1.9.2            ruby        none                          brew link libiconv      brew link libiconv   :
+MRI 1.9.2 Head    1.9.2-head       ruby        none                          brew unlink libiconv    brew link libiconv   :
+MRI 1.9.3 Stable  1.9.3            ruby        none                          brew link libiconv      brew link libiconv   :
+MRI 1.9.3 Head    1.9.3-head       ruby        none                          brew unlink libiconv    brew link libiconv   :
+MRI Head          ruby-head        ruby        none                          brew unlink libiconv    brew link libiconv   :
+JRuby Stable      jruby            jruby -S    none                          brew link libiconv      brew link libiconv   :
+JRuby Head        jruby-head       jruby -S    none                          brew link libiconv      brew link libiconv   :
+Rubinius Head     rbx-head         ruby        none                          :                       brew link libiconv   brew unlink libiconv
+# MagLev Head       maglev-head      ruby      none                            :                       :                    :
+# MacRuby Stable    macruby          ruby      none                            :                       :                    :
+# MacRuby Nightly   macruby-nightly  ruby      none                            :                       :                    :

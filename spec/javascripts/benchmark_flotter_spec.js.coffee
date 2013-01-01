@@ -67,6 +67,7 @@ describe "BenchmarkFlotter", ->
             "result":       208.656998634338,
             "full_version": "jruby 1.7.0.dev (ruby-1.8.7-p357) (2012-01-12 0e83d96) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_29) [darwin-x86_64-java]"
           },
+          null,
           {
             "time_str":     "2012-02-14 07:15:35 UTC",
             "time_ms":      1329203735000,

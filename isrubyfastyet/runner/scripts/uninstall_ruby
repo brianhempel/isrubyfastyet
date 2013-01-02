@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+# uninstall_ruby <rvm_ruby_name>
+
+source "$HOME/.rvm/scripts/rvm"
+
+echo "rvm remove --gems --archive \"$1\""
+rvm remove --gems --archive "$1"

@@ -52,11 +52,6 @@ def puts_title(str)
   end
 end
 
-def ruby_install_succeeded?(rvm_name)
-  failed_install_rubies = File.read(relative_path("failed_install_rubies")).lines.to_a.map(&:chomp)
-  !failed_install_rubies.include?(rvm_name)
-end
-
 def benchmark_file_paths
   Dir.glob(relative_path('benchmarks/*/*benchmark.rb'))
 end
@@ -80,6 +75,10 @@ def install_ruby(ruby)
   ruby_install_succeeded
 end
 
+# uninstall the given ruby implementation
+def uninstall_ruby(ruby)
+  run_with_output "gtimeout --kill-after=5 #{20*60} #{script_path 'uninstall_ruby'} #{ruby['RVM Name']}"
+end
 
 
 task :default => :benchmark_suite
@@ -97,16 +96,18 @@ task :update_rubies do
   puts successes.map { |success, ruby| "#{success ? "SUCCESS" : "FAILURE"}: #{ruby['RVM Name']}" }.join("\n")
 end
 
-desc "Ensure a Gemfile.lock for each ruby implimentation and benchmark folder."
-task :setup_gemfile_locks do
+desc "Uninstall each of the ruby implimentations in the runner/rubies file."
+task :uninstall_rubies do
+  puts "Uninstalling rubies..."
   rubies.each do |ruby|
-    if ruby_install_succeeded?(ruby['RVM Name'])
-      benchmark_folder_paths.each do |benchmark_folder_path|
-        run_with_output "gtimeout --kill-after=5 #{20*60} #{script_path 'setup_bundle'} #{benchmark_folder_path} #{ruby['RVM Name']} '#{ruby['Before Bundle']}'"
-      end
-    end
+    puts_title(ruby['Nice Name'])
+
+    uninstall_ruby(ruby)
   end
 end
+
+desc "Wipe and reinstall each of the ruby implimentations in the runner/rubies file."
+task :wipe_and_reinstall_rubies => [:uninstall_rubies, :update_rubies]
 
 desc "Run the benchmarks for each Ruby"
 task :benchmark_suite do

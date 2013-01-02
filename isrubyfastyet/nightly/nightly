@@ -12,7 +12,7 @@ echo `pwd`
 
 source "$HOME/.bash_profile"
 source "$HOME/.rvm/scripts/rvm"
-rvm "1.8.7@benchmark"
+rvm "1.8.7-p370@benchmark"
 echo "Starting benchmark with `rvm current`"
 
 ruby scripts/kill_extraneous_apps.rb

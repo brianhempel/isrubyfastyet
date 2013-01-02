@@ -1,7 +1,19 @@
 <h1>Is Ruby Fast Yet?</h1>
 
-<p>Practical, comparative benchmarks of Ruby implementations. <%= link_to "Github", "https://github.com/brianhempel/isrubyfastyet" %></p>
+<p>Practical, comparative benchmarks of Ruby implementations. Thanks to <%= link_to "RVM", "https://rvm.io/" %> for Ruby setup and compiling. <%= link_to "Github", "https://github.com/brianhempel/isrubyfastyet" %></p>
 
 <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second', :default_time_range => '1m' %>
 <%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',        :default_time_range => '1m' %>
 <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',        :default_time_range => '1m' %>
+
+<div id="hardware">
+  <h3>Hardware</h3>
+  <p>
+    Mid-2007 MacBook Pro<br>
+    2.2GHz Core 2 Duo<br>
+    6GB 667MHz DDR2 SDRAM<br>
+    WD Scorpio Black 7200RPM 320GB Hard Drive<br>
+    Mac OS X 10.6<br>
+    When running the benchmark, the computer fans are spun up to maximum speed courtesy of <%= link_to "smcFanControl", "http://www.eidac.de/?cat=40" %>. JRuby, in particular, runs hot. The benchmark premptively runs the fans and pauses between runs in order to cool off. These measures give JRuby at least a 25% speed gain. However, JRuby still might be running slower than it would on a box appropriate cooling.
+  </p>
+</div>

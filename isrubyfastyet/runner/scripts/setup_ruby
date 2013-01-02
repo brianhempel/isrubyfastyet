@@ -11,8 +11,8 @@ then
   # the ruby is installed and it's head
   echo "$3"
   eval "$3"
-  echo "rvm reinstall \"$1 $2\""
-  rvm reinstall "$1 $2"
+  echo "rvm reinstall --reconfigure $2 $1"
+  rvm reinstall --reconfigure  $2 $1
 fi
 
-rvm "$1@benchmark" --create || (echo "$3"; eval "$3"; echo "rvm install \"$1 $2\""; rvm install "$1 $2" && rvm "$1@benchmark" --create)
+rvm "$1@benchmark" --create || (echo "$3"; eval "$3"; echo "rvm install --reconfigure $2 $1"; rvm install --reconfigure $2 $1 && rvm "$1@benchmark" --create)

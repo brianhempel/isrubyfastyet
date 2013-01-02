@@ -65,26 +65,36 @@ def benchmark_folder_paths
   benchmark_file_paths.map { |path| File.dirname(path) }.uniq
 end
 
+# install or update the Ruby
+# returns true or false for success or failure
+def install_ruby(ruby)
+  ruby_install_succeeded = false
+  ruby_install_duration = Benchmark.realtime do
+	# fail if install takes longer than 33 minutes
+	install_flags_argument = ruby['Install Flags'] == "none" ? "''" : "'#{ruby['Install Flags']}'"
+	ruby_install_succeeded = run_with_output "gtimeout --kill-after=5 #{33*60} #{script_path 'setup_ruby'} #{ruby['RVM Name']} #{install_flags_argument} '#{ruby['Before Install']}'"
+  end
+  puts(ruby_install_succeeded ? "successfully installed" : "failed to install")
+  puts "Done installing #{ruby['RVM Name']}. Took %.1f minutes" % [ruby_install_duration / 60]
+
+  ruby_install_succeeded
+end
+
+
 
 task :default => :benchmark_suite
 
 desc "Install or update each of the ruby implimentations in the runner/rubies file. Head rubies are always re-installed. Others are re-installed if their RVM definition has changed."
 task :update_rubies do
-
-  failed_install_rubies = File.open(relative_path("failed_install_rubies"), "w")
-
-  rubies.each do |ruby|
-
+  puts "Installing or reinstalling rubies..."
+  successes = rubies.map do |ruby|
     puts_title(ruby['Nice Name'])
+	success = install_ruby(ruby)
 
-    # update the Ruby
-    # fail if install takes longer than 45 minutes
-    ruby_install_succeeded = run_with_output "gtimeout --kill-after=5 #{33*60} #{script_path 'setup_ruby'} #{ruby['RVM Name']}"
-
-    failed_install_rubies.puts(ruby['RVM Name']) if !ruby_install_succeeded
+    [success, ruby]
   end
 
-  failed_install_rubies.close
+  puts successes.map { |success, ruby| "#{success ? "SUCCESS" : "FAILURE"}: #{ruby['RVM Name']}" }.join("\n")
 end
 
 desc "Ensure a Gemfile.lock for each ruby implimentation and benchmark folder."
@@ -114,17 +124,8 @@ task :benchmark_suite do
 
       puts_title(ruby['Nice Name'])
 
-      ruby_install_succeeded = false
       bundle_succeeded       = false
-
-      ruby_install_duration = Benchmark.realtime do
-        # update the Ruby
-        # fail if install takes longer than 33 minutes
-        install_flags_argument = ruby['Install Flags'] == "none" ? "''" : "'#{ruby['Install Flags']}'"
-        ruby_install_succeeded = run_with_output "gtimeout --kill-after=5 #{33*60} #{script_path 'setup_ruby'} #{ruby['RVM Name']} #{install_flags_argument} '#{ruby['Before Install']}'"
-      end
-
-      puts "Done installing #{ruby['RVM Name']}. Took %.1f minutes" % [ruby_install_duration / 60]
+      ruby_install_succeeded = install_ruby(ruby)
 
       # run benchmarks
       benchmark_file_paths.each do |benchmark_file_path|

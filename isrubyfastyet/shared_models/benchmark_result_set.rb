@@ -10,7 +10,7 @@ class BenchmarkResultSet < Struct.new(:results_file_path)
     end
 
     def success?
-      !!(value_with_units =~ /^\s*[\-+]?\.?\d/)
+      @success ||= !!(value_with_units =~ /^\s*[\-+]?\.?\d/)
     end
 
     def units

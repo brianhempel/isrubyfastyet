@@ -9,12 +9,8 @@ class ResultsController < ApplicationController
   private
 
   def filter_by_params(results, params)
-    results.select do |result|
-      if params[:start_time].present?
-        Time.zone.parse(params[:start_time]).utc <= result.time
-      else
-        true
-      end
-    end
+    return results unless params[:start_time].present?
+    start_time = Time.zone.parse(params[:start_time]).utc
+    results.select { |result| start_time <= result.time }
   end
 end

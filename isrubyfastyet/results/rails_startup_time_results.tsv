@@ -1636,3 +1636,13 @@
 2013-01-24 09:45:40 UTC	jruby	21.33625 seconds	jruby 1.7.2 (1.9.3p327) 2013-01-04 302c706 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_37-b06-434-10M3909 [darwin-x86_64]
 2013-01-24 10:28:28 UTC	jruby-head	31.522875 seconds	jruby 1.7.3.dev (1.9.3p327) 2013-01-24 fffffff on Java HotSpot(TM) 64-Bit Server VM 1.6.0_37-b06-434-10M3909 [darwin-x86_64]
 2013-01-24 11:01:11 UTC	rbx-head	13.250421345233917 seconds	rubinius 2.0.0.rc1 (1.8.7 5aedf3b0 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
+2013-01-25 07:30:25 UTC	1.8.7	3.37196052074432 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
+2013-01-25 07:42:16 UTC	1.8.7-head	failed	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
+2013-01-25 07:52:29 UTC	1.9.2	7.752224773168564 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-01-25 08:07:23 UTC	1.9.2-head	5.074731171131134 seconds	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
+2013-01-25 08:15:49 UTC	1.9.3	4.281878624999999 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
+2013-01-25 08:30:50 UTC	1.9.3-head	4.13443 seconds	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
+2013-01-25 09:03:55 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2013-01-25 09:22:39 UTC	jruby	21.259750000000004 seconds	jruby 1.7.2 (1.9.3p327) 2013-01-04 302c706 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_37-b06-434-10M3909 [darwin-x86_64]
+2013-01-25 10:05:04 UTC	jruby-head	31.443375 seconds	jruby 1.7.3.dev (1.9.3p327) 2013-01-25 fffffff on Java HotSpot(TM) 64-Bit Server VM 1.6.0_37-b06-434-10M3909 [darwin-x86_64]
+2013-01-25 10:10:17 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

@@ -2026,3 +2026,13 @@
 2013-03-04 08:46:21 UTC	jruby	21.664125 seconds	jruby 1.7.3 (1.9.3p385) 2013-02-21 dac429b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_37-b06-434-10M3909 [darwin-x86_64]
 2013-03-04 09:29:20 UTC	jruby-head	29.106125 seconds	jruby 1.7.4.dev (1.9.3p385) 2013-03-04 fffffff on Java HotSpot(TM) 64-Bit Server VM 1.6.0_37-b06-434-10M3909 [darwin-x86_64]
 2013-03-04 09:41:20 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2013-03-05 07:30:27 UTC	1.8.7	3.37263828516006 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
+2013-03-05 07:51:07 UTC	1.8.7-head	3.4475898750000002 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
+2013-03-05 08:01:24 UTC	1.9.2	7.772584795951843 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-03-05 08:08:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
+2013-03-05 08:09:21 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
+2013-03-05 08:16:11 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
+2013-03-05 08:26:53 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2013-03-05 08:46:32 UTC	jruby	21.663 seconds	jruby 1.7.3 (1.9.3p385) 2013-02-21 dac429b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_37-b06-434-10M3909 [darwin-x86_64]
+2013-03-05 09:29:57 UTC	jruby-head	29.007624999999997 seconds	jruby 1.7.4.dev (1.9.3p385) 2013-03-05 fffffff on Java HotSpot(TM) 64-Bit Server VM 1.6.0_37-b06-434-10M3909 [darwin-x86_64]
+2013-03-05 09:40:48 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

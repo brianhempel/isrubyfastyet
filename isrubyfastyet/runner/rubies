@@ -5,6 +5,8 @@ MRI 1.9.2 Stable  1.9.2            ruby        none                          bre
 MRI 1.9.2 Head    1.9.2-head       ruby        none                          brew unlink libiconv    brew link libiconv   :
 MRI 1.9.3 Stable  1.9.3            ruby        none                          brew link libiconv      brew link libiconv   :
 MRI 1.9.3 Head    1.9.3-head       ruby        none                          brew unlink libiconv    brew link libiconv   :
+MRI 2.0.0 Stable  2.0.0            ruby        none                          brew link libiconv      brew link libiconv   :
+MRI 2.0.0 Head    2.0.0-head       ruby        none                          brew unlink libiconv    brew link libiconv   :
 MRI Head          ruby-head        ruby        none                          brew unlink libiconv    brew link libiconv   :
 JRuby Stable      jruby            jruby -S    none                          brew link libiconv      brew link libiconv   :
 JRuby Head        jruby-head       jruby -S    none                          brew link libiconv      brew link libiconv   :

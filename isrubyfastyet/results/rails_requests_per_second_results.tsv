@@ -1630,7 +1630,6 @@
 2013-01-23 10:29:34 UTC	rbx-head	73.4925 requests per second	rubinius 2.0.0.rc1 (1.8.7 release yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-24 07:55:14 UTC	1.8.7	failed to install 1.8.7	failed to install 1.8.7
 2013-01-24 08:08:52 UTC	1.8.7-head	75.815 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-01-24 08:17:45 UTC	1.9.2	64.47999999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-24 08:36:26 UTC	1.9.2-head	108.105 requests per second	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
 2013-01-24 08:45:08 UTC	1.9.3	108.24249999999999 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-24 09:03:08 UTC	1.9.3-head	110.48750000000001 requests per second	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
@@ -1640,7 +1639,6 @@
 2013-01-24 10:56:32 UTC	rbx-head	72.4575 requests per second	rubinius 2.0.0.rc1 (1.8.7 5aedf3b0 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-25 07:28:50 UTC	1.8.7	74.72 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-25 07:41:26 UTC	1.8.7-head	failed	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-01-25 07:49:34 UTC	1.9.2	64.3875 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-25 08:05:18 UTC	1.9.2-head	107.78250000000001 requests per second	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
 2013-01-25 08:13:58 UTC	1.9.3	107.98250000000002 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-25 08:29:02 UTC	1.9.3-head	108.14750000000001 requests per second	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
@@ -1650,7 +1648,6 @@
 2013-01-25 10:10:17 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-01-26 07:31:21 UTC	1.8.7	74.6425 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-26 07:46:46 UTC	1.8.7-head	75.2125 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-01-26 07:55:37 UTC	1.9.2	64.4975 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-26 08:13:59 UTC	1.9.2-head	108.685 requests per second	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
 2013-01-26 08:22:53 UTC	1.9.3	108.43 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-26 08:40:21 UTC	1.9.3-head	100.8025 requests per second	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
@@ -1660,7 +1657,6 @@
 2013-01-26 10:39:13 UTC	rbx-head	75.19 requests per second	rubinius 2.0.0.rc1 (1.8.7 e3bb300f yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-27 07:57:48 UTC	1.8.7	failed to install 1.8.7	failed to install 1.8.7
 2013-01-27 08:11:38 UTC	1.8.7-head	76.205 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-01-27 08:20:30 UTC	1.9.2	64.605 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-27 08:38:39 UTC	1.9.2-head	108.11500000000001 requests per second	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
 2013-01-27 08:47:19 UTC	1.9.3	108.4625 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-27 09:04:34 UTC	1.9.3-head	101.1925 requests per second	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
@@ -1670,7 +1666,6 @@
 2013-01-27 10:56:01 UTC	rbx-head	74.5525 requests per second	rubinius 2.0.0.rc1 (1.8.7 4fd45715 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-28 07:28:48 UTC	1.8.7	74.335 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-28 08:03:29 UTC	1.8.7-head	failed to install 1.8.7-head	failed to install 1.8.7-head
-2013-01-28 08:10:48 UTC	1.9.2	64.6325 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-28 08:33:55 UTC	1.9.2-head	116.3175 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
 2013-01-28 09:08:31 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-01-28 09:25:54 UTC	1.9.3-head	116.565 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
@@ -1680,7 +1675,6 @@
 2013-01-28 11:16:46 UTC	rbx-head	74.78 requests per second	rubinius 2.0.0.rc1 (1.8.7 4fd45715 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-29 07:31:19 UTC	1.8.7	74.45 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-29 07:48:15 UTC	1.8.7-head	failed	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-01-29 07:56:10 UTC	1.9.2	64.61500000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-29 08:15:16 UTC	1.9.2-head	115.72749999999999 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
 2013-01-29 08:23:30 UTC	1.9.3	107.6525 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-29 08:41:36 UTC	1.9.3-head	116.8475 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
@@ -1690,7 +1684,6 @@
 2013-01-29 10:27:25 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-01-30 07:28:49 UTC	1.8.7	74.845 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-30 07:49:10 UTC	1.8.7-head	117.0675 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-01-30 07:58:05 UTC	1.9.2	64.7425 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-30 08:14:26 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-01-30 08:21:05 UTC	1.9.3	107.535 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-30 08:36:31 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1700,7 +1693,6 @@
 2013-01-30 09:51:04 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-01-31 07:28:56 UTC	1.8.7	75.0225 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-31 07:49:16 UTC	1.8.7-head	116.26 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-01-31 07:58:11 UTC	1.9.2	64.44 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-31 08:07:33 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-01-31 08:14:09 UTC	1.9.3	107.97500000000001 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-31 08:22:36 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1710,7 +1702,6 @@
 2013-01-31 10:07:42 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-01 07:31:32 UTC	1.8.7	74.7175 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-01 07:51:26 UTC	1.8.7-head	115.57499999999999 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-01 08:00:22 UTC	1.9.2	64.39999999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-01 08:09:49 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-01 08:16:29 UTC	1.9.3	107.96000000000001 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-01 08:24:50 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1720,7 +1711,6 @@
 2013-02-01 09:46:42 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-02 07:28:52 UTC	1.8.7	73.79 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-02 07:49:03 UTC	1.8.7-head	115.77749999999999 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-02 07:58:06 UTC	1.9.2	64.3725 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-02 08:07:35 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-02 08:14:11 UTC	1.9.3	108.28750000000001 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-02 08:22:26 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1730,7 +1720,6 @@
 2013-02-02 09:36:29 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-03 07:55:14 UTC	1.8.7	failed to install 1.8.7	failed to install 1.8.7
 2013-02-03 08:14:03 UTC	1.8.7-head	117.0225 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-03 08:22:58 UTC	1.9.2	64.20750000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-03 08:32:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-03 08:38:56 UTC	1.9.3	107.9225 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-03 08:47:12 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1740,7 +1729,6 @@
 2013-02-03 10:09:55 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-04 07:31:27 UTC	1.8.7	75.155 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-04 07:51:37 UTC	1.8.7-head	117.09 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-04 08:00:33 UTC	1.9.2	64.38499999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-04 08:09:56 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-04 08:18:11 UTC	1.9.3	107.96000000000001 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-04 08:26:41 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1750,7 +1738,6 @@
 2013-02-04 09:49:30 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-05 07:28:50 UTC	1.8.7	74.1825 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-05 07:48:53 UTC	1.8.7-head	115.565 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-05 07:57:46 UTC	1.9.2	64.3925 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-05 08:07:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-05 08:13:49 UTC	1.9.3	108.2075 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-05 08:22:12 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1760,7 +1747,6 @@
 2013-02-05 09:37:19 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-06 07:57:49 UTC	1.8.7	failed to install 1.8.7	failed to install 1.8.7
 2013-02-06 08:16:41 UTC	1.8.7-head	115.89750000000001 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-06 08:25:35 UTC	1.9.2	64.675 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-06 09:01:35 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-06 09:08:09 UTC	1.9.3	108.97749999999999 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-06 09:16:31 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1770,7 +1756,6 @@
 2013-02-06 10:37:58 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-07 07:28:54 UTC	1.8.7	75.04 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-07 07:49:14 UTC	1.8.7-head	116.21249999999999 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-07 07:58:16 UTC	1.9.2	63.95 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-07 08:07:51 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-07 08:14:26 UTC	1.9.3	108.815 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-07 08:22:52 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1780,7 +1765,6 @@
 2013-02-07 09:45:12 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-08 07:30:47 UTC	1.8.7	74.2 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-08 07:52:19 UTC	1.8.7-head	116.4575 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-08 08:01:14 UTC	1.9.2	64.4575 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-08 08:10:46 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-08 08:17:29 UTC	1.9.3	108.22 requests per second	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-08 08:26:02 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1790,7 +1774,6 @@
 2013-02-08 09:49:43 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-09 07:29:29 UTC	1.8.7	75.0825 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-09 07:49:56 UTC	1.8.7-head	115.5025 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-09 07:58:49 UTC	1.9.2	64.4825 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-09 08:08:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-09 08:14:28 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-09 08:21:22 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1800,7 +1783,6 @@
 2013-02-09 09:33:34 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-10 07:31:17 UTC	1.8.7	74.545 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-10 07:51:56 UTC	1.8.7-head	115.60000000000001 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-10 08:00:53 UTC	1.9.2	64.31500000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-10 08:10:19 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-10 08:11:31 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-10 08:18:11 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1810,7 +1792,6 @@
 2013-02-10 09:41:04 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-11 07:28:49 UTC	1.8.7	74.915 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-11 07:49:23 UTC	1.8.7-head	115.165 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-11 07:58:20 UTC	1.9.2	64.31 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-11 08:07:51 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-11 08:09:01 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-11 08:15:50 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1820,7 +1801,6 @@
 2013-02-11 09:41:58 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-12 07:31:26 UTC	1.8.7	74.4675 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-12 07:51:59 UTC	1.8.7-head	116.175 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-12 08:00:55 UTC	1.9.2	64.11749999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-12 08:10:22 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-12 08:11:33 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-12 08:18:17 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1830,7 +1810,6 @@
 2013-02-12 09:40:22 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-13 07:28:27 UTC	1.8.7	73.05 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-13 07:48:59 UTC	1.8.7-head	116.41749999999999 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-13 07:57:56 UTC	1.9.2	64.5375 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-13 08:07:28 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-13 08:08:39 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-13 08:15:53 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1840,7 +1819,6 @@
 2013-02-13 09:38:04 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-14 07:28:53 UTC	1.8.7	74.345 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-14 07:50:08 UTC	1.8.7-head	116.23249999999999 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-14 07:59:22 UTC	1.9.2	64.3725 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-14 08:08:59 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-14 08:10:09 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-14 08:16:58 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1850,7 +1828,6 @@
 2013-02-14 09:41:13 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-15 07:31:17 UTC	1.8.7	75.0125 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-15 07:52:38 UTC	1.8.7-head	116.675 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-15 08:01:50 UTC	1.9.2	64.39 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-15 08:11:22 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-15 08:12:32 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-15 08:19:17 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1860,7 +1837,6 @@
 2013-02-15 09:43:28 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-16 07:28:51 UTC	1.8.7	74.4625 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-16 07:49:49 UTC	1.8.7-head	116.22250000000001 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-16 07:59:14 UTC	1.9.2	64.1875 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-16 08:08:41 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-16 08:09:51 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-16 08:16:37 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1870,7 +1846,6 @@
 2013-02-16 09:35:14 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-17 07:28:52 UTC	1.8.7	74.79 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-17 07:50:05 UTC	1.8.7-head	115.735 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-17 07:59:35 UTC	1.9.2	64.2175 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-17 08:09:02 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-17 08:10:13 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-17 08:16:48 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1880,7 +1855,6 @@
 2013-02-17 09:37:50 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-18 07:28:59 UTC	1.8.7	75.31 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-18 07:50:14 UTC	1.8.7-head	116.6875 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-18 07:59:43 UTC	1.9.2	64.3 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-18 08:09:11 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-18 08:10:22 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-18 08:16:59 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1890,7 +1864,6 @@
 2013-02-18 09:38:29 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-19 07:28:52 UTC	1.8.7	74.75 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-19 07:50:26 UTC	1.8.7-head	116.1825 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-19 07:59:39 UTC	1.9.2	64.5925 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-19 08:09:14 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-19 08:10:30 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-19 08:17:05 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1900,7 +1873,6 @@
 2013-02-19 09:40:51 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-20 07:31:21 UTC	1.8.7	74.6425 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-20 07:52:45 UTC	1.8.7-head	116.8275 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-20 08:02:12 UTC	1.9.2	64.30250000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-20 08:11:40 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-20 08:12:56 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-20 08:19:44 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1910,7 +1882,6 @@
 2013-02-20 09:41:19 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-21 07:28:52 UTC	1.8.7	74.52 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-21 07:50:03 UTC	1.8.7-head	115.775 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-21 07:59:29 UTC	1.9.2	64.4725 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-21 08:09:00 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-21 08:10:10 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-21 08:16:52 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1920,7 +1891,6 @@
 2013-02-21 09:38:43 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-22 07:30:18 UTC	1.8.7	73.8575 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-22 07:52:48 UTC	1.8.7-head	116.7375 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-22 08:02:21 UTC	1.9.2	64.54 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-22 08:11:53 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-22 08:13:03 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-22 08:19:46 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1930,7 +1900,6 @@
 2013-02-22 09:51:42 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-23 07:28:52 UTC	1.8.7	74.99 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-23 07:50:15 UTC	1.8.7-head	115.965 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-23 07:59:42 UTC	1.9.2	64.355 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-23 08:09:12 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-23 08:15:27 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-23 08:22:11 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1940,7 +1909,6 @@
 2013-02-23 09:44:57 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-24 07:31:21 UTC	1.8.7	74.77 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-24 07:52:37 UTC	1.8.7-head	117.50999999999999 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-24 08:01:51 UTC	1.9.2	64.60999999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-24 08:11:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-24 08:12:30 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-24 08:19:15 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1950,7 +1918,6 @@
 2013-02-24 09:41:50 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-25 07:28:51 UTC	1.8.7	74.715 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-25 07:50:08 UTC	1.8.7-head	117.325 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-25 07:59:21 UTC	1.9.2	64.28500000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-25 08:08:53 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-25 08:10:04 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-25 08:16:53 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1960,7 +1927,6 @@
 2013-02-25 09:40:05 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-26 07:31:19 UTC	1.8.7	74.4175 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-26 07:52:12 UTC	1.8.7-head	117.915 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-26 08:01:09 UTC	1.9.2	64.3875 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-26 08:10:44 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-26 08:11:55 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-26 08:18:45 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1970,7 +1936,6 @@
 2013-02-26 09:43:06 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-27 07:31:23 UTC	1.8.7	75.07 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-27 07:51:58 UTC	1.8.7-head	116.12749999999998 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-27 08:00:54 UTC	1.9.2	64.16499999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-27 08:10:31 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-27 08:11:41 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-27 08:18:30 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1980,7 +1945,6 @@
 2013-02-27 09:42:12 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-28 07:28:54 UTC	1.8.7	74.515 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-28 07:50:45 UTC	1.8.7-head	116.7075 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-28 07:59:43 UTC	1.9.2	64.625 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-28 08:09:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-28 08:10:38 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-28 08:17:33 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1990,7 +1954,6 @@
 2013-02-28 09:41:25 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-01 07:28:52 UTC	1.8.7	74.8775 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-01 07:49:33 UTC	1.8.7-head	117.09 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-01 07:58:30 UTC	1.9.2	64.3475 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-01 08:08:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-01 08:09:17 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-01 08:16:48 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2000,7 +1963,6 @@
 2013-03-01 09:41:45 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-02 07:28:52 UTC	1.8.7	74.69 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-02 07:49:41 UTC	1.8.7-head	116.57499999999999 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-02 07:58:38 UTC	1.9.2	64.405 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-02 08:08:13 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-02 08:09:23 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-02 08:17:07 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2010,7 +1972,6 @@
 2013-03-02 09:42:46 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-03 07:28:52 UTC	1.8.7	74.615 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-03 07:49:31 UTC	1.8.7-head	117.33 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-03 07:58:28 UTC	1.9.2	64.355 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-03 08:08:02 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-03 08:09:13 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-03 08:16:01 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2020,7 +1981,6 @@
 2013-03-03 09:40:46 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-04 07:28:53 UTC	1.8.7	74.6875 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-04 07:49:37 UTC	1.8.7-head	117.6275 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-04 07:58:34 UTC	1.9.2	64.655 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-04 08:08:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-04 08:09:16 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-04 08:16:04 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2030,7 +1990,6 @@
 2013-03-04 09:41:20 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-05 07:28:52 UTC	1.8.7	74.5675 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-05 07:49:33 UTC	1.8.7-head	116.9425 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-05 07:58:29 UTC	1.9.2	64.38250000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-05 08:08:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-05 08:09:21 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-05 08:16:11 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2040,7 +1999,6 @@
 2013-03-05 09:40:48 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-06 07:28:53 UTC	1.8.7	74.9975 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-06 07:49:38 UTC	1.8.7-head	116.18 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-06 07:58:35 UTC	1.9.2	64.6925 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-06 08:08:11 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-06 08:09:20 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-06 08:16:10 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2050,7 +2008,6 @@
 2013-03-06 09:40:20 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-07 07:28:53 UTC	1.8.7	74.76 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-07 07:49:42 UTC	1.8.7-head	117.045 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-07 07:58:39 UTC	1.9.2	64.5075 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-07 08:08:15 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-07 08:09:30 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-07 08:16:23 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2060,7 +2017,6 @@
 2013-03-07 09:40:48 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-08 07:32:52 UTC	1.8.7	74.42 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-08 07:53:46 UTC	1.8.7-head	117.6925 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-08 08:02:43 UTC	1.9.2	64.385 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-08 08:12:24 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-08 08:13:36 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-08 08:20:33 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2070,7 +2026,6 @@
 2013-03-08 09:47:06 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-09 07:28:55 UTC	1.8.7	75.17 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-09 07:49:41 UTC	1.8.7-head	117.38 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-09 07:58:35 UTC	1.9.2	64.72 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-09 08:08:26 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-09 08:09:38 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-09 08:16:32 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2080,7 +2035,6 @@
 2013-03-09 09:42:51 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-10 07:28:51 UTC	1.8.7	74.665 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-10 07:50:06 UTC	1.8.7-head	116.6025 requests per second	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-10 07:58:59 UTC	1.9.2	64.49249999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-10 08:08:21 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-10 08:09:35 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-10 08:16:27 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2090,7 +2044,6 @@
 2013-03-10 09:41:38 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-02 06:30:23 UTC	1.8.7	74.51 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-02 06:33:08 UTC	1.8.7-head	failed to install 1.8.7-head	failed to install 1.8.7-head
-2013-05-02 06:40:57 UTC	1.9.2	64.3875 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-02 06:44:39 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-05-02 06:45:27 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-05-02 06:46:13 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2100,7 +2053,6 @@
 2013-05-02 07:56:52 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-03 06:29:23 UTC	1.8.7	75.0925 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-03 06:31:47 UTC	1.8.7-head	failed to install 1.8.7-head	failed to install 1.8.7-head
-2013-05-03 06:39:36 UTC	1.9.2	63.7925 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-03 06:43:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-05-03 06:44:01 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-05-03 06:44:47 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2110,7 +2062,6 @@
 2013-05-03 07:51:57 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-04 06:29:14 UTC	1.8.7	74.0525 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-04 06:57:48 UTC	1.8.7-head	failed to install 1.8.7-head	failed to install 1.8.7-head
-2013-05-04 07:05:43 UTC	1.9.2	63.79249999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-04 07:14:18 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-05-04 07:30:16 UTC	1.9.3	99.95499999999998 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-04 07:39:36 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2120,7 +2071,6 @@
 2013-05-04 09:12:34 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-05 06:29:19 UTC	1.8.7	74.53 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-05 06:44:07 UTC	1.8.7-head	failed	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-05 06:52:31 UTC	1.9.2	63.904999999999994 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-05 07:09:05 UTC	1.9.2-head	failed	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-05 07:16:47 UTC	1.9.3	99.38999999999999 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-05 07:29:52 UTC	1.9.3-head	failed	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2130,7 +2080,6 @@
 2013-05-05 08:48:21 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-06 06:29:20 UTC	1.8.7	74.5075 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-06 06:42:35 UTC	1.8.7-head	74.7575 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-06 06:52:00 UTC	1.9.2	63.675 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-06 07:09:18 UTC	1.9.2-head	103.85750000000002 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-06 07:18:35 UTC	1.9.3	99.33 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-06 07:34:47 UTC	1.9.3-head	108.145 requests per second	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2140,7 +2089,6 @@
 2013-05-06 08:56:04 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-07 06:29:43 UTC	1.8.7	74.4275 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-07 06:43:44 UTC	1.8.7-head	74.9275 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-07 06:53:53 UTC	1.9.2	63.849999999999994 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-07 07:12:08 UTC	1.9.2-head	104.08 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-07 07:23:43 UTC	1.9.3	97.9725 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-07 07:40:42 UTC	1.9.3-head	107.91499999999999 requests per second	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2150,7 +2098,6 @@
 2013-05-07 09:05:45 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-08 06:51:34 UTC	1.8.7	74.6025 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-08 07:05:05 UTC	1.8.7-head	74.72 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-08 07:14:31 UTC	1.9.2	63.63 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-08 07:31:50 UTC	1.9.2-head	104.2675 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-08 07:41:00 UTC	1.9.3	98.6425 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-08 07:57:02 UTC	1.9.3-head	108.02000000000001 requests per second	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2160,7 +2107,6 @@
 2013-05-08 09:38:52 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-09 06:28:50 UTC	1.8.7	74.9225 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-09 06:41:58 UTC	1.8.7-head	75.545 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-09 06:51:07 UTC	1.9.2	64.0575 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-09 07:07:58 UTC	1.9.2-head	104.21000000000001 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-09 07:16:53 UTC	1.9.3	99.14750000000001 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-09 07:32:41 UTC	1.9.3-head	108.52 requests per second	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2170,7 +2116,6 @@
 2013-05-09 09:36:50 UTC	rbx-head	bundle failed	bundle failed
 2013-05-12 06:28:45 UTC	1.8.7	74.2275 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-12 06:47:31 UTC	1.8.7-head	74.945 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-12 06:56:29 UTC	1.9.2	63.8575 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-12 07:13:20 UTC	1.9.2-head	104.2775 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-12 07:22:07 UTC	1.9.3	98.675 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-12 07:37:38 UTC	1.9.3-head	107.78 requests per second	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2180,7 +2125,6 @@
 2013-05-12 09:45:15 UTC	rbx-head	bundle failed	bundle failed
 2013-05-13 06:29:04 UTC	1.8.7	74.5825 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-13 06:41:59 UTC	1.8.7-head	75.3425 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-13 06:50:57 UTC	1.9.2	63.89750000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-13 07:07:37 UTC	1.9.2-head	102.86000000000001 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-13 07:16:23 UTC	1.9.3	97.9125 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-13 07:31:57 UTC	1.9.3-head	107.9 requests per second	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2190,7 +2134,6 @@
 2013-05-13 09:08:28 UTC	rbx-head	85.01 requests per second	rubinius 2.0.0.rc1 (1.8.7 3cca54f4 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-05-14 06:29:17 UTC	1.8.7	74.0525 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-14 06:43:20 UTC	1.8.7-head	75.4025 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-14 06:54:49 UTC	1.9.2	63.9925 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-14 07:12:20 UTC	1.9.2-head	104.9925 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-14 07:21:51 UTC	1.9.3	99.20750000000001 requests per second	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-14 07:38:45 UTC	1.9.3-head	108.00999999999999 requests per second	ruby 1.9.3p424 (2013-05-14) [x86_64-darwin10.8.0]
@@ -2200,7 +2143,6 @@
 2013-05-14 09:20:19 UTC	rbx-head	78.8025 requests per second	rubinius 2.0.0.rc1 (1.8.7 d5a18898 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-05-15 06:28:52 UTC	1.8.7	74.94 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-15 06:41:57 UTC	1.8.7-head	75.37 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-15 06:50:57 UTC	1.9.2	63.7925 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-15 07:07:55 UTC	1.9.2-head	104.36250000000001 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-15 07:27:51 UTC	1.9.3	99.235 requests per second	ruby 1.9.3p429 (2013-05-15 revision 40747) [x86_64-darwin10.8.0]
 2013-05-15 07:43:50 UTC	1.9.3-head	109.12 requests per second	ruby 1.9.3p430 (2013-05-15) [x86_64-darwin10.8.0]
@@ -2210,7 +2152,6 @@
 2013-05-15 09:23:48 UTC	rbx-head	83.1175 requests per second	rubinius 2.0.0.rc1 (1.8.7 8e2d50ac yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-05-16 06:28:53 UTC	1.8.7	74.755 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-16 06:41:51 UTC	1.8.7-head	74.87 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-16 06:50:49 UTC	1.9.2	63.7275 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-16 07:07:35 UTC	1.9.2-head	104.4325 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-16 07:16:17 UTC	1.9.3	99.3 requests per second	ruby 1.9.3p429 (2013-05-15 revision 40747) [x86_64-darwin10.8.0]
 2013-05-16 07:32:04 UTC	1.9.3-head	108.01249999999999 requests per second	ruby 1.9.3p430 (2013-05-15) [x86_64-darwin10.8.0]

@@ -1628,7 +1628,6 @@
 2013-01-23 10:34:12 UTC	rbx-head	13.132419884204865 seconds	rubinius 2.0.0.rc1 (1.8.7 release yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-24 07:55:14 UTC	1.8.7	failed to install 1.8.7	failed to install 1.8.7
 2013-01-24 08:10:25 UTC	1.8.7-head	3.37480282783508 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-01-24 08:20:40 UTC	1.9.2	7.7645838260650635 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-24 08:38:32 UTC	1.9.2-head	5.1582876443862915 seconds	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
 2013-01-24 08:46:59 UTC	1.9.3	4.27969075 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-24 09:04:56 UTC	1.9.3-head	4.204643 seconds	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
@@ -1638,7 +1637,6 @@
 2013-01-24 11:01:11 UTC	rbx-head	13.250421345233917 seconds	rubinius 2.0.0.rc1 (1.8.7 5aedf3b0 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-25 07:30:25 UTC	1.8.7	3.37196052074432 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-25 07:42:16 UTC	1.8.7-head	failed	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-01-25 07:52:29 UTC	1.9.2	7.752224773168564 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-25 08:07:23 UTC	1.9.2-head	5.074731171131134 seconds	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
 2013-01-25 08:15:49 UTC	1.9.3	4.281878624999999 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-25 08:30:50 UTC	1.9.3-head	4.13443 seconds	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
@@ -1648,7 +1646,6 @@
 2013-01-25 10:10:17 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-01-26 07:32:56 UTC	1.8.7	3.37723359465599 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-26 07:48:19 UTC	1.8.7-head	3.38425680994987 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-01-26 07:58:32 UTC	1.9.2	7.77649062871933 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-26 08:16:05 UTC	1.9.2-head	5.192040532827377 seconds	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
 2013-01-26 08:24:44 UTC	1.9.3	4.314904625 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-26 08:42:10 UTC	1.9.3-head	4.2448645 seconds	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
@@ -1658,7 +1655,6 @@
 2013-01-26 10:43:49 UTC	rbx-head	13.17408773303032 seconds	rubinius 2.0.0.rc1 (1.8.7 e3bb300f yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-27 07:57:48 UTC	1.8.7	failed to install 1.8.7	failed to install 1.8.7
 2013-01-27 08:13:11 UTC	1.8.7-head	3.38276568055153 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-01-27 08:23:26 UTC	1.9.2	7.805319726467133 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-27 08:40:45 UTC	1.9.2-head	5.165230095386505 seconds	ruby 1.9.2p323 (2012-05-22) [x86_64-darwin10.8.0]
 2013-01-27 08:49:10 UTC	1.9.3	4.283108874999999 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-27 09:06:23 UTC	1.9.3-head	4.233018124999999 seconds	ruby 1.9.3p375 (2013-01-18) [x86_64-darwin10.8.0]
@@ -1668,7 +1664,6 @@
 2013-01-27 11:00:39 UTC	rbx-head	13.175293117761612 seconds	rubinius 2.0.0.rc1 (1.8.7 4fd45715 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-28 07:30:24 UTC	1.8.7	3.38702023029327 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-28 08:03:29 UTC	1.8.7-head	failed to install 1.8.7-head	failed to install 1.8.7-head
-2013-01-28 08:13:43 UTC	1.9.2	7.754067629575729 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-28 08:35:31 UTC	1.9.2-head	3.496255625 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
 2013-01-28 09:08:31 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-01-28 09:27:29 UTC	1.9.3-head	3.5191006249999996 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
@@ -1678,7 +1673,6 @@
 2013-01-28 11:21:23 UTC	rbx-head	13.144723623991013 seconds	rubinius 2.0.0.rc1 (1.8.7 4fd45715 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-01-29 07:32:53 UTC	1.8.7	3.38154202699661 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-29 07:48:49 UTC	1.8.7-head	failed	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-01-29 07:59:05 UTC	1.9.2	7.774576008319855 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-29 08:16:51 UTC	1.9.2-head	3.504695125 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
 2013-01-29 08:25:21 UTC	1.9.3	4.2881314999999995 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-29 08:43:12 UTC	1.9.3-head	3.512630375 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
@@ -1688,7 +1682,6 @@
 2013-01-29 10:27:25 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-01-30 07:30:24 UTC	1.8.7	3.37640303373337 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-30 07:50:46 UTC	1.8.7-head	3.5000528749999997 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-01-30 08:01:00 UTC	1.9.2	7.753964811563492 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-30 08:14:26 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-01-30 08:22:56 UTC	1.9.3	4.301219125 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-30 08:36:31 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1698,7 +1691,6 @@
 2013-01-30 09:51:04 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-01-31 07:30:31 UTC	1.8.7	3.37794831395149 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-01-31 07:50:51 UTC	1.8.7-head	3.464286875 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-01-31 08:01:06 UTC	1.9.2	7.7596684992313385 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-01-31 08:07:33 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-01-31 08:16:00 UTC	1.9.3	4.3050982499999995 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-01-31 08:22:36 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1708,7 +1700,6 @@
 2013-01-31 10:07:42 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-01 07:33:08 UTC	1.8.7	3.38769692182541 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-01 07:53:01 UTC	1.8.7-head	3.48309825 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-01 08:03:17 UTC	1.9.2	7.765722870826721 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-01 08:09:49 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-01 08:18:19 UTC	1.9.3	4.269144375 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-01 08:24:50 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1718,7 +1709,6 @@
 2013-02-01 09:46:42 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-02 07:30:27 UTC	1.8.7	3.39250546693802 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-02 07:50:38 UTC	1.8.7-head	3.473642375 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-02 08:01:01 UTC	1.9.2	7.75523966550827 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-02 08:07:35 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-02 08:16:04 UTC	1.9.3	4.402330625 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-02 08:22:26 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1728,7 +1718,6 @@
 2013-02-02 09:36:29 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-03 07:55:14 UTC	1.8.7	failed to install 1.8.7	failed to install 1.8.7
 2013-02-03 08:15:38 UTC	1.8.7-head	3.47453075 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-03 08:25:53 UTC	1.9.2	7.735495746135712 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-03 08:32:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-03 08:40:47 UTC	1.9.3	4.292502625 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-03 08:47:12 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1738,7 +1727,6 @@
 2013-02-03 10:09:55 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-04 07:33:02 UTC	1.8.7	3.3826539516449 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-04 07:53:12 UTC	1.8.7-head	3.4795213750000005 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-04 08:03:27 UTC	1.9.2	7.7664914727211 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-04 08:09:56 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-04 08:20:02 UTC	1.9.3	4.270464875 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-04 08:26:41 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1748,7 +1736,6 @@
 2013-02-04 09:49:30 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-05 07:30:24 UTC	1.8.7	3.37401607632637 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-05 07:50:28 UTC	1.8.7-head	3.46351675 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-05 08:00:41 UTC	1.9.2	7.776677280664444 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-05 08:07:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-05 08:15:41 UTC	1.9.3	4.3341715 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-05 08:22:12 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1758,7 +1745,6 @@
 2013-02-05 09:37:19 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-06 07:57:49 UTC	1.8.7	failed to install 1.8.7	failed to install 1.8.7
 2013-02-06 08:18:16 UTC	1.8.7-head	3.470192 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-06 08:28:29 UTC	1.9.2	7.76769083738327 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-06 09:01:35 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-06 09:10:00 UTC	1.9.3	4.27287825 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-06 09:16:31 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1768,7 +1754,6 @@
 2013-02-06 10:37:58 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-07 07:30:30 UTC	1.8.7	3.37988403439522 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-07 07:50:49 UTC	1.8.7-head	3.4830105 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-07 08:01:11 UTC	1.9.2	7.743490129709244 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-07 08:07:51 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-07 08:16:18 UTC	1.9.3	4.281390375 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-07 08:22:52 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1778,7 +1763,6 @@
 2013-02-07 09:45:12 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-08 07:32:21 UTC	1.8.7	3.3768153488636 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-08 07:53:54 UTC	1.8.7-head	3.4904622500000007 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-08 08:04:10 UTC	1.9.2	7.772710055112839 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-08 08:10:46 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-08 08:19:20 UTC	1.9.3	4.281791875 seconds	ruby 1.9.3p374 (2013-01-15 revision 38858) [x86_64-darwin10.8.0]
 2013-02-08 08:26:02 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1788,7 +1772,6 @@
 2013-02-08 09:49:43 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-09 07:31:03 UTC	1.8.7	3.37168216705322 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-09 07:51:30 UTC	1.8.7-head	3.46293225 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-09 08:01:44 UTC	1.9.2	7.756482690572739 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-09 08:08:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-09 08:14:28 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-09 08:21:22 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1798,7 +1781,6 @@
 2013-02-09 09:33:34 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-10 07:32:52 UTC	1.8.7	3.37854596972466 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-10 07:53:32 UTC	1.8.7-head	3.4896839999999996 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-10 08:03:48 UTC	1.9.2	7.801534295082092 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-10 08:10:19 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-10 08:11:31 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-10 08:18:11 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1808,7 +1790,6 @@
 2013-02-10 09:41:04 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-11 07:30:24 UTC	1.8.7	3.37862008810043 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-11 07:50:58 UTC	1.8.7-head	3.469112375 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-11 08:01:15 UTC	1.9.2	7.809343636035919 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-11 08:07:51 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-11 08:09:01 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-11 08:15:50 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1818,7 +1799,6 @@
 2013-02-11 09:41:58 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-12 07:33:01 UTC	1.8.7	3.375258654356 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-12 07:53:34 UTC	1.8.7-head	3.474514 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-12 08:03:50 UTC	1.9.2	7.766634851694107 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-12 08:10:22 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-12 08:11:33 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-12 08:18:17 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1828,7 +1808,6 @@
 2013-02-12 09:40:22 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-13 07:30:02 UTC	1.8.7	3.37750229239464 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-13 07:50:34 UTC	1.8.7-head	3.4652624999999997 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-13 08:00:51 UTC	1.9.2	7.7643429934978485 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-13 08:07:28 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-13 08:08:39 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-13 08:15:53 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1838,7 +1817,6 @@
 2013-02-13 09:38:04 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-14 07:30:28 UTC	1.8.7	3.37397611141205 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-14 07:51:59 UTC	1.8.7-head	3.362736875 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-14 08:02:17 UTC	1.9.2	7.762449413537979 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-14 08:08:59 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-14 08:10:09 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-14 08:16:58 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1848,7 +1826,6 @@
 2013-02-14 09:41:13 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-15 07:32:51 UTC	1.8.7	3.38426843285561 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-15 07:54:29 UTC	1.8.7-head	3.365524625 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-15 08:04:45 UTC	1.9.2	7.7711461186409 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-15 08:11:22 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-15 08:12:32 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-15 08:19:17 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1858,7 +1835,6 @@
 2013-02-15 09:43:28 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-16 07:30:26 UTC	1.8.7	3.37606084346771 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-16 07:51:52 UTC	1.8.7-head	3.3744335000000003 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-16 08:02:09 UTC	1.9.2	7.762791246175766 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-16 08:08:41 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-16 08:09:51 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-16 08:16:37 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1868,7 +1844,6 @@
 2013-02-16 09:35:14 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-17 07:30:27 UTC	1.8.7	3.39780423045158 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-17 07:52:12 UTC	1.8.7-head	3.3700387500000004 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-17 08:02:30 UTC	1.9.2	7.760256111621857 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-17 08:09:02 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-17 08:10:13 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-17 08:16:48 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1878,7 +1853,6 @@
 2013-02-17 09:37:50 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-18 07:30:34 UTC	1.8.7	3.38142746686935 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-18 07:52:20 UTC	1.8.7-head	3.3809388750000005 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-18 08:02:38 UTC	1.9.2	7.744348973035812 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-18 08:09:11 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-18 08:10:22 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-18 08:16:59 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1888,7 +1862,6 @@
 2013-02-18 09:38:29 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-19 07:30:27 UTC	1.8.7	3.38106897473335 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-19 07:52:17 UTC	1.8.7-head	3.3674822500000006 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-19 08:02:33 UTC	1.9.2	7.761386513710022 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-19 08:09:14 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-19 08:10:30 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-19 08:17:05 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1898,7 +1871,6 @@
 2013-02-19 09:40:51 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-20 07:32:55 UTC	1.8.7	3.37980663776398 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-20 07:54:51 UTC	1.8.7-head	3.3744697500000003 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-20 08:05:07 UTC	1.9.2	7.773142904043198 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-20 08:11:40 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-20 08:12:56 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-20 08:19:44 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1908,7 +1880,6 @@
 2013-02-20 09:41:19 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-21 07:30:27 UTC	1.8.7	3.38960415124893 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-21 07:52:07 UTC	1.8.7-head	3.366227875 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-21 08:02:24 UTC	1.9.2	7.772223383188248 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-21 08:09:00 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-21 08:10:10 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-21 08:16:52 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1918,7 +1889,6 @@
 2013-02-21 09:38:43 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-22 07:31:53 UTC	1.8.7	3.40591701865196 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-22 07:54:54 UTC	1.8.7-head	3.4035422499999997 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-22 08:05:16 UTC	1.9.2	7.764550894498825 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-22 08:11:53 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-22 08:13:03 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-22 08:19:46 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1928,7 +1898,6 @@
 2013-02-22 09:51:42 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-23 07:30:27 UTC	1.8.7	3.37489950656891 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-23 07:52:20 UTC	1.8.7-head	3.380489375 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-23 08:02:37 UTC	1.9.2	7.774172425270081 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-23 08:09:12 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-23 08:15:27 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-23 08:22:11 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1938,7 +1907,6 @@
 2013-02-23 09:44:57 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-24 07:32:56 UTC	1.8.7	3.39510342478752 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-24 07:54:29 UTC	1.8.7-head	3.397236875 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-24 08:04:46 UTC	1.9.2	7.77572101354599 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-24 08:11:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-24 08:12:30 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-24 08:19:15 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1948,7 +1916,6 @@
 2013-02-24 09:41:50 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-25 07:30:25 UTC	1.8.7	3.37162339687347 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-25 07:51:59 UTC	1.8.7-head	3.365963125 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-25 08:02:15 UTC	1.9.2	7.755537629127502 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-25 08:08:53 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-25 08:10:04 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-25 08:16:53 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1958,7 +1925,6 @@
 2013-02-25 09:40:05 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-26 07:32:54 UTC	1.8.7	3.38264551758766 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-26 07:53:46 UTC	1.8.7-head	3.447157 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-26 08:04:04 UTC	1.9.2	7.763597816228867 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-26 08:10:44 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-26 08:11:55 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-26 08:18:45 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1968,7 +1934,6 @@
 2013-02-26 09:43:06 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-27 07:32:58 UTC	1.8.7	3.38000264763832 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-27 07:53:32 UTC	1.8.7-head	3.4548391250000003 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-27 08:03:50 UTC	1.9.2	7.821269512176514 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-27 08:10:31 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-27 08:11:41 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-27 08:18:30 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1978,7 +1943,6 @@
 2013-02-27 09:42:12 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-02-28 07:30:29 UTC	1.8.7	3.38414707779884 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-02-28 07:52:20 UTC	1.8.7-head	3.4536027499999995 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-02-28 08:02:38 UTC	1.9.2	7.755280047655106 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-02-28 08:09:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-02-28 08:10:38 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-02-28 08:17:33 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1988,7 +1952,6 @@
 2013-02-28 09:41:25 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-01 07:30:27 UTC	1.8.7	3.37587377429008 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-01 07:51:08 UTC	1.8.7-head	3.4578120000000006 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-01 08:01:25 UTC	1.9.2	7.773431599140167 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-01 08:08:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-01 08:09:17 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-01 08:16:48 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -1998,7 +1961,6 @@
 2013-03-01 09:41:45 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-02 07:30:28 UTC	1.8.7	3.37772360444069 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-02 07:51:16 UTC	1.8.7-head	3.4637640000000003 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-02 08:01:33 UTC	1.9.2	7.763092428445816 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-02 08:08:13 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-02 08:09:23 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-02 08:17:07 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2008,7 +1970,6 @@
 2013-03-02 09:42:46 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-03 07:30:27 UTC	1.8.7	3.37716361880302 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-03 07:51:06 UTC	1.8.7-head	3.4722822499999997 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-03 08:01:22 UTC	1.9.2	7.768543720245361 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-03 08:08:02 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-03 08:09:13 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-03 08:16:01 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2018,7 +1979,6 @@
 2013-03-03 09:40:46 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-04 07:30:28 UTC	1.8.7	3.38042536377907 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-04 07:51:12 UTC	1.8.7-head	3.452733375 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-04 08:01:29 UTC	1.9.2	7.770351260900497 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-04 08:08:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-04 08:09:16 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-04 08:16:04 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2028,7 +1988,6 @@
 2013-03-04 09:41:20 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-05 07:30:27 UTC	1.8.7	3.37263828516006 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-05 07:51:07 UTC	1.8.7-head	3.4475898750000002 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-05 08:01:24 UTC	1.9.2	7.772584795951843 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-05 08:08:06 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-05 08:09:21 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-05 08:16:11 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2038,7 +1997,6 @@
 2013-03-05 09:40:48 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-06 07:30:27 UTC	1.8.7	3.37617978453636 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-06 07:51:13 UTC	1.8.7-head	3.454992625 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-06 08:01:30 UTC	1.9.2	7.807557374238968 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-06 08:08:11 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-06 08:09:20 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-06 08:16:10 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2048,7 +2006,6 @@
 2013-03-06 09:40:20 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-07 07:30:28 UTC	1.8.7	3.37862724065781 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-07 07:51:16 UTC	1.8.7-head	3.4481614999999994 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-07 08:01:34 UTC	1.9.2	7.761911749839783 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-07 08:08:15 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-07 08:09:30 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-07 08:16:23 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2058,7 +2015,6 @@
 2013-03-07 09:40:48 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-08 07:34:27 UTC	1.8.7	3.37900587916374 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-08 07:55:20 UTC	1.8.7-head	3.4527565 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-08 08:05:39 UTC	1.9.2	7.792386323213577 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-08 08:12:24 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-08 08:13:36 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-08 08:20:33 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2068,7 +2024,6 @@
 2013-03-08 09:47:06 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-09 07:30:30 UTC	1.8.7	3.38043150305748 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-09 07:51:16 UTC	1.8.7-head	3.4515865000000003 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-09 08:01:30 UTC	1.9.2	7.756276786327362 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-09 08:08:26 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-09 08:09:38 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-09 08:16:32 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2078,7 +2033,6 @@
 2013-03-09 09:42:51 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-03-10 07:30:26 UTC	1.8.7	3.37919747829437 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-03-10 07:51:40 UTC	1.8.7-head	3.4514826249999997 seconds	ruby 2.0.0dev (2013-01-27) [x86_64-darwin10.8.0]
-2013-03-10 08:01:54 UTC	1.9.2	7.7508037984371185 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-03-10 08:08:21 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-03-10 08:09:35 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-03-10 08:16:27 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2088,7 +2042,6 @@
 2013-03-10 09:41:38 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-02 06:31:58 UTC	1.8.7	3.40291601419449 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-02 06:33:08 UTC	1.8.7-head	failed to install 1.8.7-head	failed to install 1.8.7-head
-2013-05-02 06:43:53 UTC	1.9.2	7.85019388794899 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-02 06:44:39 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-05-02 06:45:27 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-05-02 06:46:13 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2098,7 +2051,6 @@
 2013-05-02 07:56:52 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-03 06:30:59 UTC	1.8.7	3.4162654876709 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-03 06:31:47 UTC	1.8.7-head	failed to install 1.8.7-head	failed to install 1.8.7-head
-2013-05-03 06:42:32 UTC	1.9.2	7.831239342689514 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-03 06:43:20 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-05-03 06:44:01 UTC	1.9.3	failed to install 1.9.3	failed to install 1.9.3
 2013-05-03 06:44:47 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2108,7 +2060,6 @@
 2013-05-03 07:51:57 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-04 06:30:50 UTC	1.8.7	3.41419705748558 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-04 06:57:48 UTC	1.8.7-head	failed to install 1.8.7-head	failed to install 1.8.7-head
-2013-05-04 07:08:39 UTC	1.9.2	7.829306721687317 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-04 07:14:18 UTC	1.9.2-head	failed to install 1.9.2-head	failed to install 1.9.2-head
 2013-05-04 07:32:05 UTC	1.9.3	4.246487875 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-04 07:39:36 UTC	1.9.3-head	failed to install 1.9.3-head	failed to install 1.9.3-head
@@ -2118,7 +2069,6 @@
 2013-05-04 09:12:34 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-05 06:30:54 UTC	1.8.7	3.39951884746552 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-05 06:44:40 UTC	1.8.7-head	failed	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-05 06:55:27 UTC	1.9.2	7.831270158290863 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-05 07:09:41 UTC	1.9.2-head	failed	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-05 07:18:37 UTC	1.9.3	4.2211821249999995 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-05 07:30:27 UTC	1.9.3-head	failed	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2128,7 +2078,6 @@
 2013-05-05 08:48:21 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-06 06:30:54 UTC	1.8.7	3.38415384292603 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-06 06:44:09 UTC	1.8.7-head	3.43358287215233 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-06 06:54:56 UTC	1.9.2	7.821494072675705 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-06 07:11:26 UTC	1.9.2-head	5.291702777147293 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-06 07:20:24 UTC	1.9.3	4.200557375 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-06 07:36:36 UTC	1.9.3-head	4.260043875 seconds	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2138,7 +2087,6 @@
 2013-05-06 08:56:04 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-07 06:31:19 UTC	1.8.7	3.40647408366203 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-07 06:45:21 UTC	1.8.7-head	3.4561171233654 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-07 06:56:52 UTC	1.9.2	7.845125645399094 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-07 07:14:20 UTC	1.9.2-head	5.3115823566913605 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-07 07:25:34 UTC	1.9.3	4.218382125 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-07 07:42:35 UTC	1.9.3-head	4.284015375 seconds	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2148,7 +2096,6 @@
 2013-05-07 09:05:45 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-08 06:53:09 UTC	1.8.7	3.39041259884834 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-08 07:06:40 UTC	1.8.7-head	3.43652439117432 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-08 07:17:28 UTC	1.9.2	7.839974611997604 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-08 07:33:58 UTC	1.9.2-head	5.277713477611542 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-08 07:42:50 UTC	1.9.3	4.219150624999999 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-08 07:58:51 UTC	1.9.3-head	4.247531625000001 seconds	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2158,7 +2105,6 @@
 2013-05-08 09:38:52 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
 2013-05-09 06:30:24 UTC	1.8.7	3.38174697756767 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-09 06:43:33 UTC	1.8.7-head	3.46242117881775 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-09 06:54:04 UTC	1.9.2	7.8350366950035095 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-09 07:10:06 UTC	1.9.2-head	5.270863473415375 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-09 07:18:43 UTC	1.9.3	4.224242125 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-09 07:34:30 UTC	1.9.3-head	4.254579625000001 seconds	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2168,7 +2114,6 @@
 2013-05-09 09:56:50 UTC	rbx-head	bundle failed	bundle failed
 2013-05-12 06:30:19 UTC	1.8.7	3.38533771038055 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-12 06:49:06 UTC	1.8.7-head	3.45598831772804 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-12 06:59:25 UTC	1.9.2	7.829840570688248 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-12 07:15:30 UTC	1.9.2-head	5.376105904579163 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-12 07:23:56 UTC	1.9.3	4.20587 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-12 07:39:26 UTC	1.9.3-head	4.241679625 seconds	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2178,7 +2123,6 @@
 2013-05-12 10:05:15 UTC	rbx-head	bundle failed	bundle failed
 2013-05-13 06:30:39 UTC	1.8.7	3.39454352855682 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-13 06:43:33 UTC	1.8.7-head	3.46312510967255 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-13 06:53:53 UTC	1.9.2	7.819767326116562 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-13 07:09:46 UTC	1.9.2-head	5.32998114824295 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-13 07:18:13 UTC	1.9.3	4.222864625000001 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-13 07:33:46 UTC	1.9.3-head	4.264856249999999 seconds	ruby 1.9.3p415 (2013-04-11) [x86_64-darwin10.8.0]
@@ -2188,7 +2132,6 @@
 2013-05-13 09:13:20 UTC	rbx-head	13.868150800466537 seconds	rubinius 2.0.0.rc1 (1.8.7 3cca54f4 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-05-14 06:30:53 UTC	1.8.7	3.43300586938858 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-14 06:44:57 UTC	1.8.7-head	3.48243653774261 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-14 06:57:47 UTC	1.9.2	7.840730577707291 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-14 07:14:32 UTC	1.9.2-head	5.325685799121857 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-14 07:23:43 UTC	1.9.3	4.2214483750000005 seconds	ruby 1.9.3p392 (2013-02-22 revision 39386) [x86_64-darwin10.8.0]
 2013-05-14 07:40:36 UTC	1.9.3-head	4.2444185 seconds	ruby 1.9.3p424 (2013-05-14) [x86_64-darwin10.8.0]
@@ -2198,7 +2141,6 @@
 2013-05-14 09:25:27 UTC	rbx-head	14.061923623085022 seconds	rubinius 2.0.0.rc1 (1.8.7 d5a18898 yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-05-15 06:30:27 UTC	1.8.7	3.38795638084412 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-15 06:43:32 UTC	1.8.7-head	3.47383341193199 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-15 06:53:53 UTC	1.9.2	7.83286115527153 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-15 07:10:03 UTC	1.9.2-head	5.282251566648483 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-15 07:29:39 UTC	1.9.3	4.204997499999999 seconds	ruby 1.9.3p429 (2013-05-15 revision 40747) [x86_64-darwin10.8.0]
 2013-05-15 07:45:38 UTC	1.9.3-head	4.234462125 seconds	ruby 1.9.3p430 (2013-05-15) [x86_64-darwin10.8.0]
@@ -2208,7 +2150,6 @@
 2013-05-15 09:28:47 UTC	rbx-head	14.142911851406097 seconds	rubinius 2.0.0.rc1 (1.8.7 8e2d50ac yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
 2013-05-16 06:30:28 UTC	1.8.7	3.38469487428665 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
 2013-05-16 06:43:25 UTC	1.8.7-head	3.45309615135193 seconds	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
-2013-05-16 06:53:45 UTC	1.9.2	7.842927843332291 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
 2013-05-16 07:09:42 UTC	1.9.2-head	5.286071002483368 seconds	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
 2013-05-16 07:18:06 UTC	1.9.3	4.21279375 seconds	ruby 1.9.3p429 (2013-05-15 revision 40747) [x86_64-darwin10.8.0]
 2013-05-16 07:33:52 UTC	1.9.3-head	4.206835000000001 seconds	ruby 1.9.3p430 (2013-05-15) [x86_64-darwin10.8.0]

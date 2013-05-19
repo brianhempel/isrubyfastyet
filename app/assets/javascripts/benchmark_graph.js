@@ -3,7 +3,7 @@ window.ResultsJSONCache = {};
 function getResultsJSON(benchmark_name, start_time, callback) {
   var query_string = ''
   if (start_time) {
-    query_string = '?start_time=' + start_time
+    query_string = '?start_time=' + start_time;
   }
   var url = '/benchmarks/' + benchmark_name +'/results.json' + query_string;
 
@@ -12,7 +12,7 @@ function getResultsJSON(benchmark_name, start_time, callback) {
   } else {
     $.getJSON(url, function (json) {
       ResultsJSONCache[url] = json;
-      callback(json)
+      callback(json);
     });
   }
 }

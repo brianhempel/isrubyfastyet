@@ -31,7 +31,7 @@ $.fn.drawBenchmarkGraphFromJSON = function(json) {
     },
     xaxis: {
       mode: "time",
-      timeformat: "%y/%m/%d",
+      timeformat: "%Y-%m-%d",
       ticks: 5
     },
     yaxis: {

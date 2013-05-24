@@ -49,6 +49,27 @@ module BenchmarkHelper
     end
   end
 
+  def with_server_in_bash(&block)
+    success = true
+
+    IO.popen("bash", "w") do |bash|
+    	# jruby doesn't have fork...
+      start_production_server(bash)
+
+      begin
+        if server_working?
+          yield(bash)
+        else
+          success = false
+        end
+      ensure
+        kill_server
+      end
+    end
+
+    success
+  end
+
   def benchmark_with_server_in_bash(options, &block)
     runs = options[:runs]
     success = true
@@ -57,17 +78,8 @@ module BenchmarkHelper
       next unless success
       result = nil
 
-      IO.popen("bash", "w") do |bash|
-        # jruby doesn't have fork...
-        start_production_server(bash)
-
-        if server_working?
-          result = yield(bash)
-        else
-          success = false
-        end
-
-        kill_server
+      success = with_server_in_bash do |bash|
+        result = yield(bash)
       end
 
       result

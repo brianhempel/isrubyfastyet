@@ -2279,3 +2279,15 @@
 2013-05-28 07:40:39 UTC	jruby	42.62749999999999 requests per second	jruby 1.7.4 (1.9.3p392) 2013-05-16 2390d3b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_45-b06-451-10M4406 [darwin-x86_64]
 2013-05-28 08:37:34 UTC	jruby-head	42.290000000000006 requests per second	jruby 1.7.5.dev (1.9.3p392) 2013-05-28 fffffff on Java HotSpot(TM) 64-Bit Server VM 1.6.0_45-b06-451-10M4406 [darwin-x86_64]
 2013-05-28 09:27:06 UTC	rbx-head	86.03249999999998 requests per second	rubinius 2.0.0.rc1 (1.8.7 4237c16c yyyy-mm-dd JI) [x86_64-apple-darwin10.8.0]
+2013-05-30 05:17:56 UTC	1.8.7	73.8 requests per second	ruby 1.8.7 (2012-10-12 patchlevel 371) [i686-darwin10.8.0]
+2013-05-30 05:38:07 UTC	1.8.7-head	75.115 requests per second	ruby 1.8.7 (2013-05-18 patchlevel 372) [i686-darwin10.8.0]
+2013-05-30 05:51:54 UTC	1.9.2	104.6875 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-05-30 06:13:26 UTC	1.9.2-head	102.9025 requests per second	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
+2013-05-30 06:27:21 UTC	1.9.3	98.3225 requests per second	ruby 1.9.3p429 (2013-05-15 revision 40747) [x86_64-darwin10.8.0]
+2013-05-30 06:48:56 UTC	1.9.3-head	106.77750000000002 requests per second	ruby 1.9.3p432 (2013-05-29) [x86_64-darwin10.8.0]
+2013-05-30 07:02:12 UTC	2.0.0	114.97500000000001 requests per second	ruby 2.0.0p195 (2013-05-14 revision 40734) [x86_64-darwin10.8.0]
+2013-05-30 07:28:30 UTC	2.0.0-head	116.50750000000001 requests per second	ruby 2.0.0p197 (2013-05-20) [x86_64-darwin10.8.0]
+2013-05-30 07:36:53 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2013-05-30 07:49:48 UTC	jruby	39.15 requests per second	jruby 1.7.4 (1.9.3p392) 2013-05-16 2390d3b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_45-b06-451-10M4406 [darwin-x86_64]
+2013-05-30 08:52:26 UTC	jruby-head	37.705 requests per second	jruby 1.7.5.dev (1.9.3p392) 2013-05-30 fffffff on Java HotSpot(TM) 64-Bit Server VM 1.6.0_45-b06-451-10M4406 [darwin-x86_64]
+2013-05-30 09:48:19 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

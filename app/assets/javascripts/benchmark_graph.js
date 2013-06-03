@@ -41,6 +41,7 @@ $.fn.drawBenchmarkGraphFromJSON = function(json) {
     legend: {
       position: 'nw',
       backgroundOpacity: 0.7,
+      toggle: true,
       container: this.next()
     }
   });

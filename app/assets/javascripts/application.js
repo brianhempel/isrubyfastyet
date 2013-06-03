@@ -15,4 +15,5 @@
 //= require excanvas.min
 //= require jquery.flot
 //= require jquery.flot.time
+//= require jquery.flot.togglelegend
 //= require_tree .

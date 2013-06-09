@@ -1,17 +1,17 @@
 #!/usr/bin/env ruby
 
-App = Struct.new(:pid, :ppid, :command)
+App = Struct.new(:pid, :parent_pid, :command)
 
 # list all processes with pid, parent pid, and command, sorted by memory usage
 apps = `ps -em -o pid,ppid,comm`.lines.to_a.map do |line|
   line.chomp =~ /^\s*(\d+)\s+(\d+)\s+(\/.+)$/
-  pid, ppid, command = $1, $2, $3
-  App.new(pid, ppid, command)
+  pid, parent_pid, command = $1, $2, $3
+  App.new(pid, parent_pid, command)
 end
 
 finder = apps.find { |app| app.command == "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder" }
-launchd_pid = finder.ppid
+launchd_pid = finder.parent_pid
 
-apps_to_close = apps.select { |app| app.ppid == launchd_pid && app.command =~ /^\/Applications\// && app.command !~ /Terminal/}
+apps_to_close = apps.select { |app| app.parent_pid == launchd_pid && app.command =~ /^\/Applications\// && app.command !~ /Terminal/}
 
 apps_to_close.each { |app| Process.kill("HUP", app.pid.to_i) }

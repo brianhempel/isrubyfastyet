@@ -21,7 +21,15 @@ echo "Grabbing brianhempel/isrubyfastyet master from Github"
 git pull --rebase
 
 # run the suite!!
-rake benchmark_suite && git add ../results/* && git commit -m 'Autorunner: Results' && git pull --rebase && git push origin master && git push heroku master
+rake benchmark_suite                    &&
+	git add ../results/*                &&
+	git commit -m 'Autorunner: Results' &&
+	git pull --rebase                   &&
+	git push origin master              &&
+	git push heroku master              &&
+	cd "$BASE_DIR/.."                   &&
+	echo `pwd`                          &&
+	./transfer_site_to_s3
 
 echo
 echo "`date -u` ~ ~ ~ nightly benchmark suite finish ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"

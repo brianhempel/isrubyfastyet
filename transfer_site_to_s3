@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+source "$HOME/.rvm/scripts/rvm"
+
+rvm use 1.9.3@benchmark &&
+	(ruby -e "require 'aws-sdk'" || gem install aws-sdk --no-ri --no-rdoc) &&
+	ruby transfer_site_to_s3.rb

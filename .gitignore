@@ -4,3 +4,4 @@ runner/benchmarks/**/*.lock
 runner/benchmarks/rails/public/assets
 tmp/
 *.log
+s3_credentials-private.yml

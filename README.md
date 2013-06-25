@@ -14,6 +14,12 @@ You need the `gtimeout` command from GNU Coreutils. Easy peasy with Homebrew on 
 brew install coreutils
 ```
 
+You also need phantomjs if you would like to transform the Rails frontend to a static site.
+
+```
+brew install phantomjs
+```
+
 ### Usage
 
 ```

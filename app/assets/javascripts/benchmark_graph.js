@@ -1,24 +1,10 @@
-window.ResultsJSONCache = {};
-
-function getResultsJSON(benchmark_name, start_time, callback) {
-  var query_string = ''
-  if (start_time) {
-    query_string = '?start_time=' + start_time;
-  }
-  var url = '/benchmarks/' + benchmark_name +'/results.json' + query_string;
-
-  if (ResultsJSONCache[url]) {
-    callback(ResultsJSONCache[url]);
-  } else {
-    $.getJSON(url, function (json) {
-      ResultsJSONCache[url] = json;
-      callback(json);
-    });
-  }
+function getResultsJSON(benchmark_name, callback) {
+  var url = '/benchmarks/' + benchmark_name +'/results.json';
+  $.getJSON(url, callback);
 }
 
-$.fn.drawBenchmarkGraphFromJSON = function(json) {
-  var flotter = new BenchmarkFlotter(json);
+$.fn.drawBenchmarkGraphFromJSON = function(json, start_time) {
+  var flotter = new BenchmarkFlotter(json, start_time);
   this.data('flotter', flotter);
   $.plot(this, flotter.flotData(), {
     colors: flotter.seriesColors(),
@@ -50,8 +36,8 @@ $.fn.drawBenchmarkGraphFromJSON = function(json) {
 $.fn.drawBenchmarkGraph = function(start_time) {
   var benchmark_name = $(this).data('graph-benchmark');
   var $element = this;
-  getResultsJSON(benchmark_name, start_time, function(json) {
-    $element.drawBenchmarkGraphFromJSON(json);
+  getResultsJSON(benchmark_name, function(json) {
+    $element.drawBenchmarkGraphFromJSON(json, start_time);
   });
 }
 
@@ -74,9 +60,6 @@ function showTooltip($graph, item) {
 $(window).load(function () {
 
   $('*[data-graph-benchmark]').each(function () {
-    var default_start_time = $(this).data('graph-default-start-time');
-    $(this).drawBenchmarkGraph(default_start_time);
-
     var previousPointDataIndex;
     var previousPointSeriesIndex;
     $(this).bind("plothover", function (event, pos, item) {
@@ -101,7 +84,7 @@ $(window).load(function () {
 
   $('*[data-on-click-load-graph]').each(function () {
     var graph      = $($(this).data('on-click-load-graph'));
-    var start_time = $(this).data('graph-start-time');
+    var start_time = new Date($(this).data('graph-start-time'));
     $(this).click(function(event) {
       event.preventDefault();
       graph.drawBenchmarkGraph(start_time);

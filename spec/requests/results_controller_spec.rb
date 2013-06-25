@@ -56,46 +56,4 @@ describe "/benchmarks/benchmark_param/results" do
       JSON
     end
   end
-
-  describe ".json?start_time=2012-01-12+07:23:50+UTC" do
-    it "returns only the results after the start time" do
-      visit "/benchmarks/benchmark_1/results.json?start_time=2012-01-12+07:23:50+UTC"
-
-      page.source.should be_json_like(<<-JSON)
-        {
-          "benchmark": {
-            "name":  "Benchmark 1",
-            "param": "benchmark_1",
-            "units": "MB"
-          },
-          "results": [
-            {
-              "time_str":     "2012-01-12 08:55:44 UTC",
-              "time_ms":      1326358544000,
-              "rvm_name":     "jruby-head",
-              "result":       208.656998634338,
-              "full_version": "jruby 1.7.0.dev (ruby-1.8.7-p357) (2012-01-12 0e83d96) (Java HotSpot(TM) 64-Bit Server VM 1.6.0_29) [darwin-x86_64-java]"
-            }
-          ]
-        }
-      JSON
-    end
-  end
-
-  describe ".json?start_time=2012-01-13" do
-    it "returns only the results after the start time" do
-      visit "/benchmarks/benchmark_1/results.json?start_time=2012-01-13"
-
-      page.source.should be_json_like(<<-JSON)
-        {
-          "benchmark": {
-            "name":  "Benchmark 1",
-            "param": "benchmark_1",
-            "units": "MB"
-          },
-          "results": []
-        }
-      JSON
-    end
-  end
 end

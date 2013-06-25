@@ -1,5 +1,6 @@
+# converts JSON to flot series
 class this.BenchmarkFlotter
-  constructor: (@parsed_json) ->
+  constructor: (@parsed_json, @start_date) ->
 
   flotData: ->
     for rvm_name, results of this.resultsByRvmName()
@@ -37,7 +38,7 @@ class this.BenchmarkFlotter
 
   resultsByRvmName: ->
     results_by_rvm_name = {}
-    this.matchResult(results_by_rvm_name, result) for result in @parsed_json['results']
+    this.matchResult(results_by_rvm_name, result) for result in this.resultsAfterStart()
     sorted_results_by_rvm_name = {}
     for rvm_name in Ruby.ruby_names
       sorted_results_by_rvm_name[rvm_name] = results_by_rvm_name[rvm_name] if results_by_rvm_name[rvm_name]
@@ -46,3 +47,9 @@ class this.BenchmarkFlotter
   matchResult: (results_by_rvm_name, result) ->
     results_by_rvm_name[result['rvm_name']] ||= []
     results_by_rvm_name[result['rvm_name']].push result
+
+  resultsAfterStart: ->
+    if @start_date
+      (result for result in @parsed_json['results'] when (new Date(result.time_ms)) >= @start_date)
+    else
+      @parsed_json['results']

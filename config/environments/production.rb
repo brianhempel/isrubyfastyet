@@ -7,7 +7,7 @@ IsRubyFastYet::Application.configure do
   # Full error reports are disabled and caching is turned on
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = false
-  config.static_cache_control              = "public, max-age=2592000"
+  config.static_cache_control              = "public, max-age=#{1.year.to_i}"
 
   # Enable Rails's static asset server (Apache or nginx will already do this)
   config.serve_static_assets = true

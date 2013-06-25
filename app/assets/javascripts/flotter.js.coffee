@@ -2,12 +2,12 @@ class this.BenchmarkFlotter
   constructor: (@parsed_json) ->
 
   flotData: ->
-     for rvm_name, results of this.resultsByRvmName()
-       {
-         label:    rvm_name,
-         data:     this.filterIntoFlotPoints(results),
-         fullData: this.addNulls(results)
-       }
+    for rvm_name, results of this.resultsByRvmName()
+      {
+        label:    rvm_name,
+        data:     this.filterIntoFlotPoints(results),
+        fullData: this.addNulls(results)
+      }
 
   seriesColors: ->
     Ruby.rubies[rvm_name].color for rvm_name, results of this.resultsByRvmName()

@@ -41,5 +41,16 @@
     });
 
     <% self.lookup_context.formats = [:html] %>
+
+	// prefetch full results (http://feeding.cloud.geek.nz/posts/prefetching-resources-to-prime-browser/)
+	// HTTP caching should do the rest, if the headers are set properly
+	// need the setTimeout b/c otherwise Chrome delays onload event firing
+	$(window).load(function () {
+	  window.setTimeout(function(){
+	    var xhr = new XMLHttpRequest();
+		xhr.open('GET', '<%= benchmark_results_path(benchmark, :format => :json) %>', false);
+		xhr.send(null);
+	  }, 10);
+	});
   </script>
 </div>

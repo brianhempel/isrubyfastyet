@@ -11,7 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require jquery_ujs
+//skip require jquery_ujs
 //= require excanvas.min
 //= require jquery.flot
 //= require jquery.flot.time

@@ -1,4 +1,4 @@
-Pivotal Tracker project: [https://www.pivotaltracker.com/projects/439755](https://www.pivotaltracker.com/projects/439755)
+View the site: [www.isrubyfastyet.com](http://www.isrubyfastyet.com/)
 
 [Google search frequencies](http://www.google.com/insights/search/#q=ruby%20benchmark%2Cruby%20speed%2Cpython%20speed%2Cruby%20language%2Cruby%20tutorial&cmpt=q)
 

@@ -84,7 +84,7 @@ s3_credentials = YAML.load(File.read(S3_CREDENTIALS_PATH))
 s3             = AWS::S3.new(:access_key_id     => s3_credentials['access_key_id'],
                              :secret_access_key => s3_credentials['secret_access_key'])
 
-bucket         = s3.buckets['isrubyfastyet']
+bucket         = s3.buckets['www.isrubyfastyet.com']
 
 paths_and_responses.each do |output_path, response|
   puts "Uploading #{output_path}"

@@ -9,14 +9,7 @@ if RUBY_PLATFORM == 'java'
   gem 'activerecord-jdbcsqlite3-adapter', '1.2.1'
   gem 'jruby-openssl',                    '0.7.4'
   gem 'jruby-rack',                       '1.1.1'
-else
-  gem 'sqlite3',                          '1.3.4'
-end
-
-if defined?(JRUBY_VERSION)
-  gem 'jdbc-sqlite3',                     '3.7.2'
-  gem 'activerecord-jdbc-adapter',        '1.2.1'
-  gem 'activerecord-jdbcsqlite3-adapter', '1.2.1'
+  gem 'ffi-ncurses',                      '0.4.0'
 else
   gem 'sqlite3',                          '1.3.4'
 end
@@ -43,9 +36,6 @@ gem 'capistrano',                         '2.9.0'
 gem 'devise',                             '1.5.1'
 gem 'carrierwave',                        '0.5.8'
 gem 'rails_autolink',                     '1.0.4'
-gem 'jruby-openssl',                      '0.7.4',  :platforms => :jruby
-gem 'jruby-rack',                         '1.1.1',  :platforms => :jruby
-gem 'ffi-ncurses',                        '0.4.0',  :platforms => :jruby
 
 # group :development, :test do
 #   if RUBY_VERSION < "1.9"

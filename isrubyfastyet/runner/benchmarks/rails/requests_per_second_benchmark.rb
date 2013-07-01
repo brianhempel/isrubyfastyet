@@ -3,6 +3,7 @@ include BenchmarkHelper
 
 ensure_database
 ensure_server_not_running
+remove_log
 
 final_requests_per_second_result = benchmark_with_server_in_bash(:runs => 4) do |bash|
   STDERR.puts "cooling off..."

@@ -3,6 +3,7 @@ require File.expand_path("../benchmark_helper.rb", __FILE__)
 include BenchmarkHelper
 
 ensure_database
+remove_log
 
 def benchmark_rails_console
   duration = Benchmark.realtime do

@@ -5,6 +5,11 @@ module BenchmarkHelper
     File.expand_path("../db/#{file}", __FILE__)
   end
 
+  def remove_log
+    log_path = File.expand_path("../log/production.log", __FILE__)
+    File.unlink log_path if File.exists? log_path
+  end
+
   def ensure_database
     unless File.exists? db_path("empty_snapshot.sqlite3")
       # make sure we have a database

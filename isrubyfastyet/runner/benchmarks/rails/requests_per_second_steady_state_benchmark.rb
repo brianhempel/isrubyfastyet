@@ -3,6 +3,7 @@ include BenchmarkHelper
 
 ensure_database
 ensure_server_not_running
+remove_log
 
 module Enumerable
   def sum

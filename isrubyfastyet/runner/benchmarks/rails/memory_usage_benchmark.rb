@@ -3,6 +3,7 @@ include BenchmarkHelper
 
 ensure_database
 ensure_server_not_running
+remove_log
 
 final_memory_usage_bytes_result = benchmark_with_server_in_bash(:runs => 6) do |bash|
   sample_count    = 30

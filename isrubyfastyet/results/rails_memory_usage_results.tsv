@@ -2832,3 +2832,15 @@
 2013-07-17 08:14:07 UTC	jruby	211.03027280171713 MB	jruby 1.7.4 (1.9.3p392) 2013-05-16 2390d3b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-07-17 09:15:57 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2013-07-17 09:40:54 UTC	rbx-head	115.93999512990315 MB	rubinius 2.0.0.n198 (1.9.3 417f847d 2013-07-17 JI) [x86_64-apple-darwin10.8.0]
+2013-07-18 05:15:19 UTC	1.8.7	57.4562277793884 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-07-18 05:35:13 UTC	1.8.7-head	57.8615013758341 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-07-18 05:48:51 UTC	1.9.2	86.13617579142253 MB	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-07-18 06:10:07 UTC	1.9.2-head	87.15312465031941 MB	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
+2013-07-18 06:24:07 UTC	1.9.3	83.44828526178996 MB	ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin10.8.0]
+2013-07-18 06:45:06 UTC	1.9.3-head	85.68365844090779 MB	ruby 1.9.3p455 (2013-07-17) [x86_64-darwin10.8.0]
+2013-07-18 06:58:27 UTC	2.0.0	83.76080687840779 MB	ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin10.8.0]
+2013-07-18 07:20:21 UTC	2.0.0-head	82.3572260538737 MB	ruby 2.0.0p270 (2013-07-14) [x86_64-darwin10.8.0]
+2013-07-18 07:42:33 UTC	ruby-head	104.24971739451091 MB	ruby 2.1.0dev (2013-07-18) [x86_64-darwin10.8.0]
+2013-07-18 08:14:17 UTC	jruby	210.92840655644736 MB	jruby 1.7.4 (1.9.3p392) 2013-05-16 2390d3b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-07-18 09:17:01 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2013-07-18 09:41:13 UTC	rbx-head	115.9696176846822 MB	rubinius 2.0.0.n199 (1.9.3 a4086ded 2013-07-18 JI) [x86_64-apple-darwin10.8.0]

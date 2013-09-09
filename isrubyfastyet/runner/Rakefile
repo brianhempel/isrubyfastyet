@@ -67,7 +67,7 @@ def install_ruby(ruby)
   ruby_install_duration = Benchmark.realtime do
 	# fail if install takes longer than 33 minutes
 	install_flags_argument = ruby['Install Flags'] == "none" ? "''" : "'#{ruby['Install Flags']}'"
-	ruby_install_succeeded = run_with_output "gtimeout --kill-after=5 #{33*60} #{script_path 'setup_ruby'} #{ruby['RVM Name']} #{install_flags_argument} '#{ruby['Before Install']}'"
+	ruby_install_succeeded = run_with_output "gtimeout --kill-after=5 #{60*60} #{script_path 'setup_ruby'} #{ruby['RVM Name']} #{install_flags_argument} '#{ruby['Before Install']}'"
   end
   puts(ruby_install_succeeded ? "successfully installed" : "failed to install")
   puts "Done installing #{ruby['RVM Name']}. Took %.1f minutes" % [ruby_install_duration / 60]

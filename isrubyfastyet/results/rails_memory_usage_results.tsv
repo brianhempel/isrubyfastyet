@@ -3408,3 +3408,15 @@
 2013-09-09 08:59:33 UTC	jruby	207.40598917007446 MB	jruby 1.7.4 (1.9.3p392) 2013-05-16 2390d3b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-09-09 10:02:21 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2013-09-09 10:08:37 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2013-09-10 05:19:17 UTC	1.8.7	57.4927730560303 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-09-10 05:41:45 UTC	1.8.7-head	57.6260628700256 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-09-10 06:00:07 UTC	1.9.2	87.37927468617757 MB	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-09-10 06:23:05 UTC	1.9.2-head	failed	ruby 1.9.2p325 (2013-04-15) [x86_64-darwin10.8.0]
+2013-09-10 06:37:44 UTC	1.9.3	86.2140622138977 MB	ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin10.8.0]
+2013-09-10 07:01:52 UTC	1.9.3-head	87.48964802424113 MB	ruby 1.9.3p470 (2013-09-02) [x86_64-darwin10.8.0]
+2013-09-10 07:20:11 UTC	2.0.0	83.28680531183879 MB	ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin10.8.0]
+2013-09-10 07:45:13 UTC	2.0.0-head	82.27161407470703 MB	ruby 2.0.0p299 (2013-08-29) [x86_64-darwin10.8.0]
+2013-09-10 08:10:24 UTC	ruby-head	89.16911840438843 MB	ruby 2.1.0dev (2013-09-10) [x86_64-darwin10.8.0]
+2013-09-10 08:32:29 UTC	jruby	212.6870438257853 MB	jruby 1.7.4 (1.9.3p392) 2013-05-16 2390d3b on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-09-10 09:28:25 UTC	jruby-head	211.1457896232605 MB	jruby 1.7.5.dev (1.9.3p392) 2013-09-10 @jruby.revision@ on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-09-10 09:56:00 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

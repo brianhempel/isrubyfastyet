@@ -13,6 +13,7 @@ Ruby.rubies =
   "ruby-head":  new Ruby("ruby-head",  "#330000"),
   "jruby":      new Ruby("jruby",      "#000099"),
   "jruby-head": new Ruby("jruby-head", "#0000ff"),
+  "rbx":        new Ruby("rbx",        "#d7c1b0"),
   "rbx-head":   new Ruby("rbx-head",   "#ead4c3")
 
 Ruby.ruby_names = (name for name, ruby of Ruby.rubies)

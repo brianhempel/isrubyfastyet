@@ -10,6 +10,7 @@ MRI 2.0.0 Head    2.0.0-head       ruby        none                          bre
 MRI Head          ruby-head        ruby        none                          brew unlink libiconv    brew link libiconv   :
 JRuby Stable      jruby            jruby -S    none                          brew link libiconv      brew link libiconv   :
 JRuby Head        jruby-head       jruby -S    none                          brew link libiconv      brew link libiconv   :
+Rubinius Stable   rbx              ruby        none                          :                       brew link libiconv   brew unlink libiconv
 Rubinius Head     rbx-head         ruby        none                          :                       brew link libiconv   brew unlink libiconv
 # MagLev Head       maglev-head      ruby      none                            :                       :                    :
 # MacRuby Stable    macruby          ruby      none                            :                       :                    :

@@ -1210,3 +1210,4 @@
 2013-10-21 08:18:03 UTC	rbx	bundle failed	bundle failed
 2013-10-21 08:46:49 UTC	rbx-head	failed	rubinius 2.1.1n294 (2.1.0 baf9fa0c 2013-10-21 JI) [x86_64-darwin10.8.0]
 2013-10-22 05:19:43 UTC	rbx	failed	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
+2013-10-23 05:19:42 UTC	rbx	failed	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]

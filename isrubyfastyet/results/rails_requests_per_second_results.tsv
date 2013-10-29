@@ -3519,3 +3519,16 @@
 2013-10-28 09:11:46 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-10-28 d759f5e on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-10-28 09:25:32 UTC	rbx	75.6125 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
 2013-10-28 10:06:50 UTC	rbx-head	bundle failed	bundle failed
+2013-10-29 05:18:21 UTC	1.8.7	75.8225 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-10-29 05:36:39 UTC	1.8.7-head	78.4725 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-10-29 05:50:25 UTC	1.9.2	105.6375 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-10-29 06:15:04 UTC	1.9.2-head	112.3675 requests per second	ruby 1.9.2p325 (2013-04-15 revision 40305) [x86_64-darwin10.8.0]
+2013-10-29 06:28:54 UTC	1.9.3	109.3225 requests per second	ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin10.8.0]
+2013-10-29 06:56:58 UTC	1.9.3-head	115.19749999999999 requests per second	ruby 1.9.3p470 (2013-09-02 revision 42774) [x86_64-darwin10.8.0]
+2013-10-29 07:10:10 UTC	2.0.0	116.685 requests per second	ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin10.8.0]
+2013-10-29 07:41:08 UTC	2.0.0-head	123.5125 requests per second	ruby 2.0.0p342 (2013-10-27 revision 43435) [x86_64-darwin10.8.0]
+2013-10-29 08:11:07 UTC	ruby-head	133.2775 requests per second	ruby 2.1.0dev (2013-10-29 trunk 43461) [x86_64-darwin10.8.0]
+2013-10-29 08:29:43 UTC	jruby	41.2325 requests per second	jruby 1.7.6 (1.9.3p392) 2013-10-22 6004147 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-10-29 09:09:49 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-10-29 8a22e3c on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-10-29 09:23:35 UTC	rbx	76.2725 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
+2013-10-29 10:05:07 UTC	rbx-head	bundle failed	bundle failed

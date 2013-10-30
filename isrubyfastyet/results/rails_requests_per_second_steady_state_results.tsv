@@ -1298,3 +1298,16 @@
 2013-10-29 09:12:47 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-10-29 8a22e3c on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-10-29 09:43:00 UTC	rbx	97.3075 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
 2013-10-29 10:05:11 UTC	rbx-head	bundle failed	bundle failed
+2013-10-30 05:23:39 UTC	1.8.7	75.375 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-10-30 05:41:54 UTC	1.8.7-head	77.81 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-10-30 05:55:21 UTC	1.9.2	105.9125 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-10-30 06:21:31 UTC	1.9.2-head	112.7825 requests per second	ruby 1.9.2p325 (2013-04-15 revision 40305) [x86_64-darwin10.8.0]
+2013-10-30 06:35:20 UTC	1.9.3	108.9325 requests per second	ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin10.8.0]
+2013-10-30 07:03:18 UTC	1.9.3-head	115.8525 requests per second	ruby 1.9.3p470 (2013-09-02 revision 42774) [x86_64-darwin10.8.0]
+2013-10-30 07:16:29 UTC	2.0.0	115.94 requests per second	ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin10.8.0]
+2013-10-30 07:47:29 UTC	2.0.0-head	123.71249999999999 requests per second	ruby 2.0.0p342 (2013-10-27 revision 43435) [x86_64-darwin10.8.0]
+2013-10-30 08:17:59 UTC	ruby-head	133.395 requests per second	ruby 2.1.0dev (2013-10-30 trunk 43474) [x86_64-darwin10.8.0]
+2013-10-30 08:45:59 UTC	jruby	76.70499999999998 requests per second	jruby 1.7.6 (1.9.3p392) 2013-10-22 6004147 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-10-30 09:14:36 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-10-30 d83c6c3 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-10-30 09:44:46 UTC	rbx	96.66500000000002 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
+2013-10-30 10:06:36 UTC	rbx-head	bundle failed	bundle failed

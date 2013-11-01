@@ -1324,3 +1324,16 @@
 2013-10-31 09:13:52 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-10-31 c1a7f80 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-10-31 09:44:18 UTC	rbx	98.07 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
 2013-10-31 10:06:40 UTC	rbx-head	bundle failed	bundle failed
+2013-11-01 05:23:19 UTC	1.8.7	75.8525 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-11-01 05:41:43 UTC	1.8.7-head	78.1125 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-11-01 05:55:11 UTC	1.9.2	104.97999999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-11-01 06:19:55 UTC	1.9.2-head	112.82 requests per second	ruby 1.9.2p325 (2013-04-15 revision 40305) [x86_64-darwin10.8.0]
+2013-11-01 06:33:45 UTC	1.9.3	108.84500000000001 requests per second	ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin10.8.0]
+2013-11-01 07:01:24 UTC	1.9.3-head	114.83000000000001 requests per second	ruby 1.9.3p482 (2013-11-01 revision 43494) [x86_64-darwin10.8.0]
+2013-11-01 07:14:40 UTC	2.0.0	117.10249999999999 requests per second	ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin10.8.0]
+2013-11-01 07:45:41 UTC	2.0.0-head	123.875 requests per second	ruby 2.0.0p343 (2013-10-31 revision 43481) [x86_64-darwin10.8.0]
+2013-11-01 08:15:38 UTC	ruby-head	132.6875 requests per second	ruby 2.1.0dev (2013-11-01 trunk 43499) [x86_64-darwin10.8.0]
+2013-11-01 08:44:04 UTC	jruby	76.095 requests per second	jruby 1.7.6 (1.9.3p392) 2013-10-22 6004147 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-11-01 09:13:35 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-11-01 27442fc on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-11-01 09:45:04 UTC	rbx	97.59 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
+2013-11-01 10:07:10 UTC	rbx-head	bundle failed	bundle failed

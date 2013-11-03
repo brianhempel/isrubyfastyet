@@ -3584,3 +3584,16 @@
 2013-11-02 09:10:54 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-11-02 0129ff5 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-11-02 09:24:45 UTC	rbx	74.86500000000001 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
 2013-11-02 10:06:28 UTC	rbx-head	bundle failed	bundle failed
+2013-11-03 05:17:59 UTC	1.8.7	74.7625 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-11-03 05:36:41 UTC	1.8.7-head	77.9125 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-11-03 05:50:24 UTC	1.9.2	105.34249999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-11-03 06:15:34 UTC	1.9.2-head	112.0 requests per second	ruby 1.9.2p325 (2013-04-15 revision 40305) [x86_64-darwin10.8.0]
+2013-11-03 06:30:55 UTC	1.9.3	108.89 requests per second	ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin10.8.0]
+2013-11-03 06:59:11 UTC	1.9.3-head	113.9575 requests per second	ruby 1.9.3p482 (2013-11-01 revision 43494) [x86_64-darwin10.8.0]
+2013-11-03 07:12:24 UTC	2.0.0	115.80999999999999 requests per second	ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin10.8.0]
+2013-11-03 07:43:44 UTC	2.0.0-head	123.9975 requests per second	ruby 2.0.0p343 (2013-10-31 revision 43481) [x86_64-darwin10.8.0]
+2013-11-03 08:13:23 UTC	ruby-head	135.675 requests per second	ruby 2.1.0dev (2013-11-03 trunk 43516) [x86_64-darwin10.8.0]
+2013-11-03 08:32:00 UTC	jruby	40.395 requests per second	jruby 1.7.6 (1.9.3p392) 2013-10-22 6004147 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-11-03 09:11:45 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-11-03 db61864 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-11-03 09:25:30 UTC	rbx	76.58 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
+2013-11-03 10:07:13 UTC	rbx-head	bundle failed	bundle failed

@@ -1363,3 +1363,16 @@
 2013-11-03 09:14:42 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-11-03 db61864 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-11-03 09:45:07 UTC	rbx	96.475 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
 2013-11-03 10:07:16 UTC	rbx-head	bundle failed	bundle failed
+2013-11-04 06:23:18 UTC	1.8.7	75.0125 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-11-04 06:41:35 UTC	1.8.7-head	78.03 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-11-04 06:55:04 UTC	1.9.2	105.775 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-11-04 07:20:06 UTC	1.9.2-head	111.77000000000001 requests per second	ruby 1.9.2p325 (2013-04-15 revision 40305) [x86_64-darwin10.8.0]
+2013-11-04 07:33:58 UTC	1.9.3	107.51249999999999 requests per second	ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin10.8.0]
+2013-11-04 08:01:59 UTC	1.9.3-head	112.69 requests per second	ruby 1.9.3p482 (2013-11-01 revision 43494) [x86_64-darwin10.8.0]
+2013-11-04 08:15:20 UTC	2.0.0	116.585 requests per second	ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin10.8.0]
+2013-11-04 08:46:30 UTC	2.0.0-head	122.1975 requests per second	ruby 2.0.0p343 (2013-10-31 revision 43481) [x86_64-darwin10.8.0]
+2013-11-04 09:16:38 UTC	ruby-head	132.5525 requests per second	ruby 2.1.0dev (2013-11-04 trunk 43525) [x86_64-darwin10.8.0]
+2013-11-04 09:45:40 UTC	jruby	75.38250000000001 requests per second	jruby 1.7.6 (1.9.3p392) 2013-10-22 6004147 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-11-04 10:16:16 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-11-04 db61864 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-11-04 10:47:18 UTC	rbx	96.2875 requests per second	rubinius 2.1.1 (2.1.0 be67ed17 2013-10-18 JI) [x86_64-darwin10.8.0]
+2013-11-04 11:10:31 UTC	rbx-head	bundle failed	bundle failed

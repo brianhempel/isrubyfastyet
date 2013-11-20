@@ -3791,3 +3791,16 @@
 2013-11-19 10:05:59 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-11-19 f28caa5 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-11-19 10:19:14 UTC	rbx	failed	rubinius 2.2.0 (2.1.0 f66ada69 2013-11-15 JI) [x86_64-darwin10.8.0]
 2013-11-19 10:41:22 UTC	rbx-head	bundle failed	bundle failed
+2013-11-20 06:24:54 UTC	1.8.7	3.42321985960007 seconds	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-11-20 06:43:34 UTC	1.8.7-head	3.46986496448517 seconds	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-11-20 06:57:37 UTC	1.9.2	5.392719060182571 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-11-20 07:22:27 UTC	1.9.2-head	5.284344792366028 seconds	ruby 1.9.2p325 (2013-04-15 revision 40305) [x86_64-darwin10.8.0]
+2013-11-20 07:36:03 UTC	1.9.3	4.461149499999999 seconds	ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-darwin10.8.0]
+2013-11-20 08:03:54 UTC	1.9.3-head	4.199233375 seconds	ruby 1.9.3p482 (2013-11-01 revision 43494) [x86_64-darwin10.8.0]
+2013-11-20 08:16:53 UTC	2.0.0	3.551477875 seconds	ruby 2.0.0p247 (2013-06-27 revision 41674) [x86_64-darwin10.8.0]
+2013-11-20 08:48:21 UTC	2.0.0-head	3.4180354999999993 seconds	ruby 2.0.0p350 (2013-11-20 revision 43733) [x86_64-darwin10.8.0]
+2013-11-20 09:17:37 UTC	ruby-head	3.010541375 seconds	ruby 2.1.0dev (2013-11-20 trunk 43734) [x86_64-darwin10.0]
+2013-11-20 09:51:11 UTC	jruby	20.099875 seconds	jruby 1.7.8 (1.9.3p392) 2013-11-14 0ce429e on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-11-20 10:13:23 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-11-20 e18cc96 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-11-20 10:26:26 UTC	rbx	failed	rubinius 2.2.0 (2.1.0 f66ada69 2013-11-15 JI) [x86_64-darwin10.8.0]
+2013-11-20 10:54:13 UTC	rbx-head	bundle failed	bundle failed

@@ -26,7 +26,6 @@ rake benchmark_suite                    &&
 	git commit -m 'Autorunner: Results' &&
 	git pull --rebase                   &&
 	git push origin master              &&
-	git push heroku master              &&
 	cd "$BASE_DIR/.."                   &&
 	echo `pwd`                          &&
 	./transfer_site_to_s3

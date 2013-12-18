@@ -1883,3 +1883,16 @@
 2013-12-17 10:19:09 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-12-17 9418c53 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-12-17 10:38:20 UTC	rbx	failed	rubinius 2.2.1 (2.1.0 3ed43137 2013-11-17 JI) [x86_64-darwin10.8.0]
 2013-12-17 11:01:01 UTC	rbx-head	bundle failed	bundle failed
+2013-12-18 06:47:47 UTC	1.8.7	75.96 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-12-18 07:09:10 UTC	1.8.7-head	77.88 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-12-18 07:22:36 UTC	1.9.2	105.1275 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-12-18 07:58:07 UTC	1.9.2-head	111.5775 requests per second	ruby 1.9.2p325 (2013-04-15 revision 40305) [x86_64-darwin10.8.0]
+2013-12-18 08:11:51 UTC	1.9.3	113.7225 requests per second	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2013-12-18 08:40:20 UTC	1.9.3-head	114.60749999999999 requests per second	ruby 1.9.3p484 (2013-11-22 revision 43782) [x86_64-darwin10.8.0]
+2013-12-18 08:53:35 UTC	2.0.0	121.72749999999999 requests per second	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2013-12-18 09:24:27 UTC	2.0.0-head	124.825 requests per second	ruby 2.0.0p359 (2013-12-14 revision 44182) [x86_64-darwin10.8.0]
+2013-12-18 09:55:23 UTC	ruby-head	128.215 requests per second	ruby 2.1.0dev (2013-12-18 trunk 44277) [x86_64-darwin10.0]
+2013-12-18 10:20:08 UTC	jruby	72.5525 requests per second	jruby 1.7.9 (1.9.3p392) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-12-18 10:51:15 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-12-18 9143554 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-12-18 11:09:01 UTC	rbx	failed	rubinius 2.2.1 (2.1.0 3ed43137 2013-11-17 JI) [x86_64-darwin10.8.0]
+2013-12-18 11:33:33 UTC	rbx-head	bundle failed	bundle failed

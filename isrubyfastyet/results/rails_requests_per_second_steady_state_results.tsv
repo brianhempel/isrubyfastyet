@@ -1896,3 +1896,16 @@
 2013-12-18 10:51:15 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-12-18 9143554 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-12-18 11:09:01 UTC	rbx	failed	rubinius 2.2.1 (2.1.0 3ed43137 2013-11-17 JI) [x86_64-darwin10.8.0]
 2013-12-18 11:33:33 UTC	rbx-head	bundle failed	bundle failed
+2013-12-19 06:23:21 UTC	1.8.7	75.685 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-12-19 06:42:38 UTC	1.8.7-head	78.025 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2013-12-19 06:56:04 UTC	1.9.2	106.26500000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2013-12-19 07:20:59 UTC	1.9.2-head	111.79750000000001 requests per second	ruby 1.9.2p325 (2013-04-15 revision 40305) [x86_64-darwin10.8.0]
+2013-12-19 07:34:38 UTC	1.9.3	113.49 requests per second	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2013-12-19 08:02:49 UTC	1.9.3-head	115.17750000000001 requests per second	ruby 1.9.3p484 (2013-11-22 revision 43782) [x86_64-darwin10.8.0]
+2013-12-19 08:15:50 UTC	2.0.0	121.77000000000001 requests per second	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2013-12-19 08:47:59 UTC	2.0.0-head	122.94 requests per second	ruby 2.0.0p359 (2013-12-14 revision 44182) [x86_64-darwin10.8.0]
+2013-12-19 09:17:21 UTC	ruby-head	126.31250000000001 requests per second	ruby 2.1.0dev (2013-12-19 trunk 44289) [x86_64-darwin10.0]
+2013-12-19 09:40:38 UTC	jruby	73.1175 requests per second	jruby 1.7.9 (1.9.3p392) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-12-19 10:11:13 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-12-19 23c1774 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
+2013-12-19 10:31:36 UTC	rbx	failed	rubinius 2.2.1 (2.1.0 3ed43137 2013-11-17 JI) [x86_64-darwin10.8.0]
+2013-12-19 11:20:23 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

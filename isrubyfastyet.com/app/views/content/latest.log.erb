@@ -4,4 +4,4 @@
 	@latest_run = `tail -c +#{first_byte} #{log_path}`
 %>
 
-<%= @latest_run %>
+<%= raw @latest_run %>

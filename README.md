@@ -22,6 +22,8 @@ brew install phantomjs
 
 ### Usage
 
+The benchmark suite runner currently need to start under a fork-enabled ruby (i.e., not JRuby). See below for how to run individual benchmarks, which do not require fork.
+
 ```
 # run the entire benchmark suite (~3.5 hours on my box, more for the first run)
 cd runner

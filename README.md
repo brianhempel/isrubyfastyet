@@ -28,7 +28,6 @@ cd runner
 rake
 
 # see how the latest results compare to the median of the 5 previous
-cd isrubyfastyet
 rake variability
 ```
 

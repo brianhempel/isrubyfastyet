@@ -1,0 +1,64 @@
+# ported from smcFanControl source, v2.3 -- http://www.eidac.de/
+# see /Applications/smcFanControl.app/Contents/Resources/Sources/smcWrapper.m
+
++(float) get_maintemp{
+	UInt32Char_t  key;
+	SMCVal_t      val;
+	//kern_return_t result;
+	float c_temp;
+	
+	NSRange range_pro=[[MachineDefaults computerModel] rangeOfString:@"MacPro"];
+	if (range_pro.length > 0) {
+		//special readout for MacPro
+		c_temp=[smcWrapper get_mptemp];
+	} else {
+		int i=0;
+		sprintf(key, "TC%dD", i);
+		SMCReadKey2(key, &val,conn);
+		c_temp= ((val.bytes[0] * 256 + val.bytes[1]) >> 2)/64;
+		//workaround for imac 24" (just for testing).
+		if (c_temp<=0) {
+			int i=0;
+			sprintf(key, "TC%dH", i);
+			SMCReadKey2(key, &val,conn);
+			c_temp= ((val.bytes[0] * 256 + val.bytes[1]) >> 2)/64;
+		}
+		//last try
+		if (c_temp<=0) {
+			sprintf(key, "TC%cH", "A");
+			SMCReadKey2(key, &val,conn);
+			c_temp= ((val.bytes[0] * 256 + val.bytes[1]) >> 2)/64;
+		}
+	}
+	//for macpro different strategy
+	
+	return c_temp;
+}
+
+
+//temperature-readout for MacPro contributed by Victor Boyer
++(float) get_mptemp{
+    UInt32Char_t  keyA;
+    UInt32Char_t  keyB;
+    SMCVal_t      valA;
+    SMCVal_t      valB;
+   // kern_return_t resultA;
+   // kern_return_t resultB;
+    sprintf(keyA, "TCAH");
+	SMCReadKey2(keyA, &valA,conn);
+    sprintf(keyB, "TCBH");
+	SMCReadKey2(keyB, &valB,conn);
+    float c_tempA= ((valA.bytes[0] * 256 + valA.bytes[1]) >> 2)/64.0;
+    float c_tempB= ((valB.bytes[0] * 256 + valB.bytes[1]) >> 2)/64.0;
+    int i_tempA, i_tempB;
+    if (c_tempA < c_tempB)
+    {
+        i_tempB = round(c_tempB);
+        return i_tempB;
+    }
+    else
+    {
+        i_tempA = round(c_tempA);
+        return i_tempA;
+    }
+}

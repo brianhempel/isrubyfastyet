@@ -23,13 +23,28 @@ brew install phantomjs
 ### Usage
 
 ```
-# run the benchmark (~3.5 hours on my box, more for the first run)
+# run the entire benchmark suite (~3.5 hours on my box, more for the first run)
 cd runner
 rake
 
 # see how the latest results compare to the median of the 5 previous
 rake variability
 ```
+
+The individual benchmarks are simply Ruby files in runner/benchmarks ending with *benchmark.rb. If you want to run a benchmark individually...
+
+```
+# switch to the ruby version you want
+rvm jruby-head
+
+# navigate to the benchmark folder
+cd runner/benchmarks/rails
+# you may have to do some bundling here (not shown)
+# then simply execute the benchmark
+ruby requests_per_second_benchmark.rb
+```
+
+Writing a new benchmark is easy. Simply author a new file in the benchmarks folder, such as "benchmarks/pure_ruby_gzip/compression_benchmark.rb", and make sure the last line to standard out is the benchmark result with units, like `123456 KB compressed per second`.
 
 ### Tests
 

@@ -2,7 +2,7 @@
 
 source "$HOME/.rvm/scripts/rvm"
 
-rvm use 1.9.3@benchmark &&
+rvm use 1.9.3@benchmark_front_end --create &&
 	bundle install && # for the front-end rails app
 	(ruby -e "require 'aws-sdk'" || gem install aws-sdk --no-ri --no-rdoc) && # for the transfer script
 	ruby transfer_site_to_s3.rb

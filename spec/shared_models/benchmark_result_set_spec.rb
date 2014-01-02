@@ -2,6 +2,8 @@ require 'spec_helper'
 
 describe BenchmarkResultSet do
   before :all do
+    begin Dir.mkdir(File.expand_path('../../tmp', __FILE__));         rescue Errno::EEXIST; end
+    begin Dir.mkdir(File.expand_path('../../tmp/results', __FILE__)); rescue Errno::EEXIST; end
     @results_dir = File.expand_path('../../tmp/results', __FILE__)
     BenchmarkResultSet.results_dir = @results_dir
   end

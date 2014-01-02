@@ -26,7 +26,7 @@ rake benchmark_suite                    &&
 	git commit -m 'Autorunner: Results' &&
 	git pull --rebase                   &&
 	git push origin master              &&
-	cd "$BASE_DIR/.."                   &&
+	cd "$BASE_DIR/isrubyfastyet.com"    &&
 	echo `pwd`                          &&
 	./transfer_site_to_s3
 

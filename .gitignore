@@ -1,8 +1,8 @@
-isrubyfastyet/runner/benchmarks/**/*.lock
+runner/benchmarks/**/Gemfile.lock
 .rbx
 .DS_Store
 runner/benchmarks/rails/public/assets
-public/assets
+isrubyfastyet.com/public/assets
 tmp/
 *.log
 s3_credentials-private.yml

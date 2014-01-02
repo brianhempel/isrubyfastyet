@@ -1988,3 +1988,4 @@
 2013-12-26 11:47:16 UTC	jruby	70.9125 requests per second	jruby 1.7.9 (1.9.3p392) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-12-26 12:21:41 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-12-26 c9a9d37 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-12-26 12:40:56 UTC	rbx	failed	rubinius 2.2.1 (2.1.0 3ed43137 2013-11-17 JI) [x86_64-darwin10.8.0]
+2014-01-02 09:55:53 UTC	jruby	71.39750000000001 requests per second	jruby 1.7.9 (1.9.3p392) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]

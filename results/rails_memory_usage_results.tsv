@@ -4225,3 +4225,4 @@
 2013-12-26 11:30:11 UTC	jruby	210.505837281545 MB	jruby 1.7.9 (1.9.3p392) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-12-26 12:14:34 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2013-12-26 c9a9d37 on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]
 2013-12-26 12:34:46 UTC	rbx	failed	rubinius 2.2.1 (2.1.0 3ed43137 2013-11-17 JI) [x86_64-darwin10.8.0]
+2014-01-02 09:38:54 UTC	jruby	211.12200482686362 MB	jruby 1.7.9 (1.9.3p392) 2013-12-06 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.6.0_51-b11-457-10M4509 [darwin-x86_64]

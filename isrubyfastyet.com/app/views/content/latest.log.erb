@@ -1,0 +1,7 @@
+<%
+	log_path = Rails.root.join('../nightly/nightly.log')
+	first_byte = `grep -b 'nightly benchmark suite start' #{log_path} | tail -1`[/^\d+/].to_i
+	@latest_run = `tail -c +#{first_byte} #{log_path}`
+%>
+
+<%= @latest_run %>

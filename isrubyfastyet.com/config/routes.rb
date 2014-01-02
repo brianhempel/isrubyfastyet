@@ -5,6 +5,7 @@ IsRubyFastYet::Application.routes.draw do
   end
 
   root :to => 'content#home'
+  get 'latest.log' => 'content#latest_log'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

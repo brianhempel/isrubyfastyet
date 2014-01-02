@@ -7,7 +7,7 @@
 <%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',                     :default_time_range => '1m' %>
 <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',                     :default_time_range => '1m' %>
 
-<div id="hardware">
+<section id="hardware">
   <h3>Hardware</h3>
   <p>
     Mid-2007 MacBook Pro<br>
@@ -17,4 +17,11 @@
     Mac OS X 10.6<br>
     When running the benchmark, the computer fans are spun up to maximum speed courtesy of <%= link_to "smcFanControl", "http://www.eidac.de/?cat=40" %>. JRuby, in particular, runs hot. The benchmark premptively runs the fans and pauses between runs in order to cool off. These measures give JRuby at least a 25% speed gain. However, JRuby still might be running slower than it would on a box with appropriate cooling.
   </p>
-</div>
+</section>
+
+<section id="debugging">
+  <h3>Debugging</h3>
+  <p>
+  	Is your favorite Ruby implementation not showing up? Check the <%= link_to "latest nightly log", 'latest.log' %> to learn why.
+  </p>
+</section>

@@ -36,7 +36,7 @@ body {
 }
 
 .body-wrapper {
-  padding: 1em 30px;
+  padding: 1em 30px 2em;
   margin: 0;
   background: #FFF5F7;
 }
@@ -52,7 +52,7 @@ h2 {
   text-shadow: rgba(255, 156, 171, 0.5) 1px 1px 2px;
 }
 
-#hardware h3 {
+h3 {
   font-family: 'Peralta', sans-serif;
   text-shadow: #FF9CAB 2px 2px 1px;
   margin-top: 2em;
@@ -60,7 +60,7 @@ h2 {
   margin-bottom: 5px;
 }
 
-#hardware p {
+section p {
   margin-top: 5px;
   font-size: 14px;
 }

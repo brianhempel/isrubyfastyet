@@ -9,6 +9,19 @@
   <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',                     :default_time_range => '1m' %>
 </section>
 
+<section id="about">
+  <h3>About the Benchmarks</h3>
+  <p>
+    This is intended as a Ruby benchmark rather than a Rails one; <%= link_to "Rails", 'http://rubyonrails.org/' %> just happens to be the best thing out there to benchmark. Rails presents the greatest challenge to Ruby implementations.
+  </p>
+  <p>
+    As a Ruby benchmark, the Rails version is locked to 3.1.3 and the server is WEBrick.
+  </p>
+  <p>
+    I would love to compare Ruby to other dynamic languages. However, I don't know of any sufficiently complex, real-world applications that are also cross-language. So right now the question is more like, "Is Ruby Faster Than Before?"
+  </p>
+</section>
+
 <section id="hardware">
   <h3>Hardware</h3>
   <p>
@@ -35,6 +48,14 @@
       <li>
         <span class="date">2014-01-02</span>
         Java updated from 1.6.0_51-b11-457 to 1.7.0_45.
+      </li>
+      <li>
+        <span class="date">2013-05-24</span>
+        Rails Requests Per Second Steady State benchmark added to show JIT performance.
+      </li>
+      <li>
+        <span class="date">2012-01-12</span>
+        First results.
       </li>
     </ol>
   </p>

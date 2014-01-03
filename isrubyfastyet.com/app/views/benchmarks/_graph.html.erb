@@ -19,6 +19,7 @@
 
 <div class="benchmark-graph-wrapper">
   <h2><%= benchmark.gsub('_', ' ').titleize %></h2>
+  <p><%= better %> is better.</p>
 
   <div class="benchmark-graph" id="<%= graph_id %>" data-graph-benchmark="<%= benchmark %>"></div>
   <div class="benchmark-graph-legend">

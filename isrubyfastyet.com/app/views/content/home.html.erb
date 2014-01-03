@@ -3,10 +3,10 @@
 <p>Practical, comparative benchmarks of Ruby implementations. Thanks to <%= link_to "RVM", "https://rvm.io/" %> for Ruby setup and compiling. <%= link_to "Github", "https://github.com/brianhempel/isrubyfastyet" %></p>
 
 <section id="graphs">
-  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second',              :default_time_range => '1m' %>
-  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second_steady_state', :default_time_range => '1m' %>
-  <%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',                     :default_time_range => '1m' %>
-  <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',                     :default_time_range => '1m' %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second',              :default_time_range => '1m', :better => "More" %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second_steady_state', :default_time_range => '1m', :better => "More" %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',                     :default_time_range => '1m', :better => "Less" %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',                     :default_time_range => '1m', :better => "Less" %>
 </section>
 
 <section id="about">

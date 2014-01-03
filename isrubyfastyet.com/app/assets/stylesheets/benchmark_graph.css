@@ -4,6 +4,15 @@
   margin-top: 2em;
 }
 
+.benchmark-graph-wrapper h2 {
+  margin-bottom: 0;
+}
+
+.benchmark-graph-wrapper p {
+  margin: 0 0 1em;
+  padding: 0;
+}
+
 .benchmark-graph {
   float: left;
   width:  600px;

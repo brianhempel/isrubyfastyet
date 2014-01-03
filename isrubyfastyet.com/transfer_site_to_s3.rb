@@ -106,3 +106,11 @@ paths_and_responses.each do |output_path, response|
 
   object = bucket.objects[output_path].write(gzipped, options)
 end
+
+
+
+###############################
+###   4.  C L E A N   U P   ###
+###############################
+
+system('bundle exec rake -t assets:clean') || exit(1)

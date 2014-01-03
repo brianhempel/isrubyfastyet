@@ -2,10 +2,12 @@
 
 <p>Practical, comparative benchmarks of Ruby implementations. Thanks to <%= link_to "RVM", "https://rvm.io/" %> for Ruby setup and compiling. <%= link_to "Github", "https://github.com/brianhempel/isrubyfastyet" %></p>
 
-<%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second',              :default_time_range => '1m' %>
-<%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second_steady_state', :default_time_range => '1m' %>
-<%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',                     :default_time_range => '1m' %>
-<%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',                     :default_time_range => '1m' %>
+<section id="graphs">
+  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second',              :default_time_range => '1m' %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second_steady_state', :default_time_range => '1m' %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',                     :default_time_range => '1m' %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',                     :default_time_range => '1m' %>
+</section>
 
 <section id="hardware">
   <h3>Hardware</h3>
@@ -23,5 +25,17 @@
   <h3>Debugging</h3>
   <p>
   	Is your favorite Ruby implementation not showing up? Check the <%= link_to "latest nightly log", 'latest.log' %> to learn why.
+  </p>
+</section>
+
+<section id="updates">
+  <h3>Updates</h3>
+  <p>
+    <ol>
+      <li>
+        <span class="date">2014-01-02</span>
+        Java updated from 1.6.0_51-b11-457 to 1.7.0_45.
+      </li>
+    </ol>
   </p>
 </section>

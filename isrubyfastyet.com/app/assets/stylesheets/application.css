@@ -55,12 +55,25 @@ h2 {
 h3 {
   font-family: 'Peralta', sans-serif;
   text-shadow: #FF9CAB 2px 2px 1px;
-  margin-top: 2em;
   font-size: 24px;
-  margin-bottom: 5px;
+  margin: 0;
 }
 
-section p {
+section {
+  margin-bottom: 2em;
+}
+
+section p,
+#updates ol {
   margin-top: 5px;
   font-size: 14px;
+}
+
+#updates ol {
+  list-style: none;
+  padding: 0;
+}
+
+#updates .date {
+  opacity: 0.5;
 }

@@ -56,7 +56,7 @@ Tests need Ruby >= 1.9, though the benchmark suite can run under 1.8.7.
 # to test the front-end app
 cd isrubyfastyet.com
 bundle install
-rspec spec/
+rake
 
 # to test the shared models
 gem install rspec

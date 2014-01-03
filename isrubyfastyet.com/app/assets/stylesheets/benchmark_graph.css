@@ -27,6 +27,17 @@
   float: left;
 }
 
+.legendColorBox {
+  padding-left: 0;
+}
+
+.below-legend {
+  padding: 3px 2px;
+  font-size: x-small;
+  width: 100px;
+  color: #CAC1C3;
+}
+
 #graph-tooltip {
   position:     absolute;
   display:      none;

@@ -21,7 +21,10 @@
   <h2><%= benchmark.gsub('_', ' ').titleize %></h2>
 
   <div class="benchmark-graph" id="<%= graph_id %>" data-graph-benchmark="<%= benchmark %>"></div>
-  <div class="benchmark-graph-legend"></div>
+  <div class="benchmark-graph-legend">
+  	<div class="legend"></div>
+  	<div class="below-legend">Click on a Ruby above to show/hide it.</div>
+  </div>
 
   <ul class="benchmark-graph-time-range-picker">
     <% time_range_to_start_date.each do |time_range, start_date| %>

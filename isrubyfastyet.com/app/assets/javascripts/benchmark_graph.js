@@ -28,7 +28,7 @@ $.fn.drawBenchmarkGraphFromJSON = function(json, start_time) {
       position: 'nw',
       backgroundOpacity: 0.7,
       toggle: true,
-      container: this.next()
+      container: this.parent().find('.legend')
     }
   });
 }

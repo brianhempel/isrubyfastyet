@@ -3,10 +3,10 @@
 <p>Practical, comparative benchmarks of Ruby implementations. Thanks to <%= link_to "RVM", "https://rvm.io/" %> for Ruby setup and compiling. <%= link_to "Github", "https://github.com/brianhempel/isrubyfastyet" %></p>
 
 <section id="graphs">
-  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second_steady_state', :default_time_range => '1m', :better => "More" %>
-  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second',              :default_time_range => '1m', :better => "More" %>
-  <%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',                     :default_time_range => '1m', :better => "Less" %>
-  <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',                     :default_time_range => '1m', :better => "Less" %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second_steady_state', :default_time_range => '1m', :explanation => "More is better. Single-threaded; warm JIT (warmup requires around 50,000 requests for JRuby and RBX)." %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_requests_per_second',              :default_time_range => '1m', :explanation => "More is better. Single-threaded; cold start (3 seconds of warmup, 15 seconds of testing)." %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_startup_time',                     :default_time_range => '1m', :explanation => "Less is better. Note that JRuby does not use <a href=\"https://github.com/jruby/jruby/wiki/Improving-startup-time#try-using-theine-for-rails-apps\">Drip, Nailgun, or Theine</a> for this benchmark." %>
+  <%= render 'benchmarks/graph', :benchmark => 'rails_memory_usage',                     :default_time_range => '1m', :explanation => "Less is better, if you have reason to care about memory usage." %>
 </section>
 
 <section id="about">

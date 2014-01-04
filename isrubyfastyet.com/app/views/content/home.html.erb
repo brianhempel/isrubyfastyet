@@ -30,7 +30,7 @@
     6GB 667MHz DDR2 SDRAM<br>
     WD Scorpio Black 7200RPM 320GB Hard Drive<br>
     Mac OS X 10.6<br>
-    When running the benchmark, the computer fans are spun up to maximum speed courtesy of <%= link_to "smcFanControl", "http://www.eidac.de/?cat=40" %>. JRuby, in particular, runs hot. The benchmark premptively runs the fans and pauses between runs in order to cool off. These measures give JRuby at least a 25% speed gain. However, JRuby still might be running slower than it would on a box with appropriate cooling.
+    When running the benchmark, the computer fans are spun up to maximum speed courtesy of <%= link_to "smcFanControl", "http://www.eidac.de/?cat=40" %>. JRuby, in particular, runs hot. However, I have good reason to believe that the fans, cool-down pauses, and short measurement times sufficiently prevent the processor from throttling during benchmarking. (During the long JIT warmup, the processor throttles down a little; however, after a short break once JRuby reaches study state, the processor does not throttle when load is reapplied.)
   </p>
 </section>
 

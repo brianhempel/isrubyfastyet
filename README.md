@@ -22,7 +22,7 @@ brew install phantomjs
 
 ### Usage
 
-The benchmark suite runner currently need to start under a fork-enabled ruby (i.e., not JRuby). See below for how to run individual benchmarks, which do not require fork.
+The benchmark suite runner currently needs to start under a fork-enabled ruby (i.e., not JRuby).
 
 ```
 # run the entire benchmark suite (~3.5 hours on my box, more for the first run)
@@ -33,7 +33,7 @@ rake
 rake variability
 ```
 
-The individual benchmarks are simply Ruby files in runner/benchmarks ending with *benchmark.rb. If you want to run a benchmark individually...
+The individual benchmarks are simply Ruby files in runner/benchmarks ending with *benchmark.rb. Individual benchmarks can be run on any Ruby implementation (fork not required). If you want to run a benchmark individually...
 
 ```
 # switch to the ruby version you want

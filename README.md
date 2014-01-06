@@ -33,7 +33,7 @@ rake
 rake variability
 ```
 
-The individual benchmarks are simply Ruby files in runner/benchmarks ending with *benchmark.rb. Individual benchmarks can be run on any Ruby implementation (fork not required). If you want to run a benchmark individually...
+Individual benchmarks can be run on any Ruby implementation (fork not required). If you want to run a benchmark individually...
 
 ```
 # switch to the ruby version you want
@@ -46,7 +46,7 @@ cd runner/benchmarks/rails
 ruby requests_per_second_benchmark.rb
 ```
 
-Writing a new benchmark is easy. Simply author a new file in the benchmarks folder, such as "benchmarks/pure_ruby_gzip/compression_benchmark.rb", and make sure the last line to standard out is the benchmark result with units, like `123456 KB compressed per second`.
+Writing a new benchmark is easy. The individual benchmarks are simply Ruby files in runner/benchmarks ending with *benchmark.rb. Simply author a new file in the benchmarks folder, such as "benchmarks/pure_ruby_gzip/compression_benchmark.rb", and make sure the last line to standard out is the benchmark result with units, like `123456 KB compressed per second`.
 
 ### Tests
 

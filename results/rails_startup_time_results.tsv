@@ -4283,3 +4283,18 @@
 2014-01-06 11:16:46 UTC	jruby-head	21.393 seconds	jruby 9000.dev (2.1.0.dev) 2014-01-06 662e319 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-01-06 11:31:58 UTC	rbx	failed	rubinius 2.2.2 (2.1.0 40836a40 2013-12-21 JI) [x86_64-darwin10.8.0]
 2014-01-06 11:59:18 UTC	rbx-head	bundle failed	bundle failed
+2014-01-08 06:24:47 UTC	1.8.7	3.39234101772308 seconds	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-01-08 06:42:15 UTC	1.8.7-head	3.39565423130989 seconds	ruby 1.8.7 (2013-12-23 patchlevel 375) [i686-darwin10.8.0]
+2014-01-08 06:56:14 UTC	1.9.2	5.421061813831329 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-01-08 07:20:18 UTC	1.9.2-head	5.472469657659531 seconds	ruby 1.9.2p326 (2013-12-23 revision 44353) [x86_64-darwin10.8.0]
+2014-01-08 07:33:44 UTC	1.9.3	4.24922275 seconds	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-01-08 08:00:23 UTC	1.9.3-head	4.266601 seconds	ruby 1.9.3p488 (2013-12-22 revision 44338) [x86_64-darwin10.8.0]
+2014-01-08 08:13:15 UTC	2.0.0	3.49774775 seconds	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-01-08 08:43:06 UTC	2.0.0-head	3.4882386249999997 seconds	ruby 2.0.0p378 (2014-01-07 revision 44511) [x86_64-darwin10.8.0]
+2014-01-08 08:55:43 UTC	2.1.0	2.949626125 seconds	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-01-08 09:24:17 UTC	2.1.0-head	2.9705698750000002 seconds	ruby 2.1.1p2 (2013-12-31 revision 44467) [x86_64-darwin10.0]
+2014-01-08 09:52:56 UTC	ruby-head	3.02758475 seconds	ruby 2.2.0dev (2014-01-08 trunk 44526) [x86_64-darwin10.0]
+2014-01-08 10:25:04 UTC	jruby	21.43025 seconds	jruby 1.7.9 (1.9.3p392) 2014-01-03 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-08 10:27:54 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2014-01-08 10:43:09 UTC	rbx	failed	rubinius 2.2.2 (2.1.0 40836a40 2013-12-21 JI) [x86_64-darwin10.8.0]
+2014-01-08 11:07:05 UTC	rbx-head	bundle failed	bundle failed

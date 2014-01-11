@@ -2095,3 +2095,18 @@
 2014-01-10 11:16:05 UTC	jruby-head	93.86 requests per second	jruby 9000.dev (2.1.0.dev) 2014-01-10 ece07b6 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-01-10 11:37:48 UTC	rbx	failed	rubinius 2.2.2 (2.1.0 40836a40 2013-12-21 JI) [x86_64-darwin10.8.0]
 2014-01-10 12:02:21 UTC	rbx-head	bundle failed	bundle failed
+2014-01-11 06:23:06 UTC	1.8.7	78.9025 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-01-11 06:40:36 UTC	1.8.7-head	79.015 requests per second	ruby 1.8.7 (2013-12-23 patchlevel 375) [i686-darwin10.8.0]
+2014-01-11 06:53:56 UTC	1.9.2	110.5475 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-01-11 07:17:44 UTC	1.9.2-head	111.7975 requests per second	ruby 1.9.2p326 (2013-12-23 revision 44353) [x86_64-darwin10.8.0]
+2014-01-11 07:31:33 UTC	1.9.3	104.095 requests per second	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-01-11 07:58:07 UTC	1.9.3-head	104.60749999999999 requests per second	ruby 1.9.3p489 (2014-01-09 revision 44533) [x86_64-darwin10.8.0]
+2014-01-11 08:11:12 UTC	2.0.0	124.5875 requests per second	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-01-11 08:41:09 UTC	2.0.0-head	123.45 requests per second	ruby 2.0.0p378 (2014-01-07 revision 44511) [x86_64-darwin10.8.0]
+2014-01-11 09:05:37 UTC	2.1.0	131.04749999999999 requests per second	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-01-11 09:34:50 UTC	2.1.0-head	128.3175 requests per second	ruby 2.1.1p5 (2014-01-11 revision 44557) [x86_64-darwin10.0]
+2014-01-11 10:04:13 UTC	ruby-head	129.7325 requests per second	ruby 2.2.0dev (2014-01-11 trunk 44559) [x86_64-darwin10.0]
+2014-01-11 10:36:27 UTC	jruby	102.505 requests per second	jruby 1.7.9 (1.9.3p392) 2014-01-03 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-11 11:24:03 UTC	jruby-head	94.6325 requests per second	jruby 9000.dev (2.1.0.dev) 2014-01-11 6d9b82c on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-11 11:44:38 UTC	rbx	failed	rubinius 2.2.2 (2.1.0 40836a40 2013-12-21 JI) [x86_64-darwin10.8.0]
+2014-01-11 12:09:35 UTC	rbx-head	bundle failed	bundle failed

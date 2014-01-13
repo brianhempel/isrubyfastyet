@@ -4359,3 +4359,18 @@
 2014-01-12 10:55:20 UTC	jruby-head	31.94 requests per second	jruby 9000.dev (2.1.0.dev) 2014-01-12 b2f2a6e on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-01-12 11:32:23 UTC	rbx	failed	rubinius 2.2.2 (2.1.0 40836a40 2013-12-21 JI) [x86_64-darwin10.8.0]
 2014-01-12 11:59:51 UTC	rbx-head	bundle failed	bundle failed
+2014-01-13 06:18:13 UTC	1.8.7	78.4575 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-01-13 06:35:40 UTC	1.8.7-head	79.19 requests per second	ruby 1.8.7 (2013-12-23 patchlevel 375) [i686-darwin10.8.0]
+2014-01-13 06:49:17 UTC	1.9.2	112.17500000000001 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-01-13 07:12:57 UTC	1.9.2-head	111.905 requests per second	ruby 1.9.2p326 (2013-12-23 revision 44353) [x86_64-darwin10.8.0]
+2014-01-13 07:26:46 UTC	1.9.3	104.3425 requests per second	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-01-13 07:53:08 UTC	1.9.3-head	104.235 requests per second	ruby 1.9.3p489 (2014-01-09 revision 44533) [x86_64-darwin10.8.0]
+2014-01-13 08:06:26 UTC	2.0.0	124.26750000000001 requests per second	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-01-13 08:36:15 UTC	2.0.0-head	124.1675 requests per second	ruby 2.0.0p384 (2014-01-12 revision 44576) [x86_64-darwin10.8.0]
+2014-01-13 08:49:02 UTC	2.1.0	128.86249999999998 requests per second	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-01-13 09:17:39 UTC	2.1.0-head	128.8575 requests per second	ruby 2.1.1p5 (2014-01-11 revision 44557) [x86_64-darwin10.0]
+2014-01-13 09:46:31 UTC	ruby-head	130.7525 requests per second	ruby 2.2.0dev (2014-01-13 trunk 44587) [x86_64-darwin10.0]
+2014-01-13 10:05:57 UTC	jruby	38.102500000000006 requests per second	jruby 1.7.9 (1.9.3p392) 2014-01-03 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-13 10:56:53 UTC	jruby-head	31.535 requests per second	jruby 9000.dev (2.1.0.dev) 2014-01-13 2325d6d on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-13 11:34:05 UTC	rbx	failed	rubinius 2.2.2 (2.1.0 40836a40 2013-12-21 JI) [x86_64-darwin10.8.0]
+2014-01-13 12:01:18 UTC	rbx-head	bundle failed	bundle failed

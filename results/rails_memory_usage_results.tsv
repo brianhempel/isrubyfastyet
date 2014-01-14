@@ -4377,3 +4377,18 @@
 2014-01-13 10:51:00 UTC	jruby-head	388.34414021174115 MB	jruby 9000.dev (2.1.0.dev) 2014-01-13 2325d6d on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-01-13 11:29:43 UTC	rbx	failed	rubinius 2.2.2 (2.1.0 40836a40 2013-12-21 JI) [x86_64-darwin10.8.0]
 2014-01-13 12:00:49 UTC	rbx-head	bundle failed	bundle failed
+2014-01-14 06:14:30 UTC	1.8.7	57.3036454518636 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-01-14 06:32:09 UTC	1.8.7-head	57.4493268330892 MB	ruby 1.8.7 (2013-12-23 patchlevel 375) [i686-darwin10.8.0]
+2014-01-14 06:45:39 UTC	1.9.2	89.17133204142253 MB	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-01-14 07:09:57 UTC	1.9.2-head	91.07580248514812 MB	ruby 1.9.2p326 (2013-12-23 revision 44353) [x86_64-darwin10.8.0]
+2014-01-14 07:23:49 UTC	1.9.3	82.86985635757446 MB	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-01-14 07:50:34 UTC	1.9.3-head	85.51056830088298 MB	ruby 1.9.3p489 (2014-01-09 revision 44533) [x86_64-darwin10.8.0]
+2014-01-14 08:05:30 UTC	2.0.0	83.41668796539307 MB	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-01-14 08:35:19 UTC	2.0.0-head	83.60822455088298 MB	ruby 2.0.0p384 (2014-01-12 revision 44576) [x86_64-darwin10.8.0]
+2014-01-14 08:48:11 UTC	2.1.0	86.3572694460551 MB	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-01-14 09:17:03 UTC	2.1.0-head	88.19034258524577 MB	ruby 2.1.1p5 (2014-01-11 revision 44557) [x86_64-darwin10.0]
+2014-01-14 09:45:42 UTC	ruby-head	88.51755619049072 MB	ruby 2.2.0dev (2014-01-14 trunk 44594) [x86_64-darwin10.0]
+2014-01-14 10:01:28 UTC	jruby	380.04249080022174 MB	jruby 1.7.9 (1.9.3p392) 2014-01-03 87b108a on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-14 10:51:02 UTC	jruby-head	389.8813581466675 MB	jruby 9000.dev (2.1.0.dev) 2014-01-14 2325d6d on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-14 11:25:00 UTC	rbx	failed	rubinius 2.2.2 (2.1.0 40836a40 2013-12-21 JI) [x86_64-darwin10.8.0]
+2014-01-14 11:55:24 UTC	rbx-head	bundle failed	bundle failed

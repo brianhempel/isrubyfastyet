@@ -12,6 +12,6 @@ end
 finder = apps.find { |app| app.command == "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder" }
 launchd_pid = finder.parent_pid
 
-apps_to_close = apps.select { |app| app.parent_pid == launchd_pid && app.command =~ /^\/Applications\// && app.command !~ /Terminal/}
+apps_to_close = apps.select { |app| app.parent_pid == launchd_pid && app.command =~ /\.app\b/ && app.command !~ /Terminal|^\/System/}
 
 apps_to_close.each { |app| Process.kill("HUP", app.pid.to_i) }

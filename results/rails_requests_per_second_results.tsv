@@ -4494,3 +4494,18 @@
 2014-01-24 10:27:35 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2014-01-24 10:36:11 UTC	rbx	failed	rubinius 2.2.3 (2.1.0 4792e746 2013-12-29 JI) [x86_64-darwin10.8.0]
 2014-01-24 11:03:14 UTC	rbx-head	bundle failed	bundle failed
+2014-01-25 06:17:59 UTC	1.8.7	78.84 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-01-25 06:35:36 UTC	1.8.7-head	78.77 requests per second	ruby 1.8.7 (2013-12-23 patchlevel 375) [i686-darwin10.8.0]
+2014-01-25 06:49:15 UTC	1.9.2	112.13499999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-01-25 07:13:53 UTC	1.9.2-head	112.06 requests per second	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-01-25 07:27:40 UTC	1.9.3	104.325 requests per second	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-01-25 07:54:15 UTC	1.9.3-head	103.875 requests per second	ruby 1.9.3p489 (2014-01-09 revision 44533) [x86_64-darwin10.8.0]
+2014-01-25 08:07:29 UTC	2.0.0	123.095 requests per second	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-01-25 08:37:05 UTC	2.0.0-head	124.275 requests per second	ruby 2.0.0p389 (2014-01-23 revision 44695) [x86_64-darwin10.8.0]
+2014-01-25 08:49:53 UTC	2.1.0	129.5075 requests per second	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-01-25 09:18:08 UTC	2.1.0-head	129.94 requests per second	ruby 2.1.1p8 (2014-01-23 revision 44683) [x86_64-darwin10.0]
+2014-01-25 09:46:49 UTC	ruby-head	130.62 requests per second	ruby 2.2.0dev (2014-01-25 trunk 44706) [x86_64-darwin10.0]
+2014-01-25 10:05:10 UTC	jruby	34.04 requests per second	jruby 1.7.10 (1.9.3p392) 2014-01-09 c4ecd6b on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-25 10:35:48 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2014-01-25 10:42:29 UTC	rbx	failed	rubinius 2.2.3 (2.1.0 4792e746 2013-12-29 JI) [x86_64-darwin10.8.0]
+2014-01-25 11:09:44 UTC	rbx-head	bundle failed	bundle failed

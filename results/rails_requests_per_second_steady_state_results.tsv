@@ -2335,3 +2335,18 @@
 2014-01-30 10:34:53 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2014-01-30 10:45:37 UTC	rbx	failed	rubinius 2.2.3 (2.1.0 4792e746 2013-12-29 JI) [x86_64-darwin10.8.0]
 2014-01-30 11:10:13 UTC	rbx-head	bundle failed	bundle failed
+2014-01-31 06:23:13 UTC	1.8.7	79.3475 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-01-31 06:41:28 UTC	1.8.7-head	79.12 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-01-31 06:54:51 UTC	1.9.2	112.53999999999999 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-01-31 07:19:45 UTC	1.9.2-head	111.595 requests per second	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-01-31 07:33:32 UTC	1.9.3	104.88250000000001 requests per second	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-01-31 08:00:46 UTC	1.9.3-head	104.545 requests per second	ruby 1.9.3p510 (2014-01-30 revision 44767) [x86_64-darwin10.8.0]
+2014-01-31 08:13:55 UTC	2.0.0	122.7575 requests per second	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-01-31 08:44:32 UTC	2.0.0-head	124.03 requests per second	ruby 2.0.0p391 (2014-01-31 revision 44769) [x86_64-darwin10.8.0]
+2014-01-31 08:57:20 UTC	2.1.0	131.63750000000002 requests per second	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-01-31 09:26:40 UTC	2.1.0-head	129.1975 requests per second	ruby 2.1.1p12 (2014-01-31 revision 44774) [x86_64-darwin10.0]
+2014-01-31 09:57:47 UTC	ruby-head	132.475 requests per second	ruby 2.2.0dev (2014-01-31 trunk 44776) [x86_64-darwin10.0]
+2014-01-31 10:26:04 UTC	jruby	103.94749999999999 requests per second	jruby 1.7.10 (1.9.3p392) 2014-01-09 c4ecd6b on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-31 10:36:37 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2014-01-31 10:48:31 UTC	rbx	failed	rubinius 2.2.3 (2.1.0 4792e746 2013-12-29 JI) [x86_64-darwin10.8.0]
+2014-01-31 11:21:23 UTC	rbx-head	bundle failed	bundle failed

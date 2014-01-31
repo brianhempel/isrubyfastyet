@@ -4572,3 +4572,18 @@
 2014-01-30 10:34:53 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2014-01-30 10:38:43 UTC	rbx	failed	rubinius 2.2.3 (2.1.0 4792e746 2013-12-29 JI) [x86_64-darwin10.8.0]
 2014-01-30 11:08:52 UTC	rbx-head	bundle failed	bundle failed
+2014-01-31 06:14:36 UTC	1.8.7	57.5640187263489 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-01-31 06:32:52 UTC	1.8.7-head	57.4649298985799 MB	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-01-31 06:46:21 UTC	1.9.2	88.42387119928996 MB	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-01-31 07:11:15 UTC	1.9.2-head	90.75329812367757 MB	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-01-31 07:25:06 UTC	1.9.3	86.59140586853027 MB	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-01-31 07:52:20 UTC	1.9.3-head	84.20792039235432 MB	ruby 1.9.3p510 (2014-01-30 revision 44767) [x86_64-darwin10.8.0]
+2014-01-31 08:05:41 UTC	2.0.0	82.95097621281941 MB	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-01-31 08:36:18 UTC	2.0.0-head	84.27126661936443 MB	ruby 2.0.0p391 (2014-01-31 revision 44769) [x86_64-darwin10.8.0]
+2014-01-31 08:49:11 UTC	2.1.0	85.63107585906982 MB	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-01-31 09:18:30 UTC	2.1.0-head	87.64793793360393 MB	ruby 2.1.1p12 (2014-01-31 revision 44774) [x86_64-darwin10.0]
+2014-01-31 09:49:39 UTC	ruby-head	87.6516056060791 MB	ruby 2.2.0dev (2014-01-31 trunk 44776) [x86_64-darwin10.0]
+2014-01-31 10:05:40 UTC	jruby	399.2139536539714 MB	jruby 1.7.10 (1.9.3p392) 2014-01-09 c4ecd6b on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-01-31 10:36:37 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2014-01-31 10:41:00 UTC	rbx	failed	rubinius 2.2.3 (2.1.0 4792e746 2013-12-29 JI) [x86_64-darwin10.8.0]
+2014-01-31 11:19:45 UTC	rbx-head	bundle failed	bundle failed

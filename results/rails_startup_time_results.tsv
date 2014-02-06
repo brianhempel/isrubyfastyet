@@ -4658,3 +4658,18 @@
 2014-02-05 10:21:39 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2014-02-05 10:49:47 UTC	rbx	failed	rubinius 2.2.4 (2.1.0 fd07f670 2014-02-01 JI) [x86_64-darwin10.8.0]
 2014-02-05 11:13:07 UTC	rbx-head	bundle failed	bundle failed
+2014-02-06 05:25:50 UTC	1.8.7	3.3525076508522 seconds	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-02-06 05:43:51 UTC	1.8.7-head	3.34966319799423 seconds	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-02-06 05:57:48 UTC	1.9.2	5.354178756475449 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-02-06 06:21:33 UTC	1.9.2-head	5.44871586561203 seconds	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-02-06 06:34:55 UTC	1.9.3	4.171668 seconds	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-02-06 07:00:57 UTC	1.9.3-head	4.299086624999999 seconds	ruby 1.9.3p515 (2014-02-06 revision 44860) [x86_64-darwin10.8.0]
+2014-02-06 07:13:48 UTC	2.0.0	3.4428785 seconds	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-02-06 07:43:17 UTC	2.0.0-head	3.4761242499999994 seconds	ruby 2.0.0p396 (2014-02-05 revision 44845) [x86_64-darwin10.8.0]
+2014-02-06 07:55:57 UTC	2.1.0	2.889545625 seconds	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-02-06 08:24:19 UTC	2.1.0-head	2.96161025 seconds	ruby 2.1.1p27 (2014-02-06 revision 44863) [x86_64-darwin10.0]
+2014-02-06 08:26:57 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-02-06 09:00:32 UTC	jruby	21.11475 seconds	jruby 1.7.10 (1.9.3p392) 2014-01-09 c4ecd6b on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-02-06 09:16:30 UTC	jruby-head	failed	jruby 9000.dev (2.1.0.dev) 2014-02-06 34faf03 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-02-06 09:29:05 UTC	rbx	failed	rubinius 2.2.4 (2.1.0 fd07f670 2014-02-01 JI) [x86_64-darwin10.8.0]
+2014-02-06 09:51:13 UTC	rbx-head	bundle failed	bundle failed

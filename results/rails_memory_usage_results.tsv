@@ -4842,3 +4842,18 @@
 2014-02-19 09:18:39 UTC	jruby-head	392.2727642059326 MB	jruby 9000.dev (2.1.0.dev) 2014-02-19 1c69355 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-02-19 09:56:03 UTC	rbx	failed	rubinius 2.2.5 (2.1.0 e543ba32 2014-02-08 JI) [x86_64-darwin10.8.0]
 2014-02-19 10:26:05 UTC	rbx-head	bundle failed	bundle failed
+2014-02-20 05:15:34 UTC	1.8.7	57.3123693466187 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-02-20 05:33:35 UTC	1.8.7-head	57.2011280059814 MB	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-02-20 05:47:03 UTC	1.9.2	90.71267302831014 MB	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-02-20 06:11:07 UTC	1.9.2-head	88.56623236338298 MB	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-02-20 06:24:59 UTC	1.9.3	84.77897087732951 MB	ruby 1.9.3p484 (2013-11-22 revision 43786) [x86_64-darwin10.8.0]
+2014-02-20 06:51:27 UTC	1.9.3-head	84.94752566019694 MB	ruby 1.9.3p537 (2014-02-19 revision 45040) [x86_64-darwin10.8.0]
+2014-02-20 07:06:27 UTC	2.0.0	84.02348041534424 MB	ruby 2.0.0p353 (2013-11-22 revision 43784) [x86_64-darwin10.8.0]
+2014-02-20 07:36:39 UTC	2.0.0-head	82.99626684188843 MB	ruby 2.0.0p442 (2014-02-20 revision 45053) [x86_64-darwin10.8.0]
+2014-02-20 07:49:35 UTC	2.1.0	87.14422718683879 MB	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-02-20 08:18:46 UTC	2.1.0-head	87.24116722742717 MB	ruby 2.1.1p39 (2014-02-20 revision 45062) [x86_64-darwin10.0]
+2014-02-20 08:29:59 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-02-20 08:36:13 UTC	jruby	415.62771224975586 MB	jruby 1.7.10 (1.9.3p392) 2014-01-09 c4ecd6b on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-02-20 09:22:35 UTC	jruby-head	392.41113233566284 MB	jruby 9000.dev (2.1.0.dev) 2014-02-20 be570b4 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-02-20 09:57:44 UTC	rbx	failed	rubinius 2.2.5 (2.1.0 e543ba32 2014-02-08 JI) [x86_64-darwin10.8.0]
+2014-02-20 10:28:06 UTC	rbx-head	bundle failed	bundle failed

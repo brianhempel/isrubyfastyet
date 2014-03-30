@@ -5303,3 +5303,18 @@
 2014-03-29 07:57:04 UTC	jruby-head	21.99425 seconds	jruby 9000.dev (2.1.2) 2014-03-29 6035ded on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-03-29 08:08:31 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
 2014-03-29 08:30:55 UTC	rbx-head	bundle failed	bundle failed
+2014-03-30 04:25:50 UTC	1.8.7	3.38594162464142 seconds	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-03-30 04:44:45 UTC	1.8.7-head	3.46586778759956 seconds	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-03-30 04:58:46 UTC	1.9.2	5.408657640218735 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-03-30 05:14:45 UTC	1.9.2-head	failed	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-03-30 05:24:12 UTC	1.9.3	failed	ruby 1.9.3p545 (2014-02-24 revision 45159) [x86_64-darwin10.8.0]
+2014-03-30 05:44:03 UTC	1.9.3-head	4.214504 seconds	ruby 1.9.3p545 (2014-02-24 revision 45158) [x86_64-darwin10.8.0]
+2014-03-30 05:56:54 UTC	2.0.0	3.4589325 seconds	ruby 2.0.0p451 (2014-02-24 revision 45167) [x86_64-darwin10.8.0]
+2014-03-30 06:18:57 UTC	2.0.0-head	3.477696375 seconds	ruby 2.0.0p462 (2014-03-22 revision 45379) [x86_64-darwin10.8.0]
+2014-03-30 06:31:48 UTC	2.1.0	2.8955052500000003 seconds	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-03-30 06:53:34 UTC	2.1.0-head	2.9765121249999997 seconds	ruby 2.1.2p80 (2014-03-01 revision 45231) [x86_64-darwin10.0]
+2014-03-30 06:55:10 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-03-30 07:06:17 UTC	jruby	failed	jruby 1.7.11 (1.9.3p392) 2014-02-24 86339bb on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-03-30 07:56:08 UTC	jruby-head	21.949375000000003 seconds	jruby 9000.dev (2.1.2) 2014-03-30 6035ded on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-03-30 08:07:19 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
+2014-03-30 08:35:01 UTC	rbx-head	bundle failed	bundle failed

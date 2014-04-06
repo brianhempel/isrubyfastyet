@@ -5412,3 +5412,18 @@
 2014-04-05 07:21:58 UTC	jruby-head	390.9143439928691 MB	jruby 9000.dev (2.1.2) 2014-04-05 6f65a15 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-04-05 07:59:58 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
 2014-04-05 08:28:06 UTC	rbx-head	bundle failed	bundle failed
+2014-04-06 04:15:46 UTC	1.8.7	57.3680550257365 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-04-06 04:35:09 UTC	1.8.7-head	57.3814883232117 MB	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-04-06 04:48:40 UTC	1.9.2	89.4525818824768 MB	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-04-06 05:09:22 UTC	1.9.2-head	failed	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-04-06 05:18:13 UTC	1.9.3	failed	ruby 1.9.3p545 (2014-02-24 revision 45159) [x86_64-darwin10.8.0]
+2014-04-06 05:34:16 UTC	1.9.3-head	81.07571585973103 MB	ruby 1.9.3p546 (2014-03-31 revision 45485) [x86_64-darwin10.8.0]
+2014-04-06 05:47:32 UTC	2.0.0	83.10308122634888 MB	ruby 2.0.0p451 (2014-02-24 revision 45167) [x86_64-darwin10.8.0]
+2014-04-06 06:09:04 UTC	2.0.0-head	80.42376279830933 MB	ruby 2.0.0p466 (2014-03-31 revision 45476) [x86_64-darwin10.8.0]
+2014-04-06 06:21:56 UTC	2.1.0	86.94157950083415 MB	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-04-06 06:43:42 UTC	2.1.0-head	85.84249083201091 MB	ruby 2.1.2p80 (2014-03-01 revision 45231) [x86_64-darwin10.0]
+2014-04-06 06:55:00 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-04-06 06:58:30 UTC	jruby	failed	jruby 1.7.11 (1.9.3p392) 2014-02-24 86339bb on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-04-06 07:24:50 UTC	jruby-head	370.5671000480652 MB	jruby 9000.dev (2.1.2) 2014-04-06 d3a4850 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-04-06 08:02:42 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
+2014-04-06 08:31:05 UTC	rbx-head	bundle failed	bundle failed

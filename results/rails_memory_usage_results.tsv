@@ -5712,3 +5712,18 @@
 2014-04-25 07:49:56 UTC	jruby-head	374.54342397054035 MB	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-04-25 7bc56ee on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-04-25 08:29:26 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
 2014-04-25 08:56:58 UTC	rbx-head	bundle failed	bundle failed
+2014-04-26 04:15:29 UTC	1.8.7	57.409200668335 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-04-26 04:34:21 UTC	1.8.7-head	57.4746306737264 MB	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-04-26 04:55:38 UTC	1.9.2	89.89186143875122 MB	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-04-26 05:22:37 UTC	1.9.2-head	failed	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-04-26 05:31:20 UTC	1.9.3	failed	ruby 1.9.3p545 (2014-02-24 revision 45159) [x86_64-darwin10.8.0]
+2014-04-26 05:47:34 UTC	1.9.3-head	84.68537282943726 MB	ruby 1.9.3p546 (2014-03-31 revision 45485) [x86_64-darwin10.8.0]
+2014-04-26 06:08:31 UTC	2.0.0	84.00162696838379 MB	ruby 2.0.0p451 (2014-02-24 revision 45167) [x86_64-darwin10.8.0]
+2014-04-26 06:31:05 UTC	2.0.0-head	80.80305941899617 MB	ruby 2.0.0p466 (2014-03-31 revision 45476) [x86_64-darwin10.8.0]
+2014-04-26 06:43:59 UTC	2.1.0	86.3016053835551 MB	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-04-26 07:06:37 UTC	2.1.0-head	86.13802067438762 MB	ruby 2.1.2p80 (2014-03-01 revision 45231) [x86_64-darwin10.0]
+2014-04-26 07:31:33 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-04-26 07:34:56 UTC	jruby	failed	jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-04-26 08:00:23 UTC	jruby-head	376.8157329559326 MB	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-04-26 5d5b5bc on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-04-26 08:39:49 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
+2014-04-26 09:06:44 UTC	rbx-head	bundle failed	bundle failed

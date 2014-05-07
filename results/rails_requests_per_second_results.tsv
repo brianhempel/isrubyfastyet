@@ -5874,3 +5874,18 @@
 2014-05-06 08:50:06 UTC	jruby-head	24.01 requests per second	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-05-06 6a70bb3 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-05-06 09:27:18 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
 2014-05-06 09:52:20 UTC	rbx-head	bundle failed	bundle failed
+2014-05-07 04:18:54 UTC	1.8.7	75.75 requests per second	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-05-07 04:36:44 UTC	1.8.7-head	74.8525 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-05-07 05:04:48 UTC	1.9.2	108.045 requests per second	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-05-07 05:39:30 UTC	1.9.2-head	failed	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-05-07 05:48:19 UTC	1.9.3	failed	ruby 1.9.3p545 (2014-02-24 revision 45159) [x86_64-darwin10.8.0]
+2014-05-07 06:05:07 UTC	1.9.3-head	111.67999999999999 requests per second	ruby 1.9.3p546 (2014-03-31 revision 45485) [x86_64-darwin10.8.0]
+2014-05-07 06:20:52 UTC	2.0.0	121.225 requests per second	ruby 2.0.0p451 (2014-02-24 revision 45167) [x86_64-darwin10.8.0]
+2014-05-07 06:58:58 UTC	2.0.0-head	120.56 requests per second	ruby 2.0.0p477 (2014-04-30 revision 45762) [x86_64-darwin10.8.0]
+2014-05-07 07:16:52 UTC	2.1.0	124.36500000000001 requests per second	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-05-07 07:39:56 UTC	2.1.0-head	123.86749999999999 requests per second	ruby 2.1.2p93 (2014-05-06 revision 45833) [x86_64-darwin10.0]
+2014-05-07 07:47:34 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-05-07 07:54:09 UTC	jruby	failed	jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-05-07 08:23:05 UTC	jruby-head	25.89 requests per second	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-05-07 10540e2 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-05-07 08:58:37 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
+2014-05-07 09:22:04 UTC	rbx-head	bundle failed	bundle failed

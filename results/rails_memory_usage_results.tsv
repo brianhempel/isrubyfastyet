@@ -6177,3 +6177,18 @@
 2014-05-26 08:37:17 UTC	jruby-head	380.80503431955975 MB	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-05-26 7bf6b39 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-05-26 09:17:52 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
 2014-05-26 09:36:27 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2014-05-28 04:15:34 UTC	1.8.7	57.3337670962016 MB	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-05-28 04:48:19 UTC	1.8.7-head	57.4567486445109 MB	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-05-28 05:17:00 UTC	1.9.2	88.79607152938843 MB	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-05-28 05:52:56 UTC	1.9.2-head	failed	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-05-28 06:01:46 UTC	1.9.3	failed	ruby 1.9.3p547 (2014-05-14 revision 45962) [x86_64-darwin10.8.0]
+2014-05-28 06:18:08 UTC	1.9.3-head	82.52827644348145 MB	ruby 1.9.3p547 (2014-05-14 revision 45941) [x86_64-darwin10.8.0]
+2014-05-28 06:41:22 UTC	2.0.0	82.17052920659383 MB	ruby 2.0.0p481 (2014-05-08 revision 45883) [x86_64-darwin10.8.0]
+2014-05-28 07:19:42 UTC	2.0.0-head	81.24552885691325 MB	ruby 2.0.0p490 (2014-05-28 revision 46201) [x86_64-darwin10.8.0]
+2014-05-28 07:39:23 UTC	2.1.0	86.80783383051555 MB	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-05-28 08:17:57 UTC	2.1.0-head	93.45614115397136 MB	ruby 2.1.2p112 (2014-05-28 revision 46192) [x86_64-darwin10.0]
+2014-05-28 08:44:18 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-05-28 08:47:50 UTC	jruby	failed	jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-05-28 09:16:43 UTC	jruby-head	384.57339366277057 MB	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-05-28 6e4dbc7 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-05-28 09:58:01 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
+2014-05-28 10:16:45 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

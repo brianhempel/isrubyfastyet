@@ -6203,3 +6203,18 @@
 2014-05-29 09:16:19 UTC	jruby-head	27.869874999999997 seconds	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-05-29 cf025ac on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-05-29 09:26:11 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
 2014-05-29 09:38:02 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2014-05-30 04:36:14 UTC	1.8.7	3.43123888969421 seconds	ruby 1.8.7 (2013-06-27 patchlevel 374) [i686-darwin10.8.0]
+2014-05-30 05:04:26 UTC	1.8.7-head	3.59190401434898 seconds	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-05-30 05:32:18 UTC	1.9.2	5.6681113839149475 seconds	ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-darwin10.8.0]
+2014-05-30 05:49:24 UTC	1.9.2-head	failed	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-05-30 05:58:30 UTC	1.9.3	failed	ruby 1.9.3p547 (2014-05-14 revision 45962) [x86_64-darwin10.8.0]
+2014-05-30 06:35:04 UTC	1.9.3-head	4.398170749999999 seconds	ruby 1.9.3p547 (2014-05-14 revision 45941) [x86_64-darwin10.8.0]
+2014-05-30 07:03:22 UTC	2.0.0	3.69853875 seconds	ruby 2.0.0p481 (2014-05-08 revision 45883) [x86_64-darwin10.8.0]
+2014-05-30 07:32:35 UTC	2.0.0-head	3.5392773749999997 seconds	ruby 2.0.0p490 (2014-05-28 revision 46201) [x86_64-darwin10.8.0]
+2014-05-30 07:56:30 UTC	2.1.0	2.9448895 seconds	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-05-30 08:33:51 UTC	2.1.0-head	3.0325698749999996 seconds	ruby 2.1.2p117 (2014-05-30 revision 46236) [x86_64-darwin10.0]
+2014-05-30 08:35:21 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-05-30 08:46:35 UTC	jruby	failed	jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-05-30 09:46:17 UTC	jruby-head	29.407249999999998 seconds	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-05-30 9b1870c on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-05-30 09:56:23 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
+2014-05-30 10:09:06 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

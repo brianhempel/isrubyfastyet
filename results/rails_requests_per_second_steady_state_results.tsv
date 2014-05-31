@@ -3985,3 +3985,18 @@
 2014-05-30 09:36:05 UTC	jruby-head	87.47999999999999 requests per second	jruby 9000.dev-SNAPSHOT (2.1.2) 2014-05-30 9b1870c on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
 2014-05-30 09:55:24 UTC	rbx	failed	rubinius 2.2.6 (2.1.0 68d916a5 2014-03-10 JI) [x86_64-darwin10.8.0]
 2014-05-30 10:09:06 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2014-05-31 04:37:09 UTC	1.8.7	76.5575 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-05-31 05:07:29 UTC	1.8.7-head	74.265 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-05-31 05:32:48 UTC	1.9.2	106.0175 requests per second	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-05-31 06:05:58 UTC	1.9.2-head	105.33500000000001 requests per second	ruby 1.9.2p327 (2014-01-23 revision 44682) [x86_64-darwin10.8.0]
+2014-05-31 06:16:31 UTC	1.9.3	failed	ruby 1.9.3p547 (2014-05-14 revision 45962) [x86_64-darwin10.8.0]
+2014-05-31 06:48:19 UTC	1.9.3-head	110.6475 requests per second	ruby 1.9.3p547 (2014-05-14 revision 45941) [x86_64-darwin10.8.0]
+2014-05-31 07:09:02 UTC	2.0.0	123.455 requests per second	ruby 2.0.0p481 (2014-05-08 revision 45883) [x86_64-darwin10.8.0]
+2014-05-31 07:38:01 UTC	2.0.0-head	121.1975 requests per second	ruby 2.0.0p490 (2014-05-28 revision 46201) [x86_64-darwin10.8.0]
+2014-05-31 08:06:06 UTC	2.1.0	125.68999999999998 requests per second	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-05-31 08:37:26 UTC	2.1.0-head	125.0325 requests per second	ruby 2.1.2p117 (2014-05-30 revision 46236) [x86_64-darwin10.0]
+2014-05-31 08:40:25 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-05-31 08:50:18 UTC	jruby	failed	jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-05-31 08:53:19 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2014-05-31 09:04:41 UTC	rbx	failed to install rbx	failed to install rbx
+2014-05-31 09:18:22 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

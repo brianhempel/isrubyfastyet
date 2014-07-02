@@ -6638,3 +6638,18 @@
 2014-06-30 07:25:00 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2014-06-30 07:34:28 UTC	rbx	failed to install rbx	failed to install rbx
 2014-06-30 07:45:59 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2014-07-02 04:31:48 UTC	1.8.7	3.45640540122986 seconds	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-07-02 04:51:14 UTC	1.8.7-head	3.45528903603554 seconds	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-07-02 05:12:42 UTC	1.9.2	5.707312434911728 seconds	ruby 1.9.2p328 (2014-06-26 revision 46555) [x86_64-darwin10.8.0]
+2014-07-02 05:34:11 UTC	1.9.2-head	5.714959144592285 seconds	ruby 1.9.2p328 (2014-06-26 revision 46555) [x86_64-darwin10.8.0]
+2014-07-02 05:43:02 UTC	1.9.3	failed	ruby 1.9.3p547 (2014-05-14 revision 45962) [x86_64-darwin10.8.0]
+2014-07-02 06:03:52 UTC	1.9.3-head	4.306108125 seconds	ruby 1.9.3p547 (2014-05-14 revision 45941) [x86_64-darwin10.8.0]
+2014-07-02 06:16:42 UTC	2.0.0	3.560805625 seconds	ruby 2.0.0p481 (2014-05-08 revision 45883) [x86_64-darwin10.8.0]
+2014-07-02 06:39:34 UTC	2.0.0-head	3.4821291249999997 seconds	ruby 2.0.0p510 (2014-06-28 revision 46592) [x86_64-darwin10.8.0]
+2014-07-02 06:52:07 UTC	2.1.0	2.891987 seconds	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-07-02 07:14:52 UTC	2.1.0-head	2.9513175 seconds	ruby 2.1.2p159 (2014-07-01 revision 46629) [x86_64-darwin10.0]
+2014-07-02 07:16:39 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-07-02 07:27:20 UTC	jruby	failed	jruby 1.7.12 (1.9.3p392) 2014-04-15 643e292 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-07-02 07:28:42 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2014-07-02 07:38:37 UTC	rbx	failed to install rbx	failed to install rbx
+2014-07-02 07:50:30 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

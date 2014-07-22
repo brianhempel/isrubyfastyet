@@ -4705,3 +4705,18 @@
 2014-07-21 07:26:55 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2014-07-21 07:36:41 UTC	rbx	failed to install rbx	failed to install rbx
 2014-07-21 08:36:41 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2014-07-22 04:30:25 UTC	1.8.7	79.635 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-07-22 04:48:39 UTC	1.8.7-head	78.7225 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-07-22 05:08:42 UTC	1.9.2	110.09499999999998 requests per second	ruby 1.9.2p328 (2014-06-26 revision 46555) [x86_64-darwin10.8.0]
+2014-07-22 05:30:04 UTC	1.9.2-head	110.50500000000001 requests per second	ruby 1.9.2p328 (2014-06-26 revision 46555) [x86_64-darwin10.8.0]
+2014-07-22 05:40:42 UTC	1.9.3	failed	ruby 1.9.3p547 (2014-05-14 revision 45962) [x86_64-darwin10.8.0]
+2014-07-22 06:00:27 UTC	1.9.3-head	114.32000000000001 requests per second	ruby 1.9.3p547 (2014-05-14 revision 45941) [x86_64-darwin10.8.0]
+2014-07-22 06:13:27 UTC	2.0.0	124.86749999999999 requests per second	ruby 2.0.0p481 (2014-05-08 revision 45883) [x86_64-darwin10.8.0]
+2014-07-22 06:35:58 UTC	2.0.0-head	125.77499999999999 requests per second	ruby 2.0.0p531 (2014-07-07 revision 46748) [x86_64-darwin10.8.0]
+2014-07-22 06:48:37 UTC	2.1.0	131.8925 requests per second	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-07-22 07:11:04 UTC	2.1.0-head	131.6625 requests per second	ruby 2.1.2p176 (2014-07-19 revision 46869) [x86_64-darwin10.0]
+2014-07-22 07:14:25 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-07-22 07:24:00 UTC	jruby	failed	jruby 1.7.13 (1.9.3p392) 2014-06-24 43f133c on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 [darwin-x86_64]
+2014-07-22 07:26:17 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2014-07-22 07:36:15 UTC	rbx	failed to install rbx	failed to install rbx
+2014-07-22 08:36:15 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

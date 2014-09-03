@@ -5335,3 +5335,18 @@
 2014-09-02 07:12:23 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2014-09-02 07:22:05 UTC	rbx	failed to install rbx	failed to install rbx
 2014-09-02 07:23:42 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2014-09-03 04:29:43 UTC	1.8.7	78.5975 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-09-03 04:47:48 UTC	1.8.7-head	78.8625 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [i686-darwin10.8.0]
+2014-09-03 04:57:30 UTC	1.9.2	failed	ruby 1.9.2p330 (2014-08-07 revision 47094) [x86_64-darwin10.8.0]
+2014-09-03 05:16:54 UTC	1.9.2-head	110.685 requests per second	ruby 1.9.2p330 (2014-08-07 revision 47094) [x86_64-darwin10.8.0]
+2014-09-03 05:27:20 UTC	1.9.3	failed	ruby 1.9.3p547 (2014-05-14 revision 45962) [x86_64-darwin10.8.0]
+2014-09-03 05:52:47 UTC	1.9.3-head	115.005 requests per second	ruby 1.9.3p547 (2014-05-14 revision 45941) [x86_64-darwin10.8.0]
+2014-09-03 06:05:48 UTC	2.0.0	125.94 requests per second	ruby 2.0.0p481 (2014-05-08 revision 45883) [x86_64-darwin10.8.0]
+2014-09-03 06:28:39 UTC	2.0.0-head	127.32 requests per second	ruby 2.0.0p548 (2014-09-03 revision 47369) [x86_64-darwin10.8.0]
+2014-09-03 06:41:19 UTC	2.1.0	131.76999999999998 requests per second	ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-darwin10.0]
+2014-09-03 07:04:09 UTC	2.1.0-head	131.215 requests per second	ruby 2.1.2p218 (2014-09-02 revision 47346) [x86_64-darwin10.0]
+2014-09-03 07:07:02 UTC	ruby-head	failed to install ruby-head	failed to install ruby-head
+2014-09-03 07:16:28 UTC	jruby	failed	jruby 1.7.14 (1.9.3p392) 2014-08-27 d368971 on Java HotSpot(TM) 64-Bit Server VM 1.7.0_45-b18 +jit [darwin-x86_64]
+2014-09-03 07:18:52 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2014-09-03 07:28:42 UTC	rbx	failed to install rbx	failed to install rbx
+2014-09-03 07:30:23 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

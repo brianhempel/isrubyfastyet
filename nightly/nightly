@@ -20,6 +20,9 @@ ruby scripts/kill_extraneous_apps.rb
 echo "Grabbing brianhempel/isrubyfastyet master from Github"
 git pull --rebase
 
+echo "Updating Homebrew"
+brew update
+
 # run the suite!!
 rake benchmark_suite                    &&
 	git add ../results/*                &&

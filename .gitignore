@@ -5,4 +5,5 @@ runner/benchmarks/rails/public/assets
 isrubyfastyet.com/public/assets
 tmp/
 *.log
+*.log.*
 s3_credentials-private.yml

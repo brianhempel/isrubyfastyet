@@ -24,7 +24,12 @@ fi
 
 echo "$3"
 eval "$3"
-bundle install
+
+if ! bundle install
+then
+  rm "Gemfile.lock"
+  bundle install
+fi
 
 if [ -e "Gemfile_$2.lock" ]
 then

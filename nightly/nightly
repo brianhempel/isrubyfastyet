@@ -24,13 +24,15 @@ echo "Updating Homebrew"
 brew update
 
 # run the suite!!
-rake benchmark_suite                    &&
-	git add ../results/*                &&
-	git commit -m 'Autorunner: Results' &&
-	git pull --rebase                   &&
-	git push origin master              &&
-	cd "$BASE_DIR/isrubyfastyet.com"    &&
-	echo `pwd`                          &&
+rake benchmark_suite                                           &&
+	git add ../runner/benchmarks/**/Gemfile_*.lock             &&
+	(git commit -m 'Autorunner: Gemfile.lock updates' || true) &&
+	git add ../results/*                                       &&
+	git commit -m 'Autorunner: Results'                        &&
+	git pull --rebase                                          &&
+	git push origin master                                     &&
+	cd "$BASE_DIR/isrubyfastyet.com"                           &&
+	echo `pwd`                                                 &&
 	./transfer_site_to_s3
 
 echo

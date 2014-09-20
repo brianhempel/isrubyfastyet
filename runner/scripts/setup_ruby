@@ -2,6 +2,59 @@
 
 # setup_ruby <rvm_ruby_name> <install arguments> <before_install_commands>
 
+function wipe_rvm_repos {
+  echo "Removing RVM repos"
+  echo "rm -rf $HOME/.rvm/repos/*"
+  rm -rf $HOME/.rvm/repos/*
+}
+
+function install_or_reinstall {
+  if (echo $1 | grep '-head')
+  then
+    wipe_rvm_repos
+  fi
+
+  echo "$3"
+  eval "$3"
+
+  if rvm "$1"
+  then
+    echo "rvm reinstall --autolibs=enabled --reconfigure $2 $1"
+    rvm reinstall --autolibs=enabled --reconfigure $2 $1
+    return $?
+  else
+    echo "rvm install --autolibs=enabled --reconfigure $2 $1"
+    rvm install --autolibs=enabled --reconfigure $2 $1
+    return $?
+  fi
+}
+
+function try_install_or_reinstall {
+  if (curl https://status.github.com/api/status.json | grep "good") # internet/Github is working
+  then
+    if ! install_or_reinstall "$1" "$2" "$3"
+    then
+      echo "Removing $1 and reinstalling.."
+      echo "rvm remove --gems --archive \"$1\""
+      rvm remove --gems --archive $1
+
+      if (echo $1 | grep 'rbx')
+      then
+        echo "rm -rf $HOME/.rvm/**/*@rubinius" # dunno if this does anything
+        rm -rf $HOME/.rvm/**/*@rubinius
+      fi
+
+      install_or_reinstall "$1" "$2" "$3"
+      return $?
+    else
+      return 0
+    fi
+  else
+    echo "Cannot install, internet or Github is down."
+    return 1
+  fi
+}
+
 source "$HOME/.rvm/scripts/rvm"
 
 if [ $IRFY_DEV_MODE != 'true' ]
@@ -9,13 +62,9 @@ then
   rvm get stable --without-gems=rubygems-bundler
 fi
 
-if rvm "$1" && (rvm current | grep '-head')
+if (echo $1 | grep '-head')
 then
-  # the ruby is installed and it's head
-  echo "$3"
-  eval "$3"
-  echo "rvm reinstall --autolibs=enabled --reconfigure $2 $1"
-  rvm reinstall --reconfigure  $2 $1
+  try_install_or_reinstall "$1" "$2" "$3"
 fi
 
-rvm "$1@benchmark" --create || (echo "$3"; eval "$3"; echo "rvm install --autolibs=enabled --reconfigure $2 $1"; rvm install --autolibs=enabled --reconfigure $2 $1 && rvm "$1@benchmark" --create)
+rvm "$1@benchmark" --create || (try_install_or_reinstall "$1" "$2" "$3" && rvm "$1@benchmark" --create)

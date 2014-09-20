@@ -99,6 +99,14 @@ describe BenchmarkResultSet do
       @result_set.name.should == "benchmark_1"
     end
 
+    it "#oldest_result returns the oldest result" do
+      @result_set.oldest_result.to_f.to_s.should == "192.88535118103"
+    end
+
+    it "#oldest_result_time returns the time of the earliest result" do
+      @result_set.oldest_result_time.should == Time.new(2012, 1, 30, 9, 31, 21, "+00:00")
+    end
+
     describe "#all_results" do
       before do
         @all_results = @result_set.all_results

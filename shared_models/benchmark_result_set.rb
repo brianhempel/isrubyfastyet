@@ -55,6 +55,14 @@ class BenchmarkResultSet < Struct.new(:results_file_path)
     results_file_path[%r{/([^/]+)_results.tsv}, 1]
   end
 
+  def oldest_result
+    all_results.sort_by { |result| result.time }.first
+  end
+
+  def oldest_result_time
+    oldest_result.time
+  end
+
   def results_by_rvm_name(rvm_name)
     all_results.select { |r| r.rvm_name == rvm_name }
   end

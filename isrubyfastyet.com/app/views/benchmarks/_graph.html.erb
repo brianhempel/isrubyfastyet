@@ -9,12 +9,25 @@
     '6m'  =>  180.days.ago.to_date,
     'YTD' => Date.current.beginning_of_year,
     '1y'  =>    1.year.ago.to_date,
-    '2y'  =>    2.years.ago.to_date
+    '2y'  =>    2.years.ago.to_date,
+    '3y'  =>    3.years.ago.to_date,
+    '4y'  =>    4.years.ago.to_date,
   }
 
   default_start_date = time_range_to_start_date[default_time_range]
   graph_id           = "#{benchmark}-graph"
   graph_selector     = "#" + graph_id
+
+  @benchmark = RubyBenchmark.from_param(benchmark)
+
+  oldest_result_time = @benchmark.oldest_result_time
+  done = false
+  time_range_to_start_date = time_range_to_start_date.select do |time_range, start_date|
+    next(false) if done
+    done = true if oldest_result_time > start_date
+    true
+  end
+
 %>
 
 <div class="benchmark-graph-wrapper">
@@ -35,7 +48,6 @@
   <script>
     // inline the default results for faster page loads
     <% self.lookup_context.formats = [:json] %>
-    <% @benchmark = RubyBenchmark.from_param(benchmark) %>
     <% @results = @benchmark.passing_results.select { |result| default_start_date.to_time.utc <= result.time } %>
 
     $(function () {

@@ -12,14 +12,14 @@ def benchmark_rails_console
     raise "Rails startup failed!" unless success
   end
 
-  sleep duration # cool off
+  sleep duration unless ENV['IRFY_DEV_MODE'] == 'true' # cool off
   duration
 end
 
 STDERR.puts "warmup..."
 STDERR.puts "#{benchmark_rails_console} seconds"
 
-runs = 8
+runs = ENV['IRFY_DEV_MODE'] == 'true' ? 1 : 8
 
 durations = (1..runs).map do
   benchmark_rails_console

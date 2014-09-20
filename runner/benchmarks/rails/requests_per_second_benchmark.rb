@@ -7,7 +7,7 @@ remove_log
 
 final_requests_per_second_result = benchmark_with_server_in_bash(:runs => 4) do |bash|
   STDERR.puts "cooling off..."
-  sleep 20
+  sleep 20 unless ENV['IRFY_DEV_MODE'] == 'true'
 
   STDERR.puts "warmup..."
   apache_bench = `ab -t 3 localhost:3009/`

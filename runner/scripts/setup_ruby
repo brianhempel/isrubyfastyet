@@ -4,7 +4,10 @@
 
 source "$HOME/.rvm/scripts/rvm"
 
-rvm get stable --without-gems=rubygems-bundler
+if [ $IRFY_DEV_MODE != 'true' ]
+then
+  rvm get stable --without-gems=rubygems-bundler
+fi
 
 if rvm "$1" && (rvm current | grep '-head')
 then

@@ -76,7 +76,7 @@ module BenchmarkHelper
   end
 
   def benchmark_with_server_in_bash(options, &block)
-    runs = options[:runs]
+    runs = ENV['IRFY_DEV_MODE'] == 'true' ? 1 : options[:runs]
     success = true
 
     results = (1..runs).map do

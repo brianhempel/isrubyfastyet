@@ -12,3 +12,9 @@ rake
 The runner needs to start on a ruby that supports fork (e.g. not JRuby).  Output is automatically prettier if you install the Artii gem (the gem currently only works on 1.8.7...for this reason, starting the suite on 1.8.7 is recommended).
 
 If smcFanControl is installed, the script will spin up the fans to keep the computer as cool as possible.  The script looks for the smc utility in `/Applications/smcFanControl.app/Contents/Resources/smc`.
+
+To skip cool-down pauses and only do one run of each benchmark...
+
+```
+export IRFY_DEV_MODE=true
+```

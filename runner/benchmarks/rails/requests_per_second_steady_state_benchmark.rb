@@ -28,7 +28,7 @@ module Enumerable
 end
 
 results = []
-runs    = 4
+runs    = ENV['IRFY_DEV_MODE'] == 'true' ? 1 : 4
 
 with_server_in_bash do |bash|
 
@@ -37,7 +37,7 @@ with_server_in_bash do |bash|
   run_number                  = 0
   requests_per_second_history = []
   warmup_start_time           = Time.now
-  warmup_time_limit           = 15*60
+  warmup_time_limit           = ENV['IRFY_DEV_MODE'] == 'true' ? 15 : 15*60
   requests_processed          = 0
   elapsed_seconds             = 0
   target_cov                  = 0.01
@@ -68,11 +68,11 @@ with_server_in_bash do |bash|
   STDERR.puts("#{requests_processed} requests processed over %.2fm" % [elapsed_seconds / 60.0])
 
   STDERR.puts "cooling off from long warmup..."
-  sleep 60
+  sleep 60  unless ENV['IRFY_DEV_MODE'] == 'true'
 
   runs.times do
     STDERR.puts "cooling off..."
-    sleep 20
+    sleep 20  unless ENV['IRFY_DEV_MODE'] == 'true'
 
     STDERR.puts "warmup..."
     apache_bench = `ab -t 3 localhost:3009/`

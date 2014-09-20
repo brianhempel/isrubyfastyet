@@ -48,6 +48,14 @@ ruby requests_per_second_benchmark.rb
 
 Writing a new benchmark is easy. The individual benchmarks are simply Ruby files in runner/benchmarks ending with *benchmark.rb. Simply author a new file in the benchmarks folder, such as "benchmarks/pure_ruby_gzip/compression_benchmark.rb", and make sure the last line to standard out is the benchmark result with units, like `123456 KB compressed per second`.
 
+### Development
+
+To skip cool-down pauses and only do one run of each benchmark...
+
+```
+export IRFY_DEV_MODE=true
+```
+
 ### Tests
 
 Tests need Ruby >= 1.9, though the benchmark suite can run under 1.8.7.

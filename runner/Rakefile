@@ -23,6 +23,10 @@ def rubies
   end
 end
 
+def rubies_to_benchmark
+  rubies.select { |ruby| ruby['Benchmark?'] != "false" }
+end
+
 def run_with_output(command)
   note = "Running: #{command}"
   puts "=" * note.size
@@ -83,12 +87,12 @@ end
 
 task :default => :benchmark_suite
 
-desc "Install or update each of the ruby implimentations in the runner/rubies file. Head rubies are always re-installed. Others are re-installed if their RVM definition has changed."
+desc "Install or update each of the active ruby implimentations in the runner/rubies file. Head rubies are always re-installed. Others are re-installed if their RVM definition has changed."
 task :update_rubies do
   puts "Installing or reinstalling rubies..."
-  successes = rubies.map do |ruby|
+  successes = rubies_to_benchmark.map do |ruby|
     puts_title(ruby['Nice Name'])
-	success = install_ruby(ruby)
+    success = install_ruby(ruby)
 
     [success, ruby]
   end
@@ -96,22 +100,22 @@ task :update_rubies do
   puts successes.map { |success, ruby| "#{success ? "SUCCESS" : "FAILURE"}: #{ruby['RVM Name']}" }.join("\n")
 end
 
-desc "Uninstall each of the ruby implimentations in the runner/rubies file."
+desc "Uninstall each of the active ruby implimentations in the runner/rubies file."
 task :uninstall_rubies do
   puts "Uninstalling rubies..."
-  rubies.each do |ruby|
+  rubies_to_benchmark.each do |ruby|
     puts_title(ruby['Nice Name'])
 
     uninstall_ruby(ruby)
   end
 end
 
-desc "Wipe and reinstall each of the ruby implimentations in the runner/rubies file."
+desc "Wipe and reinstall each of the active ruby implimentations in the runner/rubies file."
 task :wipe_and_reinstall_rubies => [:uninstall_rubies, :update_rubies]
 
 desc "Run the benchmarks for each Ruby"
 task :benchmark_suite do
-  p rubies
+  p rubies_to_benchmark
 
   # get the fans going
   Fan.maximize_all!
@@ -119,8 +123,7 @@ task :benchmark_suite do
 
   result_tempfile = Tempfile.new("benchmark_result")
 
-  rubies.each do |ruby|
-    next if ruby['Benchmark?'] == "false"
+  rubies_to_benchmark.each do |ruby|
 
     ruby_duration = Benchmark.realtime do
 

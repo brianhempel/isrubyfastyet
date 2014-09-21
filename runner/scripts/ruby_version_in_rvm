@@ -6,12 +6,12 @@ source "$HOME/.rvm/scripts/rvm"
 
 if rvm "$1"
 then
-	if ! eval "$2 -v"
-	then
-  	echo "command failed: $2 -v"
-  	exit 1
+  if ! eval "$2 -v"
+  then
+    echo "command failed: $2 -v"
+    exit 1
   fi
 else
-	echo "rvm failed to switch to $1"
-	exit 1
+  echo "rvm failed to switch to $1"
+  exit 1
 fi

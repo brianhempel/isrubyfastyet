@@ -12,6 +12,8 @@ Ruby.rubies =
   "2.0.0-head": new Ruby("2.0.0-head", "#cd88e0"),
   "2.1.0":      new Ruby("2.1.0",      "#778888"),
   "2.1.0-head": new Ruby("2.1.0-head", "#aabbbb"),
+  "2.1":        new Ruby("2.1",        "#778888"),
+  "2.1-head":   new Ruby("2.1-head",   "#aabbbb"),
   "ruby-head":  new Ruby("ruby-head",  "#330000"),
   "jruby":      new Ruby("jruby",      "#000099"),
   "jruby-head": new Ruby("jruby-head", "#0000ff"),

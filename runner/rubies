@@ -1,6 +1,6 @@
 Nice Name         RVM Name         Benchmark?   Command     Install Flags                 Before Install                               Before Bundle        Before Run
-MRI 1.8.7 Stable  1.8.7            true         ruby        --with-iconv-dir=/usr/local   brew link libiconv                           brew link libiconv   :
-MRI 1.8.7 Head    1.8.7-head       false        ruby        none                          brew unlink libiconv                         brew link libiconv   :
+MRI 1.8.7 Stable  1.8.7            false        ruby        --with-iconv-dir=/usr/local   brew link libiconv                           brew link libiconv   :
+MRI 1.8.7 Head    1.8.7-head       true         ruby        none                          brew unlink libiconv                         brew link libiconv   :
 MRI 1.9.2 Stable  1.9.2            true         ruby        none                          brew link libiconv                           brew link libiconv   :
 MRI 1.9.2 Head    1.9.2-head       false        ruby        none                          brew unlink libiconv                         brew link libiconv   :
 MRI 1.9.3 Stable  1.9.3            true         ruby        none                          brew link libiconv                           brew link libiconv   :

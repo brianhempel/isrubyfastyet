@@ -4,8 +4,13 @@
 
 function wipe_rvm_repos {
   echo "Removing RVM repos"
-  echo "rm -rf $HOME/.rvm/repos/*"
-  rm -rf $HOME/.rvm/repos/*
+  if [ $IRFY_DEV_MODE != 'true' ]
+  then
+    echo "rm -rf $HOME/.rvm/repos/*"
+    rm -rf $HOME/.rvm/repos/*
+  else
+    echo "Skipping repo removal because IRFY_DEV_MODE=true"
+  fi
 }
 
 function install_or_reinstall {

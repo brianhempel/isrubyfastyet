@@ -13,7 +13,7 @@ pwd
 if rvm "$2@benchmark"
 then
 	echo 'Sleeping 30 seconds to let the system cool off...'
-	if [ $IRFY_DEV_MODE != 'true' ]
+	if [ "$IRFY_DEV_MODE" != 'true' ]
 	then
 	  sleep 30
     fi

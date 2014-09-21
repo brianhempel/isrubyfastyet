@@ -64,7 +64,7 @@ function try_install_or_reinstall {
 
 source "$HOME/.rvm/scripts/rvm"
 
-if [ $IRFY_DEV_MODE != 'true' ]
+if [ "$IRFY_DEV_MODE" != 'true' ]
 then
   rvm get stable --without-gems=rubygems-bundler
 fi

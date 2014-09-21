@@ -31,9 +31,23 @@ then
   bundle install
 fi
 
-if [ -e "Gemfile_$2.lock" ]
+if [ -e "Gemfile.lock" ]
 then
-    rm "Gemfile_$2.lock"
-fi
+  if [ -e "Gemfile_$2.lock" ]
+  then
+      rm "Gemfile_$2.lock"
+  fi
 
-cp Gemfile.lock "Gemfile_$2.lock"
+  cp Gemfile.lock "Gemfile_$2.lock"
+else
+  # bundle failed? maybe re-installing ruby will help
+  # re-install next night
+
+  if (curl https://status.github.com/api/status.json | grep "good") # internet/Github is working
+  then
+    # thank you to http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
+    SCRIPTS_DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+    eval "$SCRIPTS_DIR/uninstall_ruby $2"
+  fi
+fi

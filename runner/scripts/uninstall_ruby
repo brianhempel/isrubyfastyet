@@ -2,7 +2,22 @@
 
 # uninstall_ruby <rvm_ruby_name>
 
+# thank you to http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
+SCRIPTS_DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+
 source "$HOME/.rvm/scripts/rvm"
 
 echo "rvm remove --gems --archive \"$1\""
 rvm remove --gems --archive "$1"
+
+eval "$SCRIPTS_DIR/remove_rvm_repos"
+
+echo "mkdir $HOME/.rvm/archives # RVM bug workaround, see https://github.com/wayneeseguin/rvm/issues/3048"
+mkdir $HOME/.rvm/archives # RVM bug workaround, see https://github.com/wayneeseguin/rvm/issues/3048
+
+if (echo $1 | grep 'rbx')
+then
+  echo "rm -rf $HOME/.rvm/**/*@rubinius" # dunno if this does anything
+  rm -rf $HOME/.rvm/**/*@rubinius
+fi

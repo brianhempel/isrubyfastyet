@@ -4,9 +4,6 @@
 
 source "$HOME/.rvm/scripts/rvm"
 
-# thank you to http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
-SCRIPTS_DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-
 cd "$1"
 pwd
 

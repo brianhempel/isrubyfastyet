@@ -2,21 +2,14 @@
 
 # setup_ruby <rvm_ruby_name> <install arguments> <before_install_commands>
 
-function wipe_rvm_repos {
-  echo "Removing RVM repos"
-  if [ $IRFY_DEV_MODE != 'true' ]
-  then
-    echo "rm -rf $HOME/.rvm/repos/*"
-    rm -rf $HOME/.rvm/repos/*
-  else
-    echo "Skipping repo removal because IRFY_DEV_MODE=true"
-  fi
-}
+# thank you to http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
+SCRIPTS_DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 
 function install_or_reinstall {
   if (echo $1 | grep '-head')
   then
-    wipe_rvm_repos
+    eval "$SCRIPTS_DIR/remove_rvm_repos"
   fi
 
   echo "$3"
@@ -40,16 +33,7 @@ function try_install_or_reinstall {
     if ! install_or_reinstall "$1" "$2" "$3"
     then
       echo "Removing $1 and reinstalling.."
-      echo "rvm remove --gems --archive \"$1\""
-      rvm remove --gems --archive $1
-      echo "$HOME/.rvm/archives # RVM bug workaround, see https://github.com/wayneeseguin/rvm/issues/3048"
-	  mkdir $HOME/.rvm/archives # RVM bug workaround, see https://github.com/wayneeseguin/rvm/issues/3048
-
-      if (echo $1 | grep 'rbx')
-      then
-        echo "rm -rf $HOME/.rvm/**/*@rubinius" # dunno if this does anything
-        rm -rf $HOME/.rvm/**/*@rubinius
-      fi
+      eval "$SCRIPTS_DIR/uninstall_ruby $1"
 
       install_or_reinstall "$1" "$2" "$3"
       return $?

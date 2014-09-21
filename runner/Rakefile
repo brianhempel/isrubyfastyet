@@ -120,6 +120,7 @@ task :benchmark_suite do
   result_tempfile = Tempfile.new("benchmark_result")
 
   rubies.each do |ruby|
+    next if ruby['Benchmark?'] == "false"
 
     ruby_duration = Benchmark.realtime do
 

@@ -37,6 +37,8 @@ function try_install_or_reinstall {
       echo "Removing $1 and reinstalling.."
       echo "rvm remove --gems --archive \"$1\""
       rvm remove --gems --archive $1
+      echo "$HOME/.rvm/archives # RVM bug workaround, see https://github.com/wayneeseguin/rvm/issues/3048"
+	  mkdir $HOME/.rvm/archives # RVM bug workaround, see https://github.com/wayneeseguin/rvm/issues/3048
 
       if (echo $1 | grep 'rbx')
       then

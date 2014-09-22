@@ -14,12 +14,12 @@ rvm "$2@benchmark"
 
 if [ -e "Gemfile.lock" ]
 then
-    rm Gemfile.lock
+  rm Gemfile.lock
 fi
 
 if [ -e "Gemfile_$2.lock" ]
 then
-    cp "Gemfile_$2.lock" "Gemfile.lock"
+  cp "Gemfile_$2.lock" "Gemfile.lock"
 fi
 
 echo "$3"
@@ -47,6 +47,8 @@ else
   then
     # thank you to http://stackoverflow.com/questions/59895/can-a-bash-script-tell-what-directory-its-stored-in
     SCRIPTS_DIR="$( cd -P "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+    rm "Gemfile_$2.lock"
 
     eval "$SCRIPTS_DIR/uninstall_ruby $2"
   fi

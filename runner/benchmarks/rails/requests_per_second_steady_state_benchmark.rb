@@ -48,8 +48,7 @@ with_server_in_bash do |bash|
     run_number += 1
 
     STDERR.print "Running #{warmup_round_requests} requests..."
-    apache_bench = `ab -n #{warmup_round_requests} localhost:3009/ 2> /dev/null`
-    requests_per_second = apache_bench[/Requests per second:\s*([\d\.]+)/, 1].to_f
+    requests_per_second = load_server(:request_count => warmup_round_requests)
     STDERR.print "#{requests_per_second} requests per second"
     requests_processed += warmup_round_requests
 
@@ -75,14 +74,11 @@ with_server_in_bash do |bash|
     sleep 20  unless ENV['IRFY_DEV_MODE'] == 'true'
 
     STDERR.puts "warmup..."
-    apache_bench = `ab -t 3 localhost:3009/`
-    # STDERR.puts apache_bench
+    load_server(:seconds => 3)
 
     STDERR.puts "testing..."
-    apache_bench = `ab -t 15 localhost:3009/`
-    STDERR.puts apache_bench
+    requests_per_second = load_server(:seconds => 15, :log_results_to_stderr => true)
 
-    requests_per_second = apache_bench[/Requests per second:\s*([\d\.]+)/, 1].to_f
     results << requests_per_second
   end
 end

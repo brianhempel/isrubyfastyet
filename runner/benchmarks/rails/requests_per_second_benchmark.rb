@@ -10,14 +10,10 @@ final_requests_per_second_result = benchmark_with_server_in_bash(:runs => 4) do 
   sleep 20 unless ENV['IRFY_DEV_MODE'] == 'true'
 
   STDERR.puts "warmup..."
-  apache_bench = `ab -t 3 localhost:3009/`
-  # STDERR.puts apache_bench
+  load_server(:seconds => 3)
 
   STDERR.puts "testing..."
-  apache_bench = `ab -t 15 localhost:3009/`
-  STDERR.puts apache_bench
-
-  requests_per_second = apache_bench[/Requests per second:\s*([\d\.]+)/, 1].to_f
+  requests_per_second = load_server(:seconds => 15, :log_results_to_stderr => true)
 end
 
 puts "#{final_requests_per_second_result} requests per second"

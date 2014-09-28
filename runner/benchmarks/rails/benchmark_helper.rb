@@ -47,6 +47,20 @@ module BenchmarkHelper
     system("kill -9 #{server_pid}") ? (STDERR.puts "server killed") : (STDERR.puts "SERVER NOT KILLED!!!")
   end
 
+  def load_server(options)
+    output = if request_count = options[:request_count]
+      `siege -r #{request_count} -b -c1 -q http://localhost:3009/ 2>&1`
+    elsif seconds = options[:seconds]
+      `siege -t #{seconds}s -b -c1 -q http://localhost:3009/ 2>&1`
+    else
+      raise "need to provide either :request_count or :seconds option!"
+    end
+    STDERR.puts output if options[:log_results_to_stderr]
+
+    requests_per_second = output[/Transaction rate:\s*([\d\.]+)/, 1].to_f
+    requests_per_second
+  end
+
   def ensure_server_not_running
     if server_running?
       STDERR.puts "Oops, web server already running!"

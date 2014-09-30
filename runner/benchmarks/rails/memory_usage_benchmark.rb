@@ -11,7 +11,7 @@ final_memory_usage_bytes_result = benchmark_with_server_in_bash(:runs => 6) do |
   pid             = server_pid
 
   # put load on the web server...
-  bash.puts "siege -t #{sample_duration*2 + 2}s -b -c1 -q http://localhost:3009/ &"
+  bash.puts "siege -t #{sample_duration*2 + 2}s -b -c2 -q http://localhost:3009/ &"
   sleep 2
 
   # take some samples

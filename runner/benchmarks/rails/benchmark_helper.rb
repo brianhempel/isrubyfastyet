@@ -49,9 +49,9 @@ module BenchmarkHelper
 
   def load_server(options)
     output = if request_count = options[:request_count]
-      `siege -r #{request_count} -b -c1 -q http://localhost:3009/ 2>&1`
+      `siege -r #{request_count} -b -c2 -q http://localhost:3009/ 2>&1`
     elsif seconds = options[:seconds]
-      `siege -t #{seconds}s -b -c1 -q http://localhost:3009/ 2>&1`
+      `siege -t #{seconds}s -b -c2 -q http://localhost:3009/ 2>&1`
     else
       raise "need to provide either :request_count or :seconds option!"
     end

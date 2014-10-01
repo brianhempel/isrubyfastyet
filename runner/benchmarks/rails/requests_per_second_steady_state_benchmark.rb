@@ -74,10 +74,10 @@ with_server_in_bash do |bash|
     sleep 20  unless ENV['IRFY_DEV_MODE'] == 'true'
 
     STDERR.puts "warmup..."
-    load_server(:seconds => 3)
+    load_server(:request_count => 300)
 
     STDERR.puts "testing..."
-    requests_per_second = load_server(:seconds => 15, :log_results_to_stderr => true)
+    requests_per_second = load_server(:request_count => 1500, :log_results_to_stderr => true)
 
     results << requests_per_second
   end

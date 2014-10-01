@@ -48,16 +48,14 @@ module BenchmarkHelper
   end
 
   def load_server(options)
-    output = if request_count = options[:request_count]
-      `siege -r #{request_count} -b -c2 -q http://localhost:3009/ 2>&1`
-    elsif seconds = options[:seconds]
-      `siege -t #{seconds}s -b -c2 -q http://localhost:3009/ 2>&1`
+    if request_count = options[:request_count]
+      output = `httperf --num-conns 2 --num-calls #{request_count} --port 3009 --server localhost`
     else
-      raise "need to provide either :request_count or :seconds option!"
+      raise "need to provide either :request_count option!"
     end
     STDERR.puts output if options[:log_results_to_stderr]
 
-    requests_per_second = output[/Transaction rate:\s*([\d\.]+)/, 1].to_f
+    requests_per_second = output[/Request rate:\s*([\d\.]+)/, 1].to_f
     requests_per_second
   end
 

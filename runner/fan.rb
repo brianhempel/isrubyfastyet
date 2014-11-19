@@ -21,7 +21,7 @@ class Fan
     def read_property(i, property)
       if available?
         #  F0Mn  [fpe2]  2500 (bytes 27 10)
-        `#{SMC_COMMAND} -k F#{i}#{property} -r` =~ /\]\s+(\d+)\s+\(bytes (.+)\)/
+        `#{SMC_COMMAND} -k F#{i}#{property} -r` =~ /\]\s+([0-9\.]+)\s+\(bytes (.+)\)/
         [$1.to_i, $2.gsub(/\s+/, '')] if $1 && $2
       end
     end

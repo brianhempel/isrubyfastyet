@@ -3,7 +3,6 @@ source 'http://rubygems.org'
 gem 'rails', '3.2.8'
 gem 'jbuilder'
 
-gem 'debugger'
 gem 'awesome_print'
 gem 'thin'
 
@@ -11,7 +10,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'jasminerice'
   gem 'jasminerice-runner'
-  gem 'capybara-webkit'
+  gem 'poltergeist'
 end
 
 # Gems used only for assets and not required

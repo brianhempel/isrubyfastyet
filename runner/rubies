@@ -1,21 +1,23 @@
 Nice Name         RVM Name         Benchmark?   Command     Install Flags                 Before Install                               Before Bundle        Before Run
-MRI 1.8.7 Stable  1.8.7            false        ruby        --with-iconv-dir=/usr/local   brew link libiconv                           brew link libiconv   :
-MRI 1.8.7 Head    1.8.7-head       true         ruby        none                          brew unlink libiconv                         brew link libiconv   :
-MRI 1.9.2 Stable  1.9.2            true         ruby        none                          brew link libiconv                           brew link libiconv   :
-MRI 1.9.2 Head    1.9.2-head       false        ruby        none                          brew unlink libiconv                         brew link libiconv   :
-MRI 1.9.3 Stable  1.9.3            true         ruby        none                          brew link libiconv                           brew link libiconv   :
-MRI 1.9.3 Head    1.9.3-head       false        ruby        none                          brew unlink libiconv                         brew link libiconv   :
-MRI 2.0.0 Stable  2.0.0            true         ruby        none                          brew link libiconv                           brew link libiconv   :
-MRI 2.0.0 Head    2.0.0-head       false        ruby        none                          brew unlink libiconv                         brew link libiconv   :
-MRI 2.1.0 Stable  2.1.0            false        ruby        none                          brew unlink libiconv                         brew link libiconv   :
-MRI 2.1.0 Head    2.1.0-head       false        ruby        none                          brew unlink libiconv                         brew link libiconv   :
-MRI Head          ruby-head        true         ruby        none                          brew unlink libiconv                         brew link libiconv   :
-MRI 2.1 Stable    2.1              true         ruby        none                          brew unlink libiconv                         brew link libiconv   :
-MRI 2.1 Head      2.1-head         true         ruby        none                          brew unlink libiconv                         brew link libiconv   :
-JRuby Stable      jruby            true         jruby -S    none                          brew link libiconv                           brew link libiconv   :
-JRuby Head        jruby-head       true         jruby -S    none                          brew link libiconv                           brew link libiconv   :
-Rubinius Stable   rbx              true         ruby        --verify-downloads 2          export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8   brew link libiconv   brew unlink libiconv
-Rubinius Head     rbx-head         true         ruby        --verify-downloads 2          export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8   brew link libiconv   brew unlink libiconv
+MRI 1.8.7 Stable  1.8.7            false        ruby        none                          :                                            :                    :
+MRI 1.8.7 Head    1.8.7-head       true         ruby        none                          :                                            :                    :
+MRI 1.9.2 Stable  1.9.2            false        ruby        none                          :                                            :                    :
+MRI 1.9.2 Head    1.9.2-head       false        ruby        none                          :                                            :                    :
+MRI 1.9.3 Stable  1.9.3            true         ruby        none                          :                                            :                    :
+MRI 1.9.3 Head    1.9.3-head       false        ruby        none                          :                                            :                    :
+MRI 2.0.0 Stable  2.0.0            true         ruby        none                          :                                            :                    :
+MRI 2.0.0 Head    2.0.0-head       false        ruby        none                          :                                            :                    :
+MRI 2.1.0 Stable  2.1.0            false        ruby        none                          :                                            :                    :
+MRI 2.1.0 Head    2.1.0-head       false        ruby        none                          :                                            :                    :
+MRI 2.1 Stable    2.1              true         ruby        none                          :                                            :                    :
+MRI 2.1 Head      2.1-head         false        ruby        none                          :                                            :                    :
+MRI 2.2.0 Stable  2.2.0            true         ruby        none                          :                                            :                    :
+MRI 2.2 Head      2.2-head         true         ruby        none                          :                                            :                    :
+MRI Head          ruby-head        true         ruby        none                          :                                            :                    :
+JRuby Stable      jruby            true         jruby -S    none                          :                                            :                    :
+JRuby Head        jruby-head       true         jruby -S    none                          :                                            :                    :
+Rubinius Stable   rbx              true         ruby        --verify-downloads 2          export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8   :                    :
+Rubinius Head     rbx-head         true         ruby        --verify-downloads 2          export LANG=en_US.UTF-8 LC_ALL=en_US.UTF-8   :                    :
 # MagLev Head       maglev-head      true         ruby      none                            :                                            :                    :
 # MacRuby Stable    macruby          true         ruby      none                            :                                            :                    :
 # MacRuby Nightly   macruby-nightly  true         ruby      none                            :                                            :                    :

@@ -12,16 +12,22 @@ echo `pwd`
 
 source "$HOME/.bash_profile"
 source "$HOME/.rvm/scripts/rvm"
-rvm "1.8.7-p370@benchmark"
-echo "Starting benchmark with `rvm current`"
 
-ruby scripts/kill_extraneous_apps.rb
+echo "Ensuring network connection..."
+if ! (curl https://status.github.com/api/status.json)
+then
+  timeout 30 sudo ifdownw wlan0
+  timeout 30 sudo ifup wlan0
+fi
+
+rvm "1.8.7-p374"
+echo "Starting benchmark with `rvm current`"
 
 echo "Grabbing brianhempel/isrubyfastyet master from Github"
 git pull --rebase
 
-echo "Updating Homebrew"
-brew update
+echo "Updating apt-get"
+sudo apt-get update
 
 # run the suite!!
 rake benchmark_suite                                           &&
@@ -39,9 +45,5 @@ echo
 echo "`date -u` ~ ~ ~ nightly benchmark suite finish ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"
 echo
 
-# restart the computer without sudo
-# applescript FTW
-# http://www.dssw.co.uk/blog/2010/09/09/how-to-shut-down-your-mac-using-applescript/
-osascript -e 'tell application "Finder"
-  shut down
-end tell'
+# restart
+sudo shutdown -h 0

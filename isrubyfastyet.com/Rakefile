@@ -4,7 +4,8 @@
 
 namespace :jasminerice do
   task :run do
-    Jasminerice::Runner.capybara_driver = :webkit
+    require "capybara/poltergeist"
+    Jasminerice::Runner.capybara_driver = :poltergeist
   end
 end
 

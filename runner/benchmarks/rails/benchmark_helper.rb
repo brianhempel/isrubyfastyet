@@ -57,7 +57,7 @@ module BenchmarkHelper
     end
     STDERR.puts output if options[:log_results_to_stderr]
 
-    requests_per_second = output[/Transaction rate:\s*([\d\.]+)/, 1].to_f
+    requests_per_second = output[/Requests per second:\s*([\d\.]+)/, 1].to_f
     requests_per_second
   end
 

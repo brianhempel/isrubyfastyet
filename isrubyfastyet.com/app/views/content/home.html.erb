@@ -39,8 +39,8 @@
     2.2GHz Core 2 Duo<br>
     6GB 667MHz DDR2 SDRAM<br>
     WD Scorpio Black 7200RPM 320GB Hard Drive<br>
-    Mac OS X 10.6<br>
-    When running the benchmark, the computer fans are spun up to maximum speed courtesy of <%= link_to "smcFanControl", "http://www.eidac.de/?cat=40" %>. JRuby, in particular, runs hot. However, I have good reason to believe that the fans, cool-down pauses, and short measurement times sufficiently prevent the processor from throttling during benchmarking. (During the long JIT warmup, the processor throttles down a little; however, after a short break once JRuby reaches study state, the processor does not throttle when load is reapplied.)
+    Ubuntu Server 14.04<br>
+    Fans preemptively sped up with macfanctld.
   </p>
 </section>
 
@@ -55,6 +55,9 @@
   <h3>Updates</h3>
   <p>
     <ol>
+      <li>
+        <span class="date">2014-12-26</span>
+        OS Switched to Ubuntu Server 14.04. JRuby is now run in OpenJDK 7. (The upgrade was required becasuse newer rubies no longer compiled on Mac OS X 10.6, and upgrading to Yosemite introduced a hard-to-diagnose performance regression that may have been in the network stack. Ubuntu at least runs the refernence Ruby (1.8.7) at the same speed as before. Additionally, many people use Ubuntu 14.04 in production.)
       <li>
         <span class="date">2014-09-21</span>
         Older head rubies are no longer benchmarked: 1.9.2-head, 1.9.3-head, and 2.0.0-head. Note that RVM 1.8.7 actually builds 1.8.7-head for security reasons.

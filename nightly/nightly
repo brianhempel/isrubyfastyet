@@ -16,7 +16,7 @@ source "$HOME/.rvm/scripts/rvm"
 echo "Ensuring network connection..."
 if ! (curl https://status.github.com/api/status.json)
 then
-  timeout 30 sudo ifdownw wlan0
+  timeout 30 sudo ifdown wlan0
   timeout 30 sudo ifup wlan0
 fi
 

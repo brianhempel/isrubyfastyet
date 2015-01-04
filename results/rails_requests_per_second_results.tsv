@@ -7928,3 +7928,14 @@
 2014-12-28 08:53:00 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2014-12-28 08:57:13 UTC	rbx	failed to install rbx	failed to install rbx
 2014-12-28 09:15:22 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2015-01-04 06:50:04 UTC	1.8.7-head	78.93 requests per second	ruby 1.8.7 (2014-01-28 patchlevel 376) [x86_64-linux]
+2015-01-04 07:02:55 UTC	1.9.3	86.92500000000001 requests per second	ruby 1.9.3p551 (2014-11-13 revision 48407) [x86_64-linux]
+2015-01-04 07:16:30 UTC	2.0.0	100.6875 requests per second	ruby 2.0.0p598 (2014-11-13 revision 48408) [x86_64-linux]
+2015-01-04 07:28:59 UTC	2.1	105.6775 requests per second	ruby 2.1.5p273 (2014-11-13 revision 48405) [x86_64-linux]
+2015-01-04 07:41:16 UTC	2.2.0	105.3475 requests per second	ruby 2.2.0p0 (2014-12-25 revision 49005) [x86_64-linux]
+2015-01-04 08:02:46 UTC	2.2-head	105.36250000000001 requests per second	ruby 2.2.0p6 (2015-01-03 revision 49125) [x86_64-linux]
+2015-01-04 08:34:04 UTC	ruby-head	106.14750000000001 requests per second	ruby 2.3.0dev (2015-01-04 trunk 49139) [x86_64-linux]
+2015-01-04 08:47:44 UTC	jruby	51.05250000000001 requests per second	jruby 1.7.18 (1.9.3p551) 2014-12-22 625381c on OpenJDK 64-Bit Server VM 1.7.0_65-b32 +jit [linux-amd64]
+2015-01-04 10:20:56 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2015-01-04 10:25:06 UTC	rbx	failed to install rbx	failed to install rbx
+2015-01-04 10:41:20 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head

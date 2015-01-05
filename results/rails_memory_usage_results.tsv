@@ -7942,3 +7942,14 @@
 2015-01-04 10:20:56 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
 2015-01-04 10:25:06 UTC	rbx	failed to install rbx	failed to install rbx
 2015-01-04 10:41:20 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
+2015-01-05 11:00:41 UTC	1.8.7-head	62.9054032961527 MB	ruby 1.8.7 (2014-01-28 patchlevel 376) [x86_64-linux]
+2015-01-05 11:13:46 UTC	1.9.3	76.7561845779419 MB	ruby 1.9.3p551 (2014-11-13 revision 48407) [x86_64-linux]
+2015-01-05 11:26:55 UTC	2.0.0	79.20516459147136 MB	ruby 2.0.0p598 (2014-11-13 revision 48408) [x86_64-linux]
+2015-01-05 11:39:23 UTC	2.1	96.535134156545 MB	ruby 2.1.5p273 (2014-11-13 revision 48405) [x86_64-linux]
+2015-01-05 11:52:06 UTC	2.2.0	80.39110199610393 MB	ruby 2.2.0p0 (2014-12-25 revision 49005) [x86_64-linux]
+2015-01-05 12:13:31 UTC	2.2-head	82.2131290435791 MB	ruby 2.2.0p6 (2015-01-03 revision 49125) [x86_64-linux]
+2015-01-05 12:34:50 UTC	ruby-head	80.05420955022176 MB	ruby 2.3.0dev (2015-01-05 trunk 49148) [x86_64-linux]
+2015-01-05 13:04:48 UTC	jruby	347.68198744455975 MB	jruby 1.7.18 (1.9.3p551) 2014-12-22 625381c on OpenJDK 64-Bit Server VM 1.7.0_65-b32 +jit [linux-amd64]
+2015-01-05 14:17:30 UTC	jruby-head	failed to install jruby-head	failed to install jruby-head
+2015-01-05 14:21:42 UTC	rbx	failed to install rbx	failed to install rbx
+2015-01-05 14:38:30 UTC	rbx-head	failed to install rbx-head	failed to install rbx-head
